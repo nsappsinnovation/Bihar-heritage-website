@@ -1,0 +1,245 @@
+[
+  {
+    "id": "ramayana_circuit",
+    "label": "Ramayana Circuit",
+    "color": "#C2A55D",
+    "icon": "🏹",
+    "tagline": "The Epic Journey Through Bihar",
+    "description": "Bihar holds deep roots in the Ramayana — as the birthplace of Goddess Sita (Sitamarhi), the kingdom of Janaka (Mithila), and a transit zone on Rama's 14-year exile journey through the forests, ghats, and hermitages of the Gangetic plains. The Ramayana Circuit traces Sita and Rama's footprints across Bihar's sacred geography.",
+    "districts": [
+      "Sitamarhi",
+      "Darbhanga",
+      "Muzaffarpur",
+      "Vaishali",
+      "Saran",
+      "Patna",
+      "Buxar",
+      "Rohtas",
+      "Aurangabad",
+      "Gaya"
+    ],
+    "stops": [
+      {
+        "order": 1,
+        "title": "Punaura Dham — Sita's Birthplace",
+        "district": "Sitamarhi",
+        "description": "The sacred field (punaura) where Goddess Sita emerged from the earth during King Janaka's ploughing ritual — the most revered site of the Bihar Ramayana circuit.",
+        "type": "Sacred Site"
+      },
+      {
+        "order": 2,
+        "title": "Janaki Temple, Sitamarhi",
+        "district": "Sitamarhi",
+        "description": "A grand temple dedicated to Sita and Rama — the principal pilgrimage temple of Sitamarhi with an ancient courtyard and multiple shrines.",
+        "type": "Sacred Temple"
+      },
+      {
+        "order": 3,
+        "title": "Haleshwar Sthan, Darbhanga",
+        "district": "Darbhanga",
+        "description": "The site in Darbhanga where King Janaka's plough (hala) paused — a sacred spot linking Mithila's Ramayana geography.",
+        "type": "Pilgrimage Site"
+      },
+      {
+        "order": 4,
+        "title": "Thawe Temple, Gopalganj",
+        "district": "Gopalganj",
+        "description": "A revered forest temple of Goddess Durga, associated with Rama's passage through the forests of Saryu and Gandak on his exile journey.",
+        "type": "Sacred Temple"
+      },
+      {
+        "order": 5,
+        "site_id": 34
+      },
+      {
+        "order": 6,
+        "title": "Ramrekha Ghat, Buxar",
+        "district": "Buxar",
+        "description": "The Ganges ghat in Buxar where Rama crossed the river during his exile — also the site of Vishwamitra's ashram where Rama and Lakshmana learned divine weapons.",
+        "type": "Sacred Ghat"
+      },
+      {
+        "order": 7,
+        "title": "Deo Sun Temple, Aurangabad",
+        "district": "Aurangabad",
+        "description": "The magnificent Surya Mandir at Deo — linked to Rama's worship of the Sun God — hosts Bihar's most celebrated Chhath Puja gathering each year.",
+        "type": "Heritage Temple"
+      },
+      {
+        "order": 8,
+        "site_id": 18
+      }
+    ],
+    "best_time": "October to February",
+    "circuit_length_km": 430,
+    "significance": "Traces Sita's birthplace, Janaka's Mithila kingdom, and Rama's exile journey across Bihar's sacred landscape."
+  },
+  {
+    "id": "buddhist_circuit",
+    "label": "Buddhist Circuit",
+    "color": "#C56A3D",
+    "icon": "☸",
+    "tagline": "The Enlightenment Trail",
+    "description": "Bihar is the heartland of Buddhism — where Siddhartha Gautama attained enlightenment, taught his first disciples, delivered his last sermon, and where the faith flourished under the Mauryas and Palas. The Buddhist Circuit connects UNESCO World Heritage Sites, ancient monasteries, and sacred stupas across a single pilgrimage route followed by millions of devotees from across the world each year.",
+    "districts": [
+      "Gaya",
+      "Nalanda",
+      "Vaishali",
+      "Patna",
+      "Nalanda",
+      "Purba Champaran",
+      "Jehanabad",
+      "Lakhisarai"
+    ],
+    "stops": [
+      {
+        "order": 1,
+        "site_id": "u1"
+      },
+      {
+        "order": 2,
+        "site_id": "c_asi_25"
+      },
+      {
+        "order": 3,
+        "site_id": "u2"
+      },
+      {
+        "order": 4,
+        "site_id": "c_asi_30"
+      },
+      {
+        "order": 5,
+        "site_id": "c_asi_40"
+      },
+      {
+        "order": 6,
+        "site_id": "c_asi_1"
+      },
+      {
+        "order": 7,
+        "site_id": "c_asi_45"
+      },
+      {
+        "order": 8,
+        "site_id": "c_asi_6"
+      }
+    ],
+    "best_time": "October to March",
+    "circuit_length_km": 510,
+    "significance": "Birthplace, enlightenment, teaching, and spread of Buddhism — the complete spiritual biography of the Buddha is traced across Bihar."
+  },
+  {
+    "id": "jain_circuit",
+    "label": "Jain Circuit",
+    "color": "#A0522D",
+    "icon": "🕉",
+    "tagline": "The Path of the Tirthankaras",
+    "description": "Bihar is the sacred land of Jainism — birthplace of Lord Mahavira (24th Tirthankara) and the Vajji region that shaped the faith's early community. The Jain Circuit connects sites associated with Mahavira's life, the Licchavi republic, and magnificent medieval Jain temple complexes.",
+    "districts": [
+      "Vaishali",
+      "Nalanda",
+      "Gaya",
+      "Jamui",
+      "Munger",
+      "Bhagalpur"
+    ],
+    "stops": [
+      {
+        "order": 1,
+        "title": "Kundalpur (Vaishali) — Mahavira's Birthplace",
+        "district": "Vaishali",
+        "description": "The exact birthplace of Lord Mahavira (599 BCE), the 24th Tirthankara of Jainism, near Vaishali. A magnificent Digambara Jain complex marks this sacred site.",
+        "type": "Sacred Site"
+      },
+      {
+        "order": 2,
+        "title": "Pawapuri Jal Mandir",
+        "district": "Nalanda",
+        "description": "The most sacred site in Jainism after Vaishali — where Lord Mahavira attained Moksha (liberation) in 527 BCE. A stunning white marble temple sits in the centre of a lotus-filled sacred lake.",
+        "type": "Sacred Site"
+      },
+      {
+        "order": 3,
+        "title": "Rajgir Jain Temples",
+        "district": "Nalanda",
+        "description": "Mahavira resided in Rajgir during his 14-year spiritual wandering. The Vipulachal hill hosts several ancient Jain temples with sweeping valley views.",
+        "type": "Pilgrimage Site"
+      },
+      {
+        "order": 4,
+        "title": "Lachhuar Jain Mandir",
+        "district": "Jamui",
+        "description": "A major Jain pilgrimage centre with a famous black stone idol of Lord Mahavira, located in the forested hills of Jamui district.",
+        "type": "Religious Site"
+      },
+      {
+        "order": 5,
+        "site_id": "o2"
+      },
+      {
+        "order": 6,
+        "site_id": 4
+      }
+    ],
+    "best_time": "October to February",
+    "circuit_length_km": 320,
+    "significance": "Complete life journey of Lord Mahavira — birth, teachings, liberation — across Bihar's sacred Jain geography."
+  },
+  {
+    "id": "sufi_circuit",
+    "label": "Sufi & Islamic Heritage",
+    "color": "#7A3E1C",
+    "icon": "☪",
+    "tagline": "Dargahs, Mausoleums & Syncretic Traditions",
+    "description": "Bihar's Islamic heritage is a story of coexistence and architectural splendour — from Sher Shah Suri's magnificent mausoleum to the Mughal-era mosques of Patna and the syncretic dargahs of Sufi saints that draw Hindu and Muslim devotees alike. This circuit traces the paths of mystics, rulers, and artisans who shaped medieval Bihar.",
+    "districts": [
+      "Rohtas",
+      "Patna",
+      "Nalanda",
+      "Aurangabad",
+      "Bhagalpur",
+      "Purnia",
+      "Munger"
+    ],
+    "stops": [
+      {
+        "order": 1,
+        "site_id": "c_asi_65"
+      },
+      {
+        "order": 2,
+        "site_id": "c_asi_64"
+      },
+      {
+        "order": 3,
+        "site_id": 3
+      },
+      {
+        "order": 4,
+        "site_id": "c_asi_12"
+      },
+      {
+        "order": 5,
+        "title": "Sheikhdaud Dargah, Rajgir",
+        "district": "Nalanda",
+        "description": "A Sufi dargah in Rajgir — the multi-faith nature of Rajgir's sacred landscape embodies Bihar's tradition of religious coexistence.",
+        "type": "Dargah"
+      },
+      {
+        "order": 6,
+        "site_id": 13
+      },
+      {
+        "order": 7,
+        "title": "Deo Sharif, Arwal",
+        "district": "Arwal",
+        "description": "A medieval mosque and dargah complex that serves as a marker of Sufi missionary activity in the Magadha region.",
+        "type": "Heritage Complex"
+      }
+    ],
+    "best_time": "November to February",
+    "circuit_length_km": 280,
+    "significance": "Traces the architectural and spiritual legacy of Sufi missionaries, Sur dynasty rulers, and Mughal administrators in Bihar."
+  }
+]

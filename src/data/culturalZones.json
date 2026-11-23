@@ -1,0 +1,245 @@
+[
+  {
+    "id": "mithila",
+    "label": "Mithila",
+    "color": "#C56A3D",
+    "tagline": "Land of Art, Philosophy & the Goddess Sita",
+    "description": "Mithila is the cultural region of north Bihar associated with Maithili language and literature, the Ramayana tradition, Madhubani painting, and a rich corpus of living folk and ritual practices.",
+    "districts": [
+      "Darbhanga",
+      "Madhubani",
+      "Sitamarhi",
+      "Saharsa",
+      "Supaul",
+      "Madhepura",
+      "Muzaffarpur",
+      "Sheohar"
+    ],
+    "highlights": [
+      {
+        "heritage_id": "madhubani-painting"
+      },
+      {
+        "title": "Vidyapati Sangeet",
+        "type": "intangible",
+        "description": "The Maithili song tradition associated with poet Vidyapati, including devotional and ceremonial songs that remain part of Mithila's oral repertoire.",
+        "image": "https://www.livehindustan.com/lh-img/uploadimage/library/2023/07/31/16_9/16_9_6/hindustan_special_in_whose_house_mahadev_mahadev_was_servant_his_wife_commanding_lordcshiva_maithil__1690775434.jpg",
+        "image_type": "direct"
+      },
+      {
+        "heritage_id": "sama-chakeva"
+      },
+      {
+        "title": "Saurath Sabha",
+        "type": "intangible",
+        "description": "A traditional Maithil matrimonial gathering in Saurath, Madhubani, historically involving genealogists (Panjikars) and genealogical records in marriage negotiations.",
+        "image": null,
+        "image_type": "needs_exact_photo",
+        "image_note": "A site-specific contemporary photograph should be supplied or sourced separately; do not use a generic wedding photograph."
+      },
+      {
+        "heritage_id": "sikki-craft"
+      }
+    ],
+    "keyFestivals": [
+      "Sama-Chakeva",
+      "Chhath Puja",
+      "Vivah Panchami",
+      "Jur Sital"
+    ],
+    "heritage_language": "Maithili",
+    "art_forms": [
+      "Madhubani Painting",
+      "Sikki Craft",
+      "Sujani Embroidery"
+    ]
+  },
+  {
+    "id": "bhojpur",
+    "label": "Bhojpur",
+    "color": "#A0522D",
+    "tagline": "Land of Warriors, Folk Songs & the Ganges Plain",
+    "description": "The Bhojpur cultural region is associated with Bhojpuri language and oral traditions, folk theatre, music, and the history of resistance represented by Veer Kunwar Singh and the 1857 uprising.",
+    "districts": [
+      "Bhojpur",
+      "Buxar",
+      "Saran",
+      "Siwan",
+      "Gopalganj",
+      "Rohtas",
+      "Kaimur (Bhabua)"
+    ],
+    "highlights": [
+      {
+        "title": "Bhojpuri Folk Music",
+        "type": "intangible",
+        "description": "A broad oral tradition of Bhojpuri songs associated with birth, marriage, agriculture, seasons, devotion and separation, including forms such as Sohar, Vivah Geet, Chaiti, Kajri and Birha.",
+        "image": null,
+        "image_type": "needs_exact_photo",
+        "image_note": "Use a properly licensed photograph of Bhojpuri folk musicians or singers rather than a generic North Indian music image."
+      },
+      {
+        "heritage_id": "bidesia"
+      },
+      {
+        "site_id": 23
+      },
+      {
+        "title": "Aranya Devi Temple",
+        "type": "tangible",
+        "description": "A historic temple in Arrah associated with local religious traditions and the cultural landscape of Bhojpur.",
+        "image": "https://hblimg.mmtcdn.com/content/hubble/img/Arrah_imgs/mmt/activities/m_Aranya_devi_temple_1_l_480_640.jpg",
+        "image_type": "direct"
+      }
+    ],
+    "keyFestivals": [
+      "Chhath Puja",
+      "Phag / Holi",
+      "Vivah Panchami",
+      "Nag Panchami"
+    ],
+    "heritage_language": "Bhojpuri",
+    "art_forms": [
+      "Bidesia Theatre",
+      "Bhojpuri Folk Song",
+      "Kajri",
+      "Birha"
+    ]
+  },
+  {
+    "id": "magadh",
+    "label": "Magadh",
+    "color": "#7A3E1C",
+    "tagline": "Cradle of Empire, Philosophy & Enlightenment",
+    "description": "Magadh is the historical heartland of ancient Bihar, associated with the Mauryan and Gupta periods, Buddhist and Jain traditions, Pataliputra, Bodh Gaya, Nalanda and Rajgir.",
+    "districts": [
+      "Gaya",
+      "Nalanda",
+      "Patna",
+      "Jehanabad",
+      "Arwal",
+      "Nawada",
+      "Sheikhpura",
+      "Aurangabad"
+    ],
+    "highlights": [
+      {
+        "site_id": "u1"
+      },
+      {
+        "site_id": "u2"
+      },
+      {
+        "site_id": "c_asi_6"
+      },
+      {
+        "site_id": "c_asi_45"
+      },
+      {
+        "site_id": "c_asi_23"
+      }
+    ],
+    "keyFestivals": [
+      "Pitrapaksha Mela",
+      "Buddha Purnima",
+      "Mahavir Jayanti",
+      "Chhath Puja"
+    ],
+    "heritage_language": "Magahi",
+    "art_forms": [
+      "Patna Kalam",
+      "Stone Carving",
+      "Folk Song Traditions"
+    ]
+  },
+  {
+    "id": "anga",
+    "label": "Anga",
+    "color": "#C2A55D",
+    "tagline": "Silk City, Sacred Rivers & Pala Learning",
+    "description": "The historic Anga region is centered on Bhagalpur and is associated with ancient Anga, Bhagalpur silk, Manjusha art, Vikramashila and sacred sites such as Mandar Hill.",
+    "districts": [
+      "Bhagalpur",
+      "Banka",
+      "Munger",
+      "Lakhisarai",
+      "Jamui",
+      "Begusarai",
+      "Khagaria",
+      "Katihar"
+    ],
+    "highlights": [
+      {
+        "heritage_id": "bhagalpur-silk"
+      },
+      {
+        "site_id": "c_asi_1"
+      },
+      {
+        "site_id": "o2"
+      },
+      {
+        "heritage_id": "manjusha-art"
+      }
+    ],
+    "keyFestivals": [
+      "Bihula-Bishahari",
+      "Chhath Puja",
+      "Bali Puja"
+    ],
+    "heritage_language": "Angika",
+    "art_forms": [
+      "Bhagalpur Tussar Silk",
+      "Manjusha Art",
+      "Traditional Handloom Weaving"
+    ]
+  },
+  {
+    "id": "bajjika",
+    "label": "Bajjika",
+    "color": "#8B6340",
+    "tagline": "Republic, Ritual & the Himalayan Foothills",
+    "description": "The Bajjika cultural zone in north-central Bihar is associated with Vaishali's ancient republican history, Buddhist and Jain heritage, the Champaran Satyagraha, and living craft and ritual traditions.",
+    "districts": [
+      "Vaishali",
+      "Muzaffarpur",
+      "Sitamarhi",
+      "Sheohar",
+      "Purba Champaran",
+      "Pashchim Champaran",
+      "Samastipur"
+    ],
+    "highlights": [
+      {
+        "site_id": "c_asi_28"
+      },
+      {
+        "site_id": "c_asi_30"
+      },
+      {
+        "site_id": "c_asi_40"
+      },
+      {
+        "title": "Champaran Satyagraha Heritage",
+        "type": "tangible_and_intangible",
+        "description": "The network of sites, memories and practices associated with Gandhi's 1917 Champaran Satyagraha, including Bhitiharwa Ashram and related locations.",
+        "image": "https://im.rediff.com/news/2017/jan/20gandhi9.jpg?h=450&w=450",
+        "image_type": "direct"
+      },
+      {
+        "site_id": "c_asi_32"
+      }
+    ],
+    "keyFestivals": [
+      "Chhath Puja",
+      "Ram Navami",
+      "Sonepur Cattle Fair"
+    ],
+    "heritage_language": "Bajjika",
+    "art_forms": [
+      "Sikki Craft",
+      "Bamboo Craft",
+      "Folk Song Traditions"
+    ]
+  }
+]

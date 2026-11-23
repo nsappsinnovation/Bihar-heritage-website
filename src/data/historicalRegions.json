@@ -1,0 +1,240 @@
+[
+  {
+    "id": "magadha_kingdom",
+    "label": "Magadha Kingdom",
+    "color": "#7A3E1C",
+    "era": "600 BCE – 550 CE",
+    "tagline": "Seat of the Mauryan & Gupta Empires",
+    "description": "The Kingdom of Magadha was the most powerful of the sixteen Mahajanapadas and the nucleus of India's first great empire. From Rajagriha to Pataliputra, Magadha produced the Mauryas, the Guptas, Chanakya's Arthashastra, and hosted the rise of Buddhism and Jainism. It remained the dominant political force of the Indian subcontinent for over a millennium.",
+    "districts": [
+      "Gaya",
+      "Nalanda",
+      "Patna",
+      "Jehanabad",
+      "Arwal",
+      "Nawada",
+      "Sheikhpura",
+      "Aurangabad",
+      "Rohtas"
+    ],
+    "important_sites": [
+      {
+        "period": "322–185 BCE",
+        "significance": "Mauryan imperial capital — once the world's largest city, home to the legendary 80-pillared Chandragupta Sabha.",
+        "site_id": "c_asi_6"
+      },
+      {
+        "period": "544–412 BCE",
+        "significance": "The original capital of Magadha where King Bimbisara hosted both Buddha and Mahavira. Cyclopean stone walls, hot springs, and the Griddhakuta hill.",
+        "site_id": "c_asi_23"
+      },
+      {
+        "period": "5th–12th century CE",
+        "significance": "UNESCO World Heritage Site — the world's oldest residential university attended by Xuanzang, Nagarjuna, and Aryabhata.",
+        "site_id": "u2"
+      },
+      {
+        "period": "528 BCE",
+        "significance": "Where Siddhartha Gautama attained enlightenment — the most sacred site in Buddhism and UNESCO World Heritage Site.",
+        "site_id": "u1"
+      },
+      {
+        "period": "3rd century BCE",
+        "significance": "Oldest surviving rock-cut architecture in India, commissioned by Ashoka for the Ajivika ascetics.",
+        "site_id": "c_asi_45"
+      }
+    ],
+    "key_rulers": [
+      "Bimbisara",
+      "Ajatashatru",
+      "Chandragupta Maurya",
+      "Ashoka the Great",
+      "Samudragupta"
+    ],
+    "legacy": "Gave the world the concept of organised statehood, the Arthashastra, Ashokan edicts, and a pan-Asian spread of Buddhism."
+  },
+  {
+    "id": "vajji_republic",
+    "label": "Vajji Confederacy",
+    "color": "#C56A3D",
+    "era": "600 – 400 BCE",
+    "tagline": "World's First Democratic Republic",
+    "description": "The Vajji Confederacy — headquartered at Vaishali — was the world's first known republican polity, governed by a council of elected leaders (Ganatantras). It was birthplace of Lord Mahavira (24th Jain Tirthankara) and site of Buddha's last major sermon. The Licchavi clan's democratic traditions influenced the Indian constitution itself.",
+    "districts": [
+      "Vaishali",
+      "Muzaffarpur",
+      "Samastipur",
+      "Sitamarhi",
+      "Sheohar"
+    ],
+    "important_sites": [
+      {
+        "period": "3rd century BCE",
+        "significance": "A polished sandstone pillar with single lion capital marking Buddha's last sermon site; nearby stupa contains authenticated Buddha relics.",
+        "site_id": "c_asi_30"
+      },
+      {
+        "title": "Abhishek Pushkarini (Coronation Tank)",
+        "period": "6th century BCE",
+        "significance": "The sacred tank where Licchavi rulers were formally anointed — the world's oldest documented democratic inauguration site."
+      },
+      {
+        "title": "Kundalpur (Birthplace of Mahavira)",
+        "period": "599 BCE",
+        "significance": "A magnificent Jain complex marking the birthplace of Lord Mahavira, the 24th Tirthankara and founder of modern Jainism."
+      },
+      {
+        "period": "6th century BCE",
+        "significance": "Archaeological remains of the Licchavi parliament (Sansthagarah) — the earliest known deliberative assembly hall in the world.",
+        "site_id": "c_asi_28"
+      }
+    ],
+    "key_rulers": [
+      "Chetaka (Licchavi chief)",
+      "Nandivardhan",
+      "Siddhartha (Mahavira's father)"
+    ],
+    "legacy": "Pioneered the concept of representative governance, republican constitutionalism, and gave birth to Jainism."
+  },
+  {
+    "id": "anga_kingdom",
+    "label": "Anga Kingdom",
+    "color": "#C2A55D",
+    "era": "700 – 550 BCE",
+    "tagline": "Rival Kingdom of Eastern Bihar",
+    "description": "The ancient Kingdom of Anga, with its capital at Champa (modern Bhagalpur), was one of the sixteen Mahajanapadas mentioned in early Buddhist texts. Mentioned in the Mahabharata, Anga was the birthplace of Karna — the legendary hero of the Kurukshetra war. Under the Pala dynasty, it became the seat of Vikramashila University, the greatest centre of Vajrayana Buddhist learning.",
+    "districts": [
+      "Bhagalpur",
+      "Banka",
+      "Munger",
+      "Lakhisarai",
+      "Begusarai",
+      "Khagaria"
+    ],
+    "important_sites": [
+      {
+        "period": "8th–12th century CE",
+        "significance": "Pala-era university that specialised in Vajrayana Buddhism, rivalling Nalanda with international scholars.",
+        "site_id": "c_asi_1"
+      },
+      {
+        "title": "Champa (Ancient Bhagalpur)",
+        "period": "700–550 BCE",
+        "significance": "The ancient capital of Anga Kingdom, mentioned in the Mahabharata as where Karna was crowned king."
+      },
+      {
+        "period": "Puranic era",
+        "significance": "Sacred granite hill identified as the churning rod (Mandara) of the Samudra Manthan — cosmic ocean churning myth.",
+        "site_id": "o2"
+      },
+      {
+        "period": "5th–6th century CE",
+        "significance": "Rare Gupta-period rock-cut temple complex on islands in the Ganges at Kahalgaon.",
+        "site_id": "c_asi_2"
+      }
+    ],
+    "key_rulers": [
+      "Karna (mythological)",
+      "Dharmapala (Pala)",
+      "Devapala"
+    ],
+    "legacy": "One of India's oldest silk-weaving traditions (Tussar), and Vajrayana Buddhist scholarship."
+  },
+  {
+    "id": "mithila_kingdom",
+    "label": "Videha / Mithila",
+    "color": "#A0522D",
+    "era": "800 BCE – 12th century CE",
+    "tagline": "Seat of Vedic Philosophy & the Goddess Sita",
+    "description": "The Kingdom of Videha, with its capital at Janakpur (now in Nepal, near Sitamarhi), was the philosophical heartland of ancient India. King Janaka — philosopher-king and father of Goddess Sita — presided over legendary debates (Vajapeya) in his court. The region produced the Brihadaranyaka Upanishad, Yajnavalkya's dialogues, and the Mithila painting tradition that continues unbroken to this day.",
+    "districts": [
+      "Sitamarhi",
+      "Darbhanga",
+      "Madhubani",
+      "Saharsa",
+      "Supaul",
+      "Madhepura"
+    ],
+    "important_sites": [
+      {
+        "title": "Punaura Dham (Sita Birthplace)",
+        "period": "Ramayana era",
+        "significance": "The sacred field where Goddess Sita emerged from the earth during King Janaka's ploughing ritual — a major Ramayana pilgrimage site."
+      },
+      {
+        "title": "Saurath Sabha Grove",
+        "period": "Medieval era",
+        "significance": "The mango grove where Maithil Brahmins have gathered for centuries to arrange marriages using genealogical records — a UNESCO-worthy social institution."
+      },
+      {
+        "title": "Darbhanga Raj Fort & Palaces",
+        "period": "17th–20th century CE",
+        "significance": "The grand architecture of the Darbhanga Raj — one of Bihar's wealthiest princely domains — featuring Mughal and colonial architectural synthesis."
+      },
+      {
+        "period": "2500 BCE – present",
+        "significance": "Jitwarpur and Ranti villages where GI-tagged Madhubani art continues as a living tradition practised by women artists.",
+        "heritage_id": "madhubani-painting"
+      }
+    ],
+    "key_rulers": [
+      "King Janaka",
+      "Seeradhvaja",
+      "Maharaja Lakshmeshwar Singh (Darbhanga Raj)"
+    ],
+    "legacy": "Produced the Upanishads, the Mithila painting tradition, Vidyapati's poetry, and Maithili literature."
+  },
+  {
+    "id": "sher_shah_era",
+    "label": "Sur Empire / Medieval Era",
+    "color": "#8B6340",
+    "era": "1540 – 1857 CE",
+    "tagline": "The Grand Trunk Road & Mughal Bihar",
+    "description": "Medieval Bihar was shaped by Sher Shah Suri's brilliant administratorship — who temporarily displaced the Mughals and built the Grand Trunk Road from Bengal to Peshawar. His red sandstone mausoleum at Sasaram is considered the pinnacle of Indo-Islamic architecture. This era also produced the Nawabs of Murshidabad and later the Mughal subahs of Bihar.",
+    "districts": [
+      "Rohtas",
+      "Kaimur (Bhabua)",
+      "Aurangabad",
+      "Patna",
+      "Buxar",
+      "Saran",
+      "Siwan",
+      "Gopalganj"
+    ],
+    "important_sites": [
+      {
+        "period": "1545 CE",
+        "significance": "The crowning jewel of Indo-Islamic architecture — an octagonal red sandstone mausoleum set within an artificial lake, often compared to the Taj Mahal.",
+        "site_id": "c_asi_65"
+      },
+      {
+        "period": "16th century CE",
+        "significance": "An impregnable fort on a Kaimur plateau commanding 28 gates — Sher Shah's strategic masterpiece used by the Mughals and Marathas.",
+        "site_id": "c_asi_66"
+      },
+      {
+        "title": "Grand Trunk Road (Bihar stretch)",
+        "period": "1540 CE",
+        "significance": "Sher Shah's transformative highway project — the original infrastructure that connected the subcontinent and shaped modern NH-19."
+      },
+      {
+        "title": "Patna Sahib Gurudwara",
+        "period": "1666 CE",
+        "significance": "Birthplace of Guru Gobind Singh Ji (10th Sikh Guru) in Patna — one of the five Takhts (seats of temporal authority) in Sikhism."
+      },
+      {
+        "title": "Battle of Buxar Grounds",
+        "period": "1764 CE",
+        "significance": "The decisive battle that transferred effective sovereignty of Bengal, Bihar, and Orissa to the British East India Company."
+      }
+    ],
+    "key_rulers": [
+      "Sher Shah Suri",
+      "Islam Shah",
+      "Nawab Sirajuddaula",
+      "Mir Qasim",
+      "Babu Veer Kunwar Singh"
+    ],
+    "legacy": "The Grand Trunk Road, Indo-Islamic architectural synthesis, and the 1857 resistance movement."
+  }
+]

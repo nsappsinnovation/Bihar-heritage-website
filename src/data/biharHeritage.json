@@ -1,0 +1,1286 @@
+
+
+{
+  "categories": [
+    {
+      "id": "all",
+      "label": "All",
+      "icon": "grid"
+    },
+    {
+      "id": "art-craft",
+      "label": "Art & Craft",
+      "icon": "paintbrush"
+    },
+    {
+      "id": "festivals-rituals",
+      "label": "Festivals & Rituals",
+      "icon": "flame"
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "icon": "music"
+    },
+    {
+      "id": "dance-theatre",
+      "label": "Dance & Theatre",
+      "icon": "sparkles"
+    },
+    {
+      "id": "oral-traditions",
+      "label": "Oral Traditions",
+      "icon": "book-open"
+    },
+    {
+      "id": "food-customs",
+      "label": "Food & Customs",
+      "icon": "utensils"
+    }
+  ],
+  "mapRegions": [
+    {
+      "id": "mithilanchal",
+      "label": "Mithilanchal",
+      "districts": [
+        "Madhubani",
+        "Darbhanga",
+        "Sitamarhi",
+        "Supaul",
+        "Saharsa",
+        "Muzaffarpur"
+      ],
+      "cx": 340,
+      "cy": 90,
+      "color": "#C49A52"
+    },
+    {
+      "id": "anga",
+      "label": "Anga",
+      "districts": [
+        "Bhagalpur",
+        "Banka",
+        "Munger",
+        "Lakhisarai"
+      ],
+      "cx": 420,
+      "cy": 245,
+      "color": "#A96F45"
+    },
+    {
+      "id": "magadha",
+      "label": "Magadha",
+      "districts": [
+        "Patna",
+        "Nalanda",
+        "Sheikhpura",
+        "Nawada",
+        "Jehanabad"
+      ],
+      "cx": 240,
+      "cy": 250,
+      "color": "#5C3A24"
+    },
+    {
+      "id": "bhojpur",
+      "label": "Bhojpur",
+      "districts": [
+        "Bhojpur",
+        "Buxar",
+        "Rohtas",
+        "Kaimur",
+        "Arrah"
+      ],
+      "cx": 90,
+      "cy": 300,
+      "color": "#9E3F32"
+    },
+    {
+      "id": "champaran",
+      "label": "Champaran",
+      "districts": [
+        "East Champaran",
+        "West Champaran"
+      ],
+      "cx": 110,
+      "cy": 85,
+      "color": "#7B8F5D"
+    },
+    {
+      "id": "vajji",
+      "label": "Vajji",
+      "districts": [
+        "Vaishali",
+        "Muzaffarpur",
+        "Sheohar",
+        "Sitamarhi"
+      ],
+      "cx": 185,
+      "cy": 175,
+      "color": "#B8845C"
+    },
+    {
+      "id": "gaya",
+      "label": "Gaya",
+      "districts": [
+        "Gaya",
+        "Aurangabad",
+        "Arwal"
+      ],
+      "cx": 230,
+      "cy": 330,
+      "color": "#7A6B5A"
+    }
+  ],
+   "heritages": [
+    {
+      "id": "madhubani-painting",
+      "title": "Madhubani / Mithila Painting",
+      "category": "art-craft",
+      "region": "Mithilanchal",
+      "regions": [
+        "mithilanchal"
+      ],
+      "shortDescription": "Ancient wall and canvas paintings from the Mithila region, renowned for bold lines, vibrant hues, and mythological storytelling.It combines material skill, regional aesthetics, inherited techniques, and community memory, making it both a practical craft and an important expression of Bihar's cultural identity.",
+      "description": "Madhubani painting, also known as Mithila art, is one of India's most distinctive folk painting traditions. Originating in the Mithila region of Bihar, it was traditionally created by women on freshly plastered mud walls of their homes during festivals, weddings, and other auspicious occasions. The art form is characterised by bold geometric patterns, intricate line work, and vibrant natural pigments derived from plants, minerals, and natural dyes. Subjects include deities, mythological narratives from the Ramayana and Mahabharata, the natural world — birds, fish, the sun, moon, and the sacred lotus — and scenes from everyday life. Kohbar (bridal chamber paintings) are particularly iconic. The tradition has been passed orally and visually from mother to daughter for centuries in villages of Madhubani, Darbhanga, and Sitamarhi districts. It received a Geographical Indication (GI) tag in 2007.Beyond its visual or material qualities, the tradition is important because knowledge is carried through practice: younger makers learn by observing, assisting, repeating patterns, and gradually developing their own control over the technique. Its motifs, materials, and methods connect the finished object to the landscape and social life of the region. Festivals, household ceremonies, livelihoods, and local storytelling all help explain why these crafts have survived across generations. Contemporary revival efforts are especially significant because the survival of the tradition depends not only on preserving finished objects, but also on keeping the knowledge, vocabulary, tools, and skills of practising artisans alive.",
+      "origin": "Ancient; documented presence since the Ramayana period in Mithila. Modern recognition began in the 1930s when a drought led to William G. Archer, a British officer, documenting the village wall paintings.Its present form should therefore be understood as the result of long cultural continuity rather than a single moment of invention. The tradition has been shaped by local materials, community practices, changing patronage, and transmission between generations, while retaining recognisable regional characteristics.",
+      "imageKey": "madhubani-painting",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": true,
+      "mapCoordinates": {
+        "lat": 26.35,
+        "lng": 86.07
+      },
+      "relatedTraditions": [
+        "tikuli-art",
+        "sujni-embroidery",
+        "patna-kalam"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Madhubani%20painting,%20Bihar.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageNote": "exact"
+    },
+    {
+      "id": "manjusha-art",
+      "title": "Manjusha Art",
+      "category": "art-craft",
+      "region": "Anga",
+      "regions": [
+        "anga"
+      ],
+      "shortDescription": "Unique three-dimensional folk art boxes from Bhagalpur's Anga region, decorated with serpent motifs from the Bihula-Bishahari legend.It combines material skill, regional aesthetics, inherited techniques, and community memory, making it both a practical craft and an important expression of Bihar's cultural identity.",
+      "description": "Manjusha art is a distinctive folk art tradition unique to the Bhagalpur district of Bihar's Anga region. The name 'Manjusha' refers to the decorated casket or box around which this art revolves. Intricately painted with serpent (naag) motifs, stylised human and animal figures, and floral patterns, these papier-mâché or cardboard boxes are intrinsically linked to the legend of Bihula and Bishahari — a story of a young bride's devotion and a serpent goddess. The art form is practised during the Bishahari Puja festival held during the monsoon season. Distinctive features include a naive pictorial style, flat planes of colour, snakes depicted with multiple heads, and geometric borders. The tradition has been recognised as a vital part of Bihar's intangible cultural heritage and is being actively revived.Beyond its visual or material qualities, the tradition is important because knowledge is carried through practice: younger makers learn by observing, assisting, repeating patterns, and gradually developing their own control over the technique. Its motifs, materials, and methods connect the finished object to the landscape and social life of the region. Festivals, household ceremonies, livelihoods, and local storytelling all help explain why these crafts have survived across generations. Contemporary revival efforts are especially significant because the survival of the tradition depends not only on preserving finished objects, but also on keeping the knowledge, vocabulary, tools, and skills of practising artisans alive.",
+      "origin": "Rooted in the ancient legend of Bihula-Bishahari, a folk tale of the Anga region narrating the power of devotion over death. The art form's precise historical origins are not documented but it has existed for several generations in Bhagalpur.Its present form should therefore be understood as the result of long cultural continuity rather than a single moment of invention. The tradition has been shaped by local materials, community practices, changing patronage, and transmission between generations, while retaining recognisable regional characteristics.",
+      "imageKey": "manjusha-art",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": true,
+      "mapCoordinates": {
+        "lat": 25.24,
+        "lng": 86.97
+      },
+      "relatedTraditions": [
+        "bihula-bishahari",
+        "sikki-craft"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Manjusha%20drawing.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact"
+    },
+    {
+      "id": "tikuli-art",
+      "title": "Tikuli Art",
+      "category": "art-craft",
+      "region": "Magadha",
+      "regions": [
+        "magadha"
+      ],
+      "shortDescription": "A delicate folk art form of Patna, originally applied on small glass ornaments worn by women, now practised on glass and paper.It combines material skill, regional aesthetics, inherited techniques, and community memory, making it both a practical craft and an important expression of Bihar's cultural identity.",
+      "description": "Tikuli art is a rare and delicate folk art tradition originating in Patna (the ancient Pataliputra). The word 'Tikuli' refers to the ornamental bindi (forehead mark) that women traditionally wore. The art involves painting intricate floral and figurative patterns on glass discs, which were originally used as ornamental tikkas. Over time, the art form expanded to glass sheets, paper, and other surfaces. It is characterised by extremely fine brushwork, vibrant colours, and motifs drawn from Bihari cultural life — peacocks, elephants, flowers, geometric designs, and scenes from daily life. The art nearly died out in the 20th century but has been revived through government and NGO-led initiatives. Very few master artisans practise it today, making its preservation urgent.Beyond its visual or material qualities, the tradition is important because knowledge is carried through practice: younger makers learn by observing, assisting, repeating patterns, and gradually developing their own control over the technique. Its motifs, materials, and methods connect the finished object to the landscape and social life of the region. Festivals, household ceremonies, livelihoods, and local storytelling all help explain why these crafts have survived across generations. Contemporary revival efforts are especially significant because the survival of the tradition depends not only on preserving finished objects, but also on keeping the knowledge, vocabulary, tools, and skills of practising artisans alive.",
+      "origin": "Traditional craft centred in Patna for several centuries. The art form is associated with the Cherihari community of craftspeople.Its present form should therefore be understood as the result of long cultural continuity rather than a single moment of invention. The tradition has been shaped by local materials, community practices, changing patronage, and transmission between generations, while retaining recognisable regional characteristics.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "madhubani-painting",
+        "patna-kalam"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TIkuli%20Art.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact craft image"
+    },
+    {
+      "id": "sujni-embroidery",
+      "title": "Sujni Embroidery",
+      "category": "art-craft",
+      "region": "Bhojpur",
+      "regions": [
+        "bhojpur",
+        "magadha"
+      ],
+      "shortDescription": "A storytelling embroidery tradition from central Bihar where women stitch narratives of life, devotion, and social commentary on recycled fabric layers.It combines material skill, regional aesthetics, inherited techniques, and community memory, making it both a practical craft and an important expression of Bihar's cultural identity.",
+      "description": "Sujni is a distinctive embroidery tradition practiced primarily in Bhusura village of Muzaffarpur and parts of Bhojpur and Patna districts. Women create quilts by layering and stitching together old sarees and fabric scraps (a form of upcycling), then covering the surface with colourful embroidery that tells stories — from mythology and daily life to social issues like dowry, migration, and domestic violence. In this way, Sujni has become a powerful medium of women's expression. The running stitch (kantha stitch) creates outlines of figures, animals, trees, and narrative scenes. The tradition gained international recognition through the work of activists and NGOs who helped women artisans express themselves through this textile medium. Each Sujni is a unique visual narrative created collectively and individually by village women.Beyond its visual or material qualities, the tradition is important because knowledge is carried through practice: younger makers learn by observing, assisting, repeating patterns, and gradually developing their own control over the technique. Its motifs, materials, and methods connect the finished object to the landscape and social life of the region. Festivals, household ceremonies, livelihoods, and local storytelling all help explain why these crafts have survived across generations. Contemporary revival efforts are especially significant because the survival of the tradition depends not only on preserving finished objects, but also on keeping the knowledge, vocabulary, tools, and skills of practising artisans alive.",
+      "origin": "The tradition of making layered quilts (called katha or sujni) is ancient across the Gangetic plains. The distinctive storytelling form developed organically in Bihar's village communities and has been documented since at least the 19th century.Its present form should therefore be understood as the result of long cultural continuity rather than a single moment of invention. The tradition has been shaped by local materials, community practices, changing patronage, and transmission between generations, while retaining recognisable regional characteristics.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.56,
+        "lng": 84.66
+      },
+      "relatedTraditions": [
+        "madhubani-painting",
+        "bhagalpur-silk"
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0686/9437/6495/files/sujini-embroidery-work-of-bihar-storytelling-textile-craft-make-an-image-about-this-topic-that-refers-to-the-atistry-and-craftmanship-of-the-product.png?v=1770725411",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Sujni Embroidery Bihar"
+    },
+    {
+      "id": "sikki-craft",
+      "title": "Sikki Grass Craft",
+      "category": "art-craft",
+      "region": "Mithilanchal",
+      "regions": [
+        "mithilanchal"
+      ],
+      "shortDescription": "An exquisite weaving tradition from Mithilanchal using golden Sikki grass to create decorative baskets, containers, jewelry boxes, and ritual objects.It combines material skill, regional aesthetics, inherited techniques, and community memory, making it both a practical craft and an important expression of Bihar's cultural identity.",
+      "description": "Sikki craft is a traditional weaving art practised primarily by women in the Mithilanchal region of Bihar — particularly in Madhubani, Darbhanga, and Sitamarhi districts. Artisans weave using Sikki, a golden-yellow grass that grows wild in the marshes of the Terai region. The grass is soaked, dried, and then woven (without any knots) into intricate containers, baskets, jewellery boxes, decorative dolls, wall hangings, and ritual objects. Sikki products are characterised by their natural golden colour, geometric patterning, and remarkable structural integrity achieved through a distinctive spiral coiling technique. Traditionally, Sikki objects were essential items in wedding trousseaux and festival preparations. The craft is primarily practised by women of the Dusadh, Chamar, and Mushahr communities and has received support through national craft revival programmes.Beyond its visual or material qualities, the tradition is important because knowledge is carried through practice: younger makers learn by observing, assisting, repeating patterns, and gradually developing their own control over the technique. Its motifs, materials, and methods connect the finished object to the landscape and social life of the region. Festivals, household ceremonies, livelihoods, and local storytelling all help explain why these crafts have survived across generations. Contemporary revival efforts are especially significant because the survival of the tradition depends not only on preserving finished objects, but also on keeping the knowledge, vocabulary, tools, and skills of practising artisans alive.",
+      "origin": "Ancient craft tradition rooted in the grassland ecology of north Bihar's Terai. The skill is transmitted orally and practically from mothers and grandmothers to daughters, typically beginning in childhood.Its present form should therefore be understood as the result of long cultural continuity rather than a single moment of invention. The tradition has been shaped by local materials, community practices, changing patronage, and transmission between generations, while retaining recognisable regional characteristics.",
+      "imageKey": "sikki-craft",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 26.35,
+        "lng": 86.07
+      },
+      "relatedTraditions": [
+        "madhubani-painting",
+        "manjusha-art"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikki%20Grass%20Craft%20by%20artisan%20Nazda%20Khatun%20of%20Bihar%2001.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact"
+    },
+    {
+      "id": "patna-kalam",
+      "title": "Patna Kalam",
+      "category": "art-craft",
+      "region": "Magadha",
+      "regions": [
+        "magadha"
+      ],
+      "shortDescription": "A miniature painting tradition of 17th–19th century Patna, depicting Bihari life in a delicate Indo-Mughal style unique to the region.It combines material skill, regional aesthetics, inherited techniques, and community memory, making it both a practical craft and an important expression of Bihar's cultural identity.",
+      "description": "Patna Kalam (also called Patna Qalam or Company Painting) is a miniature painting style that flourished in Patna (Azimabad) during the 17th, 18th and 19th centuries. Unlike the court miniatures of Delhi or Rajasthan, Patna Kalam focused on scenes of everyday Bihari life — local festivals, craftsmen at work, merchants, animals, and seasonal rituals. The style blends the precision of the Mughal miniature tradition with the naturalism and intimacy of indigenous Bihar folk painting. Works were often executed on ivory, mica, and paper using fine brushes and natural pigments. The tradition was patronised by the East India Company officials (hence also called 'Company Painting'), who commissioned paintings as documentary records of Indian life. The tradition nearly vanished in the 20th century and only a handful of families in Patna continue to practice it today.Beyond its visual or material qualities, the tradition is important because knowledge is carried through practice: younger makers learn by observing, assisting, repeating patterns, and gradually developing their own control over the technique. Its motifs, materials, and methods connect the finished object to the landscape and social life of the region. Festivals, household ceremonies, livelihoods, and local storytelling all help explain why these crafts have survived across generations. Contemporary revival efforts are especially significant because the survival of the tradition depends not only on preserving finished objects, but also on keeping the knowledge, vocabulary, tools, and skills of practising artisans alive.",
+      "origin": "Emerged in Patna in the 17th century, growing from the Mughal miniature tradition transplanted to Bihar under Mughal provincial rule. Flourished through the 18th–19th centuries under British patronage.Its present form should therefore be understood as the result of long cultural continuity rather than a single moment of invention. The tradition has been shaped by local materials, community practices, changing patronage, and transmission between generations, while retaining recognisable regional characteristics.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "tikuli-art",
+        "madhubani-painting"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Patna%20Kalamkari%20painting.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": "CC BY 3.0",
+      "imageNote": "exact"
+    },
+    {
+      "id": "bhagalpur-silk",
+      "title": "Bhagalpur Tussar Silk Weaving",
+      "category": "art-craft",
+      "region": "Anga",
+      "regions": [
+        "anga"
+      ],
+      "shortDescription": "The famed 'Silk City' of India's living tradition — hand-weaving of Tussar silk, a craft practiced in Bhagalpur for over a thousand years.It combines material skill, regional aesthetics, inherited techniques, and community memory, making it both a practical craft and an important expression of Bihar's cultural identity.",
+      "description": "Bhagalpur is known as the 'Silk City of India' for its centuries-old tradition of Tussar silk weaving. The silk is produced from Tussar silkworms (Antheraea paphia) that feed on Arjun and Sal trees in the forests of the Anga region. Weavers — primarily from the Tanti and Ansari communities — have practised the art of hand-weaving on traditional pit looms for generations. Bhagalpur silk is characterised by its coarse texture, natural honey-gold colour, distinct sheen, and exceptional durability. The fabric is woven into sarees, dupattas, and dress materials. Each piece is marked by the distinctive natural slubs in the thread, prized by connoisseurs as a mark of authenticity. The tradition supports hundreds of weaving villages in and around Bhagalpur. It holds a GI Tag and is one of Bihar's most economically significant craft traditions.Beyond its visual or material qualities, the tradition is important because knowledge is carried through practice: younger makers learn by observing, assisting, repeating patterns, and gradually developing their own control over the technique. Its motifs, materials, and methods connect the finished object to the landscape and social life of the region. Festivals, household ceremonies, livelihoods, and local storytelling all help explain why these crafts have survived across generations. Contemporary revival efforts are especially significant because the survival of the tradition depends not only on preserving finished objects, but also on keeping the knowledge, vocabulary, tools, and skills of practising artisans alive.",
+      "origin": "Tussar silk weaving in the Bhagalpur region dates back to at least the Gupta period (4th–6th century CE) based on archaeological and textual evidence. The craft has been continuously practiced for over a thousand years.Its present form should therefore be understood as the result of long cultural continuity rather than a single moment of invention. The tradition has been shaped by local materials, community practices, changing patronage, and transmission between generations, while retaining recognisable regional characteristics.",
+      "imageKey": "bhagalpur-silk",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.24,
+        "lng": 86.97
+      },
+      "relatedTraditions": [
+        "sujni-embroidery",
+        "manjusha-art"
+      ],
+      "imageUrl": "https://gumlet.assettype.com/down-to-earth/import/library/large/2020-01-11/0.33905200_1578719857_silk.jpg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&w=1200",
+      "imageSource": "Down To Earth",
+      "imageLicense": null,
+      "imageNote": "exact weaving"
+    },
+    {
+      "id": "chhath-puja",
+      "title": "Chhath Puja",
+      "category": "festivals-rituals",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "magadha",
+        "bhojpur",
+        "champaran",
+        "vajji",
+        "anga",
+        "gaya"
+      ],
+      "shortDescription": "Bihar's most sacred festival — a four-day Vedic ritual of devotion to the Sun God and Chhathi Maiya, transmitted entirely through oral tradition without scriptural mediation.It brings together ritual practice, seasonal rhythms, family relationships, community participation, foodways, songs, and inherited forms of devotion, allowing cultural knowledge to be experienced rather than simply recorded.",
+      "description": "Chhath Puja is one of the most ancient, rigorous, and spiritually significant festivals of Bihar and eastern Uttar Pradesh. Dedicated to Surya (the Sun God) and Chhathi Maiya (the goddess of the sixth day, identified with Usha, the goddess of dawn), the festival is observed over four days in the Hindu month of Kartik (October–November) and again in Chaitra (March–April). What distinguishes Chhath from other Indian festivals is its complete freedom from priestly mediation — it is conducted purely through oral tradition, with rituals passed from generation to generation. Devotees (primarily women, called vrattins) undertake a rigorous 36-hour waterless fast. The central rituals include bathing in rivers or water bodies, offering arghya (oblations) to the setting sun (Sandhya Arghya) and the rising sun (Usha Arghya) while standing knee-deep in water, and preparing sacred prasad items including Thekua, Khajoor, and fruits. The festival is celebrated with extraordinary collective spirit — entire communities gather at riverbanks. It has spread globally with the Bihari diaspora and is now observed in many countries.The importance of the tradition lies not only in the central ritual but also in everything surrounding it: preparation, songs and stories, offerings, food, dress, gathering places, and the participation of different generations. Much of this knowledge is learned informally within families and communities, so the festival functions as a living classroom for customs and collective memory. Its continued observance also creates a strong connection between people, local landscapes, sacred spaces, and the agricultural or seasonal calendar. In this way, the tradition remains a lived cultural practice rather than a historical custom preserved only in museums.",
+      "origin": "The worship of the Sun God as described in the Rigveda is considered the historical root of Chhath. The specific Chhath form of the ritual has been practised in the Ganges plain for thousands of years and is referenced in ancient texts. The goddess Chhathi Maiya is worshipped as the sister of the Sun God.Its historical development is best understood through the continuity of regional ritual practice, oral narratives, and seasonal observances. While particular legends and textual references provide important historical context, the living form has also been shaped by local communities and their own methods of transmission.",
+      "imageKey": "chhath-puja",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": true,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "chhath-geet",
+        "sama-chakeva",
+        "thekua"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chath%20puja%20(festival%20of%20bihar%20).jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact"
+    },
+    {
+      "id": "sama-chakeva",
+      "title": "Sama-Chakeva",
+      "category": "festivals-rituals",
+      "region": "Mithilanchal",
+      "regions": [
+        "mithilanchal"
+      ],
+      "shortDescription": "A unique winter festival of Mithilanchal in which sisters make clay birds for their brothers, merging art, ritual, song, and the bond of siblings.It brings together ritual practice, seasonal rhythms, family relationships, community participation, foodways, songs, and inherited forms of devotion, allowing cultural knowledge to be experienced rather than simply recorded.",
+      "description": "Sama-Chakeva is a unique folk festival celebrated exclusively in the Mithila region of Bihar during the month of Kartik (November). It revolves around the legend of Sama and Chakeva — siblings who were separated by a curse (Sama was transformed into a bird) and reunited through the devotion of their sister. During this festival, girls create beautiful clay figurines of birds (especially the Sama bird, identified as the Common Myna or Sarus crane), the character Chakeva (Sama's brother), and accompanying figures including a villain character called Chugulkhara. These figurines are gathered each evening for a week, and young women perform songs and ritual games around them. At the end of the festival, the clay birds are ceremonially immersed in a water body. The festival celebrates the bond between siblings, particularly brothers and sisters. It is a living art form combining clay modelling, folk songs, and ritual performance unique to Mithila.The importance of the tradition lies not only in the central ritual but also in everything surrounding it: preparation, songs and stories, offerings, food, dress, gathering places, and the participation of different generations. Much of this knowledge is learned informally within families and communities, so the festival functions as a living classroom for customs and collective memory. Its continued observance also creates a strong connection between people, local landscapes, sacred spaces, and the agricultural or seasonal calendar. In this way, the tradition remains a lived cultural practice rather than a historical custom preserved only in museums.",
+      "origin": "Rooted in Mithila's folk mythology, likely several centuries old. Referenced in Maithili literature and oral tradition.Its historical development is best understood through the continuity of regional ritual practice, oral narratives, and seasonal observances. While particular legends and textual references provide important historical context, the living form has also been shaped by local communities and their own methods of transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 26.35,
+        "lng": 86.07
+      },
+      "relatedTraditions": [
+        "madhubani-painting",
+        "madhushravani",
+        "maithili-oral"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sama%20Chakeva%20Festival.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact"
+    },
+    {
+      "id": "madhushravani",
+      "title": "Madhushravani",
+      "category": "festivals-rituals",
+      "region": "Mithilanchal",
+      "regions": [
+        "mithilanchal"
+      ],
+      "shortDescription": "A fortnight-long festival of Mithilanchal in which newly-wed women observe devotional rituals to the serpent goddess, celebrating marriage and fertility.It brings together ritual practice, seasonal rhythms, family relationships, community participation, foodways, songs, and inherited forms of devotion, allowing cultural knowledge to be experienced rather than simply recorded.",
+      "description": "Madhushravani is a fortnight-long festival observed exclusively in the Mithila region of Bihar, primarily by newly-wed women in the first year of marriage. The festival falls during the month of Shravan (July–August). Young brides, wearing new clothes and ornaments, offer daily prayers to the Bishahari (serpent goddess) and listen to the recitation of the legend of Bihula-Bishahari — a story of a bride's devotion. The ritual includes fasting, the preparation of special foods offered to the goddess, and daily gatherings where experienced women narrate the Bihula legend. Colourful sand drawings (aripan) are made, and the gathering becomes a space for the transmission of Maithili folk literature, songs, and stories from experienced women to new brides. The festival is essentially a complete oral and artistic educational programme for new brides entering the community.The importance of the tradition lies not only in the central ritual but also in everything surrounding it: preparation, songs and stories, offerings, food, dress, gathering places, and the participation of different generations. Much of this knowledge is learned informally within families and communities, so the festival functions as a living classroom for customs and collective memory. Its continued observance also creates a strong connection between people, local landscapes, sacred spaces, and the agricultural or seasonal calendar. In this way, the tradition remains a lived cultural practice rather than a historical custom preserved only in museums.",
+      "origin": "Ancient ritual rooted in the worship of the serpent goddess Bishahari in Mithila. Closely linked to the Bihula-Bishahari folk narrative.Its historical development is best understood through the continuity of regional ritual practice, oral narratives, and seasonal observances. While particular legends and textual references provide important historical context, the living form has also been shaped by local communities and their own methods of transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 26.15,
+        "lng": 85.9
+      },
+      "relatedTraditions": [
+        "bihula-bishahari",
+        "sama-chakeva",
+        "manjusha-art"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mithila-Madhushrabani.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": "CC0",
+      "imageNote": "exact"
+    },
+    {
+      "id": "jivitputrika",
+      "title": "Jivitputrika (Jitiya)",
+      "category": "festivals-rituals",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "magadha",
+        "bhojpur",
+        "champaran"
+      ],
+      "shortDescription": "A rigorous maternal vrat (fast) observed without food or water by mothers for the long life and wellbeing of their sons, spanning three days.It brings together ritual practice, seasonal rhythms, family relationships, community participation, foodways, songs, and inherited forms of devotion, allowing cultural knowledge to be experienced rather than simply recorded.",
+      "description": "Jivitputrika, commonly called Jitiya, is a significant folk festival observed in Bihar and eastern Uttar Pradesh in the month of Ashwin (September–October). Mothers observe a rigorous three-day fast without food or water for the long life and wellbeing of their sons. The central ritual involves worship of Jivitputrika, an incarnation of Jimutavahana, a legendary king who sacrificed himself for others. The festival begins with the Nahai-Khai ritual (eating before the fast), continues with the waterless fast on the main day, and concludes with the Parana (breaking of the fast). Special foods are prepared, and mythological stories related to the festival are narrated. The tradition is transmitted entirely through oral narration of these stories and through the practice itself, passed from mothers and mothers-in-law to new mothers.The importance of the tradition lies not only in the central ritual but also in everything surrounding it: preparation, songs and stories, offerings, food, dress, gathering places, and the participation of different generations. Much of this knowledge is learned informally within families and communities, so the festival functions as a living classroom for customs and collective memory. Its continued observance also creates a strong connection between people, local landscapes, sacred spaces, and the agricultural or seasonal calendar. In this way, the tradition remains a lived cultural practice rather than a historical custom preserved only in museums.",
+      "origin": "Associated with the legend of Jimutavahana from the Kathasaritsagara text. The folk practice in Bihar has its own distinct regional oral tradition.Its historical development is best understood through the continuity of regional ritual practice, oral narratives, and seasonal observances. While particular legends and textual references provide important historical context, the living form has also been shaped by local communities and their own methods of transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "chhath-puja",
+        "kojagara"
+      ],
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2023/10/05/550x309/jitiya_1696503411665_1696503423222.jpg",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Jivitputrika (Jitiya) Bihar"
+    },
+    {
+      "id": "pitrapaksha",
+      "title": "Pitrapaksha Traditions",
+      "category": "festivals-rituals",
+      "region": "Gaya",
+      "regions": [
+        "gaya"
+      ],
+      "shortDescription": "A sixteen-day sacred period of ancestor reverence centred in Gaya — a living tradition of Pinda Dan rituals performed on the banks of the Falgu river.It brings together ritual practice, seasonal rhythms, family relationships, community participation, foodways, songs, and inherited forms of devotion, allowing cultural knowledge to be experienced rather than simply recorded.",
+      "description": "Pitrapaksha (the fortnight of ancestors) is a period of sixteen days observed across Hindu communities for the veneration of ancestors. In Bihar, it holds special significance because Gaya is considered the holiest place in the world for performing Pinda Dan — the ritual offering of rice balls (pinda) to one's deceased ancestors. The city of Gaya has been the centre of ancestral rites since ancient times; it is mentioned in Hindu scriptures including the Vayu Purana, Agni Purana, and the Mahabharata. During Pitrapaksha (September–October), hundreds of thousands of pilgrims travel to Gaya to perform rites on the banks of the Falgu river, at the Vishnu Padam temple, and at the Akshayavat tree. The rituals, prayers, and specific procedures are transmitted orally through families over generations and through hereditary Gaya priests (Gayawals) who serve visiting pilgrims. The tradition represents an unbroken living religious practice of extraordinary antiquity.The importance of the tradition lies not only in the central ritual but also in everything surrounding it: preparation, songs and stories, offerings, food, dress, gathering places, and the participation of different generations. Much of this knowledge is learned informally within families and communities, so the festival functions as a living classroom for customs and collective memory. Its continued observance also creates a strong connection between people, local landscapes, sacred spaces, and the agricultural or seasonal calendar. In this way, the tradition remains a lived cultural practice rather than a historical custom preserved only in museums.",
+      "origin": "One of the oldest continuously practiced ritual traditions in South Asia. Referenced in texts dating from at least the 1st millennium BCE. The city of Gaya has served as a pilgrimage centre for ancestral rites for at least 2,000 years.Its historical development is best understood through the continuity of regional ritual practice, oral narratives, and seasonal observances. While particular legends and textual references provide important historical context, the living form has also been shaped by local communities and their own methods of transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 24.79,
+        "lng": 85
+      },
+      "relatedTraditions": [
+        "chhath-puja",
+        "jivitputrika"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pitrapaksha%20ceremony%20Gaya%20Ji%20India%204.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact Gaya"
+    },
+    {
+      "id": "chhath-geet",
+      "title": "Chhath Geet",
+      "category": "music",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "magadha",
+        "bhojpur",
+        "champaran",
+        "vajji",
+        "anga"
+      ],
+      "shortDescription": "The sacred folk songs sung during Chhath Puja — devotional hymns to the Sun God passed entirely through oral tradition across generations.The repertoire links seasonal life, family ceremonies, work, devotion, emotion, and community gathering, with melodies and verses changing naturally across dialects, villages, and generations.",
+      "description": "Chhath Geet are the devotional folk songs sung exclusively during the Chhath Puja festival. These songs — in Bhojpuri, Maithili, and local dialects — are hymns of devotion, gratitude, and supplication addressed to Surya and Chhathi Maiya. They are sung by groups of women as they walk to the river, during the arghya ritual, and upon returning home. The songs narrate the mythological stories of the festival, describe the preparation of prasad, express devotion, and carry prayers for the family's wellbeing. Unlike devotional music associated with temples or scriptures, Chhath Geet have no canonical text — they exist entirely in oral transmission, varying by village, district, and family. They are sung without instruments, relying on the collective voice of the community. New compositions continue to be created in the folk tradition, absorbed into the living repertoire.The music is significant because it performs a social function as well as an artistic one. Songs can accompany work, ritual, celebration, separation, devotion, or important transitions in family life, giving communities a shared vocabulary for emotions and experiences. Because much of the repertoire is learned by listening and participating rather than from fixed written notation, performers can preserve familiar structures while adapting words and verses to their own circumstances. Regional dialects give the same broad tradition different sounds and lyrical identities, creating a diverse musical landscape across Bihar. This flexibility is also what makes the tradition a living form: it can absorb new experiences without losing its connection to older generations.",
+      "origin": "As ancient as the Chhath Puja festival itself. The songs are believed to have developed organically over centuries within the communities of the Gangetic plain.Its roots lie in the seasonal, agricultural, devotional, and domestic life of the Gangetic region. The surviving repertoire represents accumulated generations of oral composition and transmission, with local communities continuously adapting songs while retaining older themes, melodies, and performance settings.",
+      "imageKey": "chhath-festival",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": true,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "chhath-puja",
+        "sohar",
+        "vivah-geet"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Koeri%20women%20celebrating%20Chhath.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "related Chhath ritual; not a song-performance photo"
+    },
+    {
+      "id": "chaita",
+      "title": "Chaita",
+      "category": "music",
+      "region": "Statewide",
+      "regions": [
+        "bhojpur",
+        "mithilanchal",
+        "magadha"
+      ],
+      "shortDescription": "Spring folk songs of Bihar sung during the month of Chaitra — melancholic, lyrical songs of nature's renewal, love, and longing.The repertoire links seasonal life, family ceremonies, work, devotion, emotion, and community gathering, with melodies and verses changing naturally across dialects, villages, and generations.",
+      "description": "Chaita are folk songs sung during the Hindu month of Chaitra (March–April), celebrating the arrival of spring and the blossoming of the Palash and Mahua trees. These songs are sung both in the Bhojpuri and Maithili traditions, each with distinct melodic and lyrical characteristics. Chaita songs often have an emotionally complex, melancholic quality — expressing themes of longing, separation, nature's beauty, and devotion. They are associated with the spring agricultural season and are traditionally sung in the early morning. In the Bhojpuri tradition, Chaita songs are often sung by groups of men. In the Maithili tradition, they have a more devotional character. The tradition is sustained entirely through oral transmission, with new compositions regularly added to the repertoire.The music is significant because it performs a social function as well as an artistic one. Songs can accompany work, ritual, celebration, separation, devotion, or important transitions in family life, giving communities a shared vocabulary for emotions and experiences. Because much of the repertoire is learned by listening and participating rather than from fixed written notation, performers can preserve familiar structures while adapting words and verses to their own circumstances. Regional dialects give the same broad tradition different sounds and lyrical identities, creating a diverse musical landscape across Bihar. This flexibility is also what makes the tradition a living form: it can absorb new experiences without losing its connection to older generations.",
+      "origin": "Ancient seasonal music tradition of the Gangetic plain. The month of Chaitra (named after the spring season) has been associated with folk singing traditions in Bihar for many centuries.Its roots lie in the seasonal, agricultural, devotional, and domestic life of the Gangetic region. The surviving repertoire represents accumulated generations of oral composition and transmission, with local communities continuously adapting songs while retaining older themes, melodies, and performance settings.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.56,
+        "lng": 84.4
+      },
+      "relatedTraditions": [
+        "kajari",
+        "sohar",
+        "hori"
+      ],
+      "imageUrl": "https://images.bhaskarassets.com/web2images/521/2025/03/16/fa06a86d-0b0c-4cb1-a3a4-929626e71ffc_1742062070568.jpg",
+      "imageSource": "Dainik Bhaskar",
+      "imageLicense": null,
+      "imageNote": "exact Chaita performance"
+    },
+    {
+      "id": "sohar",
+      "title": "Sohar",
+      "category": "music",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "bhojpur",
+        "magadha",
+        "champaran"
+      ],
+      "shortDescription": "Joyful birth songs sung by women to celebrate the arrival of a child — Bihar's most intimate and universally cherished folk music tradition.The repertoire links seasonal life, family ceremonies, work, devotion, emotion, and community gathering, with melodies and verses changing naturally across dialects, villages, and generations.",
+      "description": "Sohar are the birth songs of Bihar — joyful, celebratory folk songs sung by groups of women at the birth of a child, particularly a son. These songs are among the most universally shared folk music traditions across Bihar, cutting across regional dialects (Bhojpuri, Maithili, Magahi, and Angika all have their Sohar traditions). They celebrate the arrival of the new child, bless the mother, pray for the child's health and long life, and often narrate mythological births — particularly the birth of Krishna, Ram, and other divine children. Sohar songs are sung outside the room where the birth has taken place, throughout the night following the birth, and during the days of celebration that follow. Women gather spontaneously, singing without instruments (or with simple percussion), and the songs are passed entirely through oral tradition from generation to generation.The music is significant because it performs a social function as well as an artistic one. Songs can accompany work, ritual, celebration, separation, devotion, or important transitions in family life, giving communities a shared vocabulary for emotions and experiences. Because much of the repertoire is learned by listening and participating rather than from fixed written notation, performers can preserve familiar structures while adapting words and verses to their own circumstances. Regional dialects give the same broad tradition different sounds and lyrical identities, creating a diverse musical landscape across Bihar. This flexibility is also what makes the tradition a living form: it can absorb new experiences without losing its connection to older generations.",
+      "origin": "One of the most ancient oral folk music traditions of the Gangetic plain. The specific form varies by region and dialect, but the tradition of birth songs is pan-Bihari and likely many centuries old.Its roots lie in the seasonal, agricultural, devotional, and domestic life of the Gangetic region. The surviving repertoire represents accumulated generations of oral composition and transmission, with local communities continuously adapting songs while retaining older themes, melodies, and performance settings.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "vivah-geet",
+        "chhath-geet",
+        "chaita"
+      ],
+      "imageUrl": "https://tse1.explicit.bing.net/th/id/OIP.9VkGwBWXy-2dkntvD2YOugHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Sohar Bihar"
+    },
+    {
+      "id": "kajari",
+      "title": "Kajari",
+      "category": "music",
+      "region": "Statewide",
+      "regions": [
+        "bhojpur",
+        "magadha"
+      ],
+      "shortDescription": "Monsoon folk songs of Bihar and eastern UP — deeply lyrical songs of the rainy season expressing longing for the beloved and the melancholy beauty of dark clouds.The repertoire links seasonal life, family ceremonies, work, devotion, emotion, and community gathering, with melodies and verses changing naturally across dialects, villages, and generations.",
+      "description": "Kajari are the monsoon folk songs of Bihar and eastern Uttar Pradesh, sung during the rainy season (Sawan/Bhadra, July–August). They are intimately connected to the arrival of the monsoon — the darkening clouds, the thunder, the smell of wet earth, and the flowering of the Kadamba tree. Kajari songs express emotions of longing (particularly a woman longing for her absent husband or lover), the beauty of the monsoon landscape, and devotion. They have both a folk (lok) tradition (sung by communities, especially women, in fields and homes) and a semi-classical tradition that has been adopted into Thumri and light classical music. The rhythm and melody of Kajari are distinctive — moderate, swaying, and deeply evocative. The folk Kajari of Bihar is sung in Bhojpuri and Awadhi dialects and is transmitted orally, while the semi-classical form is taught in music schools.The music is significant because it performs a social function as well as an artistic one. Songs can accompany work, ritual, celebration, separation, devotion, or important transitions in family life, giving communities a shared vocabulary for emotions and experiences. Because much of the repertoire is learned by listening and participating rather than from fixed written notation, performers can preserve familiar structures while adapting words and verses to their own circumstances. Regional dialects give the same broad tradition different sounds and lyrical identities, creating a diverse musical landscape across Bihar. This flexibility is also what makes the tradition a living form: it can absorb new experiences without losing its connection to older generations.",
+      "origin": "Ancient seasonal music of the Gangetic plain, connected to the agricultural cycle and the Sawan (monsoon) festival traditions. Referenced in medieval Bhakti and Sufi poetry.Its roots lie in the seasonal, agricultural, devotional, and domestic life of the Gangetic region. The surviving repertoire represents accumulated generations of oral composition and transmission, with local communities continuously adapting songs while retaining older themes, melodies, and performance settings.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.56,
+        "lng": 84.4
+      },
+      "relatedTraditions": [
+        "chaita",
+        "hori",
+        "sohar"
+      ],
+      "imageUrl": "https://tse4.mm.bing.net/th/id/OIP.gY_8UsRMY7ohxD2GYQlJcQHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Kajari Bihar"
+    },
+    {
+      "id": "vivah-geet",
+      "title": "Vivah Geet",
+      "category": "music",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "bhojpur",
+        "magadha",
+        "anga"
+      ],
+      "shortDescription": "The rich oral musical tradition of Bihari wedding songs — a vast and living repertoire covering every stage and ritual of the marriage ceremony.The repertoire links seasonal life, family ceremonies, work, devotion, emotion, and community gathering, with melodies and verses changing naturally across dialects, villages, and generations.",
+      "description": "Vivah Geet (wedding songs) represent one of the richest and most complex oral musical traditions of Bihar. Every stage of a traditional Bihari wedding — from the formal proposal (shagun), through the tilak ceremony, the wedding procession (barat), the phera (vows), to the vidai (bride's departure) — has its own specific set of songs, melodies, and texts. The songs are performed by women of the bride's and groom's families, sometimes in friendly musical competition. Bihari wedding songs exist in all regional dialects — Maithili Vivah Geet, Bhojpuri Vivah Geet, and Magahi Vivah Geet each have distinct traditions and repertoires. They are entirely oral — no formal written text exists for most songs, and they are transmitted through participation across generations. Songs often contain sharp wit, teasing of the groom's party, blessings for the couple, prayers, and mythological narratives of divine marriages (particularly the marriage of Ram and Sita).The music is significant because it performs a social function as well as an artistic one. Songs can accompany work, ritual, celebration, separation, devotion, or important transitions in family life, giving communities a shared vocabulary for emotions and experiences. Because much of the repertoire is learned by listening and participating rather than from fixed written notation, performers can preserve familiar structures while adapting words and verses to their own circumstances. Regional dialects give the same broad tradition different sounds and lyrical identities, creating a diverse musical landscape across Bihar. This flexibility is also what makes the tradition a living form: it can absorb new experiences without losing its connection to older generations.",
+      "origin": "As ancient as the practice of marriage itself in the Gangetic plain. The distinct regional forms developed over many centuries.Its roots lie in the seasonal, agricultural, devotional, and domestic life of the Gangetic region. The surviving repertoire represents accumulated generations of oral composition and transmission, with local communities continuously adapting songs while retaining older themes, melodies, and performance settings.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "sohar",
+        "chhath-geet",
+        "ropni-geet"
+      ],
+      "imageUrl": "https://i.ytimg.com/vi/yeRYTXw_3IM/maxresdefault.jpg",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Vivah Geet Bihar"
+    },
+    {
+      "id": "ropni-geet",
+      "title": "Ropni Geet (Harvest Songs)",
+      "category": "music",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "bhojpur",
+        "magadha",
+        "champaran"
+      ],
+      "shortDescription": "Agricultural folk songs sung by women during paddy transplanting and harvesting — rhythmic, communal songs that ease the labour of the fields.The repertoire links seasonal life, family ceremonies, work, devotion, emotion, and community gathering, with melodies and verses changing naturally across dialects, villages, and generations.",
+      "description": "Ropni Geet (transplanting songs) and Katni Geet (harvesting songs) are agricultural folk songs sung by groups of women during two of the most labour-intensive periods of the rice cultivation cycle — the transplanting of paddy seedlings (ropni, June–July) and the harvesting of the mature crop (katni, November). As women work bent over in the flooded paddies or cutting the grain, they sing in groups, the rhythm of the songs matching the rhythm of their collective labour. The songs serve multiple purposes: easing the physical hardship, maintaining coordination among workers, and creating a shared cultural space. The lyrics celebrate the agricultural cycle, invoke blessings for a good harvest, express everyday observations, and sometimes contain playful social commentary. Each village and district has its own repertoire of these songs, and the tradition is entirely oral. With mechanisation of agriculture, the tradition is becoming increasingly rare.The music is significant because it performs a social function as well as an artistic one. Songs can accompany work, ritual, celebration, separation, devotion, or important transitions in family life, giving communities a shared vocabulary for emotions and experiences. Because much of the repertoire is learned by listening and participating rather than from fixed written notation, performers can preserve familiar structures while adapting words and verses to their own circumstances. Regional dialects give the same broad tradition different sounds and lyrical identities, creating a diverse musical landscape across Bihar. This flexibility is also what makes the tradition a living form: it can absorb new experiences without losing its connection to older generations.",
+      "origin": "As ancient as rice cultivation itself in the Gangetic plain — one of Bihar's most deeply rooted oral traditions, connected to the seasonal and agricultural cycles of the region.Its roots lie in the seasonal, agricultural, devotional, and domestic life of the Gangetic region. The surviving repertoire represents accumulated generations of oral composition and transmission, with local communities continuously adapting songs while retaining older themes, melodies, and performance settings.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "chaita",
+        "kajari",
+        "vivah-geet"
+      ],
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/02/03/cropped/16-9/Women-farmers-working-in-the-fields-in-Patna-on-Tu_1770140525169_1770155179166.jpg",
+      "imageSource": "Hindustan Times",
+      "imageLicense": null,
+      "imageNote": "exact paddy transplanting; song not visible"
+    },
+    {
+      "id": "jat-jatin",
+      "title": "Jat-Jatin",
+      "category": "dance-theatre",
+      "region": "Mithilanchal",
+      "regions": [
+        "mithilanchal"
+      ],
+      "shortDescription": "A beloved folk dance of North Bihar depicting the bittersweet relationship of a quarrelsome couple, traditionally performed as a rain-invocation ritual.The performance combines movement, song, costume, gesture, humour, and storytelling, turning community experience into a shared theatrical form that can communicate both celebration and social commentary.",
+      "description": "Jat-Jatin is one of the most popular and beloved folk dances of North Bihar, particularly in the districts of Saharsa, Supaul, Darbhanga, and Muzaffarpur. It is a theatrical dance depicting Jat (the man) and Jatin (the woman) — a young, quarrelsome couple whose domestic disagreements and reconciliations form the comic and emotional heart of the performance. Historically, Jat-Jatin was performed as a ritualistic rain dance during periods of drought: the playful mock-fights between the couple were believed to invoke the mercy of the rain gods. Typically performed by women (one dressed as the male Jat, one as Jatin), the dance involves circular movements, call-and-response singing, mime, and dramatic depiction of the couple's relationship. The accompanying songs are in Maithili and the local dialect, sung by the performers themselves. Today it is performed at festivals, cultural events, and during the monsoon season.More than a sequence of movements, the tradition is a form of community storytelling in which performers communicate character, emotion, relationships, humour, and social experience through the body and voice. Songs, gestures, circular or dramatic movement, costumes, and audience interaction work together to create a performance that is accessible even without a written script. Historically, such performances could accompany agricultural cycles, weddings, religious occasions, fairs, or community gatherings. Their value today lies in preserving not only choreography but also the songs, roles, performance conventions, humour, and local knowledge that give the form its identity. Transmission therefore depends on active performance and mentorship rather than simply documenting individual steps.",
+      "origin": "Rooted in the folk culture of the Mithilanchal and Kosi river region of North Bihar. Associated with rain invocation practices of an agricultural society. Specific historical origins are not documented but the tradition is at least several centuries old.Its development reflects the long interaction between ritual, seasonal celebration, community entertainment, and regional folk performance. In forms with identifiable creators or periods, those histories provide a clear point of reference; in older forms, the tradition evolved gradually through repeated community practice and oral transmission.",
+      "imageKey": "jat-jatin",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": true,
+      "mapCoordinates": {
+        "lat": 26.15,
+        "lng": 85.9
+      },
+      "relatedTraditions": [
+        "jhijhiya",
+        "jhumar",
+        "domkach"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jat%20Jatni%20Bihar.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact"
+    },
+    {
+      "id": "jhijhiya",
+      "title": "Jhijhiya",
+      "category": "dance-theatre",
+      "region": "Mithilanchal",
+      "regions": [
+        "mithilanchal"
+      ],
+      "shortDescription": "A sacred Navratri folk dance of Mithilanchal in which women balance lit earthen pots on their heads and dance in devotional circles to Goddess Durga.The performance combines movement, song, costume, gesture, humour, and storytelling, turning community experience into a shared theatrical form that can communicate both celebration and social commentary.",
+      "description": "Jhijhiya is a distinctive folk dance of the Mithila region of Bihar performed during the Navratri festival (nine nights dedicated to Goddess Durga, typically October). Young women balance an earthen pot pierced with holes (the Jhijhiya) with a lighted lamp inside on their heads, and dance in graceful circular formations in the village courtyard. The dancing figure with the glowing pot balanced on the head is one of the most visually striking images in Bihar's folk cultural landscape. The songs sung during Jhijhiya address the goddess Durga, invoking her blessings and protection. The tradition is collective — women of the community dance together throughout the night. The performance requires considerable skill in maintaining balance while executing the graceful, swaying movements of the dance.More than a sequence of movements, the tradition is a form of community storytelling in which performers communicate character, emotion, relationships, humour, and social experience through the body and voice. Songs, gestures, circular or dramatic movement, costumes, and audience interaction work together to create a performance that is accessible even without a written script. Historically, such performances could accompany agricultural cycles, weddings, religious occasions, fairs, or community gatherings. Their value today lies in preserving not only choreography but also the songs, roles, performance conventions, humour, and local knowledge that give the form its identity. Transmission therefore depends on active performance and mentorship rather than simply documenting individual steps.",
+      "origin": "Rooted in the Shakti (goddess) worship traditions of Mithilanchal. The tradition is likely several centuries old and is connected to the agricultural Navratri celebrations.Its development reflects the long interaction between ritual, seasonal celebration, community entertainment, and regional folk performance. In forms with identifiable creators or periods, those histories provide a clear point of reference; in older forms, the tradition evolved gradually through repeated community practice and oral transmission.",
+      "imageKey": "jhijhiya",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 26.15,
+        "lng": 85.9
+      },
+      "relatedTraditions": [
+        "jat-jatin",
+        "domkach",
+        "jhumar"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jhijhiya%20Dance%20of%20Mithila%20region.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": "CC0",
+      "imageNote": "exact"
+    },
+    {
+      "id": "bidesia",
+      "title": "Bidesia",
+      "category": "dance-theatre",
+      "region": "Bhojpur",
+      "regions": [
+        "bhojpur"
+      ],
+      "shortDescription": "A powerful Bhojpur folk theatre form created by legendary Bhikari Thakur, giving voice to the pain of migration and separation through music, dance and drama.The performance combines movement, song, costume, gesture, humour, and storytelling, turning community experience into a shared theatrical form that can communicate both celebration and social commentary.",
+      "description": "Bidesia is a folk theatre tradition that emerged from the Bhojpur region of Bihar, created and popularised by the legendary Bhikari Thakur (1887–1971), often called the 'Shakespeare of Bhojpuri' and the 'Bard of Bhojpur.' The word 'Bidesia' refers to someone who has gone to a foreign land — capturing the central theme of the form: the pain of migration, the loneliness of women left behind, and the social consequences of the mass migration of Bihari labourers to industrial cities. Bidesia combines elements of several folk performance traditions — Khemta, Jhumar, Nautanki, and Launda Naach — into a distinct theatrical form with songs, dances, and dramatised narratives. The performances are noted for their earthy humour, emotional depth, sharp social commentary (addressing caste discrimination, the plight of women, the corruption of money), and the participation of male performers in female roles (Launda performers). Bidesia remains a vital living tradition in Bhojpur, performed by travelling troupes at festivals, fairs, and community events.More than a sequence of movements, the tradition is a form of community storytelling in which performers communicate character, emotion, relationships, humour, and social experience through the body and voice. Songs, gestures, circular or dramatic movement, costumes, and audience interaction work together to create a performance that is accessible even without a written script. Historically, such performances could accompany agricultural cycles, weddings, religious occasions, fairs, or community gatherings. Their value today lies in preserving not only choreography but also the songs, roles, performance conventions, humour, and local knowledge that give the form its identity. Transmission therefore depends on active performance and mentorship rather than simply documenting individual steps.",
+      "origin": "Created by Bhikari Thakur in the early 20th century. The tradition draws on much older Bhojpur folk performance practices.Its development reflects the long interaction between ritual, seasonal celebration, community entertainment, and regional folk performance. In forms with identifiable creators or periods, those histories provide a clear point of reference; in older forms, the tradition evolved gradually through repeated community practice and oral transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.56,
+        "lng": 84.4
+      },
+      "relatedTraditions": [
+        "launda-naach",
+        "jhumar",
+        "domkach"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhikhari%20Thakur.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "creator portrait; not performance"
+    },
+    {
+      "id": "domkach",
+      "title": "Domkach",
+      "category": "dance-theatre",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "bhojpur",
+        "magadha"
+      ],
+      "shortDescription": "A lively post-wedding folk dance performance — a communal celebration in which women of the bride's family dance and sing with playful abandon.The performance combines movement, song, costume, gesture, humour, and storytelling, turning community experience into a shared theatrical form that can communicate both celebration and social commentary.",
+      "description": "Domkach is a folk performance tradition associated with weddings across Bihar. It is performed by women of the bride's family on the evening that the wedding procession (barat) has left, taking the bride away. The departure of the daughter is a moment of grief mixed with celebration, and Domkach channels this mixed emotion into a lively, sometimes comic collective performance. Women dress in colourful costumes, sometimes with one woman cross-dressed as the male groom, and enact a mock-wedding or theatrical performance combining dance, song, and humour. The songs of Domkach are characteristically earthy, witty, and sometimes ribald — a licensed space of feminine expression and laughter. The tradition serves as a communal emotional release for the women left behind after the bride's departure and has been maintained across generations entirely through oral and performance transmission.More than a sequence of movements, the tradition is a form of community storytelling in which performers communicate character, emotion, relationships, humour, and social experience through the body and voice. Songs, gestures, circular or dramatic movement, costumes, and audience interaction work together to create a performance that is accessible even without a written script. Historically, such performances could accompany agricultural cycles, weddings, religious occasions, fairs, or community gatherings. Their value today lies in preserving not only choreography but also the songs, roles, performance conventions, humour, and local knowledge that give the form its identity. Transmission therefore depends on active performance and mentorship rather than simply documenting individual steps.",
+      "origin": "Ancient folk performance tradition associated with wedding rituals across the Gangetic plain of Bihar. Specific historical origins are not documented.Its development reflects the long interaction between ritual, seasonal celebration, community entertainment, and regional folk performance. In forms with identifiable creators or periods, those histories provide a clear point of reference; in older forms, the tradition evolved gradually through repeated community practice and oral transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "jat-jatin",
+        "bidesia",
+        "vivah-geet"
+      ],
+      "imageUrl": "https://www.artistmanagementcompanies.in/danceforms/image/domkach-dance-m3.jpg",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Domkach Bihar"
+    },
+    {
+      "id": "jhumar",
+      "title": "Jhumar",
+      "category": "dance-theatre",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "bhojpur",
+        "anga"
+      ],
+      "shortDescription": "A graceful group folk dance of Bihar performed during festive and ceremonial occasions — characterised by swaying, circular movements and melodic songs.The performance combines movement, song, costume, gesture, humour, and storytelling, turning community experience into a shared theatrical form that can communicate both celebration and social commentary.",
+      "description": "Jhumar is a folk dance and music tradition of Bihar (and Jharkhand), performed during festive occasions, harvests, and cultural celebrations. It is characterised by its graceful, swaying circular group movements and melodic songs in Nagpuri, Khortha, Bhojpuri, or local dialects, depending on the region. Dancers move in circles, holding each other's hands or waists, swaying in a fluid rhythmic pattern. The songs of Jhumar celebrate nature, the seasons, love, and community life. In Bihar's context, Jhumar is associated with both tribal and agrarian community celebrations and has been absorbed into the broader Bihar folk dance tradition. It is performed by both men and women, with some regional variations having separate performances for each gender.More than a sequence of movements, the tradition is a form of community storytelling in which performers communicate character, emotion, relationships, humour, and social experience through the body and voice. Songs, gestures, circular or dramatic movement, costumes, and audience interaction work together to create a performance that is accessible even without a written script. Historically, such performances could accompany agricultural cycles, weddings, religious occasions, fairs, or community gatherings. Their value today lies in preserving not only choreography but also the songs, roles, performance conventions, humour, and local knowledge that give the form its identity. Transmission therefore depends on active performance and mentorship rather than simply documenting individual steps.",
+      "origin": "Rooted in the folk traditions of the Chotanagpur plateau region and the eastern Bihar/Jharkhand belt. The tradition has developed distinct regional forms over many generations.Its development reflects the long interaction between ritual, seasonal celebration, community entertainment, and regional folk performance. In forms with identifiable creators or periods, those histories provide a clear point of reference; in older forms, the tradition evolved gradually through repeated community practice and oral transmission.",
+      "imageKey": "dance-heritage",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.24,
+        "lng": 86.97
+      },
+      "relatedTraditions": [
+        "jat-jatin",
+        "jhijhiya",
+        "bidesia"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bihar%20Folk%20Dance%20Jhumar.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": "CC BY 2.0",
+      "imageNote": "exact"
+    },
+    {
+      "id": "launda-naach",
+      "title": "Launda Naach",
+      "category": "dance-theatre",
+      "region": "Bhojpur",
+      "regions": [
+        "bhojpur",
+        "magadha"
+      ],
+      "shortDescription": "A centuries-old folk theatre tradition of Bhojpur in which male performers take female roles — a complex art form exploring gender, society, and entertainment.The performance combines movement, song, costume, gesture, humour, and storytelling, turning community experience into a shared theatrical form that can communicate both celebration and social commentary.",
+      "description": "Launda Naach is a folk theatrical tradition of the Bhojpur region of Bihar in which male performers (called Laundas) dress as women and perform song and dance at community functions, particularly weddings and folk theatre performances. The tradition predates its better-known association with Bidesia, as Bhikari Thakur incorporated Launda performers into his Bidesia form. Launda performers master feminine dance styles, songs, gestures, and dress — performing as female characters in folk narratives. The art form is both entertainment and social commentary: by performing as women, Launda artists have traditionally given voice to women's experiences and perspectives in a largely patriarchal society. The performance requires years of training under experienced Launda performers. Like many intangible traditions, Launda Naach occupies a complex social position and is at risk as younger generations have fewer opportunities to learn the art.More than a sequence of movements, the tradition is a form of community storytelling in which performers communicate character, emotion, relationships, humour, and social experience through the body and voice. Songs, gestures, circular or dramatic movement, costumes, and audience interaction work together to create a performance that is accessible even without a written script. Historically, such performances could accompany agricultural cycles, weddings, religious occasions, fairs, or community gatherings. Their value today lies in preserving not only choreography but also the songs, roles, performance conventions, humour, and local knowledge that give the form its identity. Transmission therefore depends on active performance and mentorship rather than simply documenting individual steps.",
+      "origin": "Centuries-old tradition in the Bhojpur region. Documented in 19th-century accounts. Central to Bidesia theatre form developed by Bhikari Thakur in the 20th century.Its development reflects the long interaction between ritual, seasonal celebration, community entertainment, and regional folk performance. In forms with identifiable creators or periods, those histories provide a clear point of reference; in older forms, the tradition evolved gradually through repeated community practice and oral transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.56,
+        "lng": 84.4
+      },
+      "relatedTraditions": [
+        "bidesia",
+        "jhumar",
+        "domkach"
+      ],
+      "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.4gBtdF_fDXz1o7QbCpq6GgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Launda Naach Bihar"
+    },
+    {
+      "id": "bihula-bishahari",
+      "title": "Bihula-Bishahari",
+      "category": "oral-traditions",
+      "region": "Anga",
+      "regions": [
+        "anga",
+        "mithilanchal"
+      ],
+      "shortDescription": "Bihar's most beloved folk epic — the heroic saga of Bihula, who sailed on a raft along the Ganges to confront death and resurrect her husband Lakshmindar through devotion to Goddess Bishahari.It preserves collective memory through stories, proverbs, riddles, poetry, legends, and spoken narratives, allowing knowledge and values to travel from one generation to the next without depending entirely on written texts.",
+      "description": "The Bihula-Bishahari legend is one of the most beloved and widely known folk narratives of Bihar, particularly in the Anga (Bhagalpur) region. It narrates the story of Bihula, a young bride of extraordinary virtue and devotion, whose husband Lakshmindar (Bala Lakhinder) was bitten by a venomous serpent on their wedding night due to the wrath of the serpent goddess Maa Bishahari (Manasa). Refusing to accept her husband's demise, Bihula places his mortal remains on a decorated raft and embarks on an arduous voyage down the sacred Ganges. Through unwavering determination and divine trials, she reaches the heavenly court of Lord Shiva and Goddess Bishahari, securing the resurrection of Lakshmindar and her brothers-in-law. The story is chanted in the form of long oral epic songs (Bishari songs) during the monsoon Bishahari Puja festival. It forms the foundational lore of Manjusha Art in Anga and is commemorated during the Madhushravani festival in Mithilanchal.",
+      "origin": "Ancient folk narrative of the Anga/Mithila region. Versions of the story appear in Sanskrit texts (Manasavijaya) and in the medieval Bengali Mangalkavya tradition. The oral Bihari tradition is distinct and likely several centuries old.Its origins generally extend beyond the earliest surviving written references because oral knowledge often predates formal documentation. Historical texts, regional languages, and later written records can help establish stages of development, but the continuity of the living tradition depends on generations of storytellers, families, performers, and listeners.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.24,
+        "lng": 86.97
+      },
+      "relatedTraditions": [
+        "manjusha-art",
+        "madhushravani",
+        "maithili-oral"
+      ],
+      "imageUrl": "https://www.folkartopedia.com/wp-content/uploads/2020/03/Manjusha-01.jpg",
+      "imageSource": "Folkartopedia",
+      "imageLicense": null,
+      "imageNote": "Bihula-Bishahari Manjusha depiction"
+    },
+    {
+      "id": "maithili-oral",
+      "title": "Maithili Oral Traditions",
+      "category": "oral-traditions",
+      "region": "Mithilanchal",
+      "regions": [
+        "mithilanchal"
+      ],
+      "shortDescription": "A vast living corpus of Maithili folk tales, proverbs, riddles, and oral poetry — one of India's richest regional literary traditions transmitted across generations.It preserves collective memory through stories, proverbs, riddles, poetry, legends, and spoken narratives, allowing knowledge and values to travel from one generation to the next without depending entirely on written texts.",
+      "description": "The Maithili oral tradition encompasses a vast and ancient body of folk literature — tales, proverbs, riddles, songs, epic narratives, and ceremonial recitations — transmitted orally across the Mithilanchal region of Bihar for centuries. Maithili is one of the twenty-two scheduled languages of India and has a rich written literary history dating to the works of Vidyapati (c. 1352–1448 CE), whose devotional songs to Krishna and Shiva remain beloved today. However, alongside this written tradition, there exists a rich oral tradition of folk tales (many featuring clever women, supernatural beings, and moral wisdom), seasonal songs, narrative recitations at festivals (like the Bihula story at Bishahari Puja), and ceremonial oral texts recited at births, marriages, and deaths. The Saurath Sabha — an ancient Maithili Brahmin marriage fair — is accompanied by oral recitations of lineage and tradition. Proverbs and riddles (paheli) in Maithili represent a distinct oral literary form through which community wisdom is preserved and transmitted.The strength of an oral tradition lies in its ability to change while remaining recognisable. A story may be retold with local details, a proverb may acquire a new application, or a performer may add verses while preserving an older narrative structure. This makes oral heritage closely connected to everyday speech, family gatherings, festivals, work, and community teaching. It can preserve ideas about morality, relationships, local history, humour, nature, devotion, migration, and social experience in forms that are memorable and easy to transmit. Because each generation participates in its preservation, the tradition remains a living archive of community memory rather than a fixed literary object.",
+      "origin": "Maithili has documented literary history since at least the 10th century CE. The oral tradition is likely much older, rooted in the ancient kingdom of Videha (Mithila).Its origins generally extend beyond the earliest surviving written references because oral knowledge often predates formal documentation. Historical texts, regional languages, and later written records can help establish stages of development, but the continuity of the living tradition depends on generations of storytellers, families, performers, and listeners.",
+      "imageKey": "madhubani-art",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 26.15,
+        "lng": 85.9
+      },
+      "relatedTraditions": [
+        "bihula-bishahari",
+        "sama-chakeva",
+        "madhubani-painting"
+      ],
+      "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.iLt2HorZdSa_qdi2RERPGwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Maithili Oral Traditions Bihar"
+    },
+    {
+      "id": "bhojpuri-folk-tales",
+      "title": "Bhojpuri Folk Tradition",
+      "category": "oral-traditions",
+      "region": "Bhojpur",
+      "regions": [
+        "bhojpur",
+        "magadha"
+      ],
+      "shortDescription": "An exuberant oral tradition of the Bhojpur region — folk tales, proverbs, riddles, and narrative songs that capture the earthy wit and wisdom of western Bihar.It preserves collective memory through stories, proverbs, riddles, poetry, legends, and spoken narratives, allowing knowledge and values to travel from one generation to the next without depending entirely on written texts.",
+      "description": "The Bhojpuri oral tradition encompasses a rich corpus of folk tales (kahani), proverbs (muhavre and kahavat), riddles (paheliyan), and narrative songs that express the earthy, humorous, and resilient spirit of western Bihar. Bhojpuri, spoken across Bhojpur, Saran, Siwan, Buxar, and adjacent districts, is one of the most widely spoken dialects of Hindi with a rich oral literary tradition. Bhojpuri folk tales characteristically feature clever commoners outwitting kings and Brahmins, strong women negotiating difficult circumstances, magical transformations, and stories that serve as moral instruction. The proverb tradition of Bhojpuri is particularly rich — thousands of proverbs distil agricultural wisdom, social observation, and philosophical insights. Bhojpuri also has a vast diaspora of folk literature carried by labour migrants to Fiji, Mauritius, Suriname, Trinidad, and Guyana over 150 years, where the oral tradition took root in new soil.The strength of an oral tradition lies in its ability to change while remaining recognisable. A story may be retold with local details, a proverb may acquire a new application, or a performer may add verses while preserving an older narrative structure. This makes oral heritage closely connected to everyday speech, family gatherings, festivals, work, and community teaching. It can preserve ideas about morality, relationships, local history, humour, nature, devotion, migration, and social experience in forms that are memorable and easy to transmit. Because each generation participates in its preservation, the tradition remains a living archive of community memory rather than a fixed literary object.",
+      "origin": "Ancient tradition rooted in the Bhojpur region. The Bhojpuri diaspora's oral tradition was transplanted to the Caribbean and Pacific regions during the 19th-century indenture migration period.Its origins generally extend beyond the earliest surviving written references because oral knowledge often predates formal documentation. Historical texts, regional languages, and later written records can help establish stages of development, but the continuity of the living tradition depends on generations of storytellers, families, performers, and listeners.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.56,
+        "lng": 84.4
+      },
+      "relatedTraditions": [
+        "bidesia",
+        "maithili-oral",
+        "bihula-bishahari"
+      ],
+      "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.aoCeng97og41ys6MARheLwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Bhojpuri Folk Tradition Bihar"
+    },
+    {
+      "id": "folk-poetry",
+      "title": "Folk Poetry & Ballads",
+      "category": "oral-traditions",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "bhojpur",
+        "magadha",
+        "anga"
+      ],
+      "shortDescription": "Bihar's living tradition of folk ballads, narrative poetry and oral compositions — stories of heroism, love, tragedy, and devotion sung across the state.It preserves collective memory through stories, proverbs, riddles, poetry, legends, and spoken narratives, allowing knowledge and values to travel from one generation to the next without depending entirely on written texts.",
+      "description": "Bihar has a rich tradition of folk poetry and ballads (called Biraha, Alha, and various regional forms) that narrate stories of heroism, tragic love, historical events, and religious devotion. These oral compositions are performed by specialist singer-storytellers called Birahiyas, Kathavachaks, or by community storytellers at village gatherings, festivals, and evening assemblies. Biraha songs, particularly in the Bhojpuri tradition, are extended lyrical compositions performed by a lead singer with call-and-response participation by the audience — covering themes of love, separation, social injustice, and current events. The Nirgun tradition (devotional poetry in the Kabir tradition of formless God) has a particularly strong presence in Bihar. These oral poetry traditions serve as the living newspaper, history book, and philosophical discourse of communities, continuously updated with new compositions while maintaining ancient melodic and structural forms.The strength of an oral tradition lies in its ability to change while remaining recognisable. A story may be retold with local details, a proverb may acquire a new application, or a performer may add verses while preserving an older narrative structure. This makes oral heritage closely connected to everyday speech, family gatherings, festivals, work, and community teaching. It can preserve ideas about morality, relationships, local history, humour, nature, devotion, migration, and social experience in forms that are memorable and easy to transmit. Because each generation participates in its preservation, the tradition remains a living archive of community memory rather than a fixed literary object.",
+      "origin": "Rooted in the Bhakti movement traditions of the 15th–17th centuries (Kabir, Dharamdas) and in much older narrative folk song traditions of the Gangetic plain.Its origins generally extend beyond the earliest surviving written references because oral knowledge often predates formal documentation. Historical texts, regional languages, and later written records can help establish stages of development, but the continuity of the living tradition depends on generations of storytellers, families, performers, and listeners.",
+      "imageKey": null,
+      "imageStatus": "NEEDS_IMAGE",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "bhojpuri-folk-tales",
+        "maithili-oral",
+        "chaita"
+      ],
+      "imageUrl": null,
+      "imageSource": null,
+      "imageLicense": null,
+      "imageSearchQuery": "Bihar folk poetry ballad singer storyteller Biraha folk performance"
+    },
+    {
+      "id": "litti-chokha",
+      "title": "Litti-Chokha",
+      "category": "food-customs",
+      "region": "Statewide",
+      "regions": [
+        "bhojpur",
+        "magadha",
+        "champaran"
+      ],
+      "shortDescription": "Bihar's iconic rustic dish — whole wheat balls stuffed with roasted sattu, cooked over cow dung fire or coals, served with charred vegetable mash.It reflects Bihar's agricultural environment, locally available ingredients, cooking practices, seasonal habits, and family traditions, making food an important carrier of regional identity and memory.",
+      "description": "Litti-Chokha is the most iconic traditional food of Bihar and is considered a symbol of Bihari cultural identity. Litti is a dough ball made from whole wheat flour (atta), stuffed with a mixture of roasted gram flour (sattu) seasoned with mustard oil, ajwain, kalonji, green chillies, ginger, garlic, and lime — and traditionally cooked directly on a wood fire or cow dung cakes (uple), giving it a distinctive charred, smoky flavour. Chokha is the accompanying roasted vegetable mash — made from fire-roasted brinjal, tomatoes, and potatoes, mixed with mustard oil, garlic, green chillies, and coriander. The combination is served with a generous drizzle of desi ghee. Litti-Chokha is deeply embedded in Bihar's rural food culture — it is simple, nutritious, requires minimal equipment, and is connected to the landscape, the Sattu grain culture, and the agricultural traditions of the region. It is eaten at festivals, on journeys, at weddings, and as everyday food across Bihar.The cultural importance of the food tradition extends beyond the recipe itself. Ingredients, preparation methods, cooking fuel, serving practices, seasonal availability, and occasions for eating all connect the dish to everyday life in Bihar. Knowledge is commonly transferred through households, where techniques are learned by watching and participating rather than by following a formal written manual. Food can also mark festivals, journeys, hospitality, agricultural cycles, and community celebrations, giving familiar ingredients a wider social meaning. As preparation moves between rural homes, towns, markets, and contemporary kitchens, the tradition can change in presentation while retaining its characteristic flavours and cultural associations.",
+      "origin": "Traditional food deeply embedded in Bihar's agrarian culture for many centuries. The use of sattu (roasted gram) as a food base has been documented in the region since ancient times. Litti-Chokha as a specific preparation has been transmitted through families across generations.Its roots are closely connected with the agrarian food culture of the Gangetic plains and the ingredients traditionally available to Bihari households. The present form represents generations of household adaptation, with recipes and techniques preserved through repeated preparation and family transmission.",
+      "imageKey": "litti-chokha",
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": true,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "sattu",
+        "thekua",
+        "chhath-puja"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Litti%20CHOKHA.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact"
+    },
+    {
+      "id": "thekua",
+      "title": "Thekua",
+      "category": "food-customs",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "bhojpur",
+        "magadha"
+      ],
+      "shortDescription": "The sacred baked sweet of Chhath Puja — a ritual offering made from whole wheat flour, jaggery, and coconut, pressed into decorated moulds and fried.It reflects Bihar's agricultural environment, locally available ingredients, cooking practices, seasonal habits, and family traditions, making food an important carrier of regional identity and memory.",
+      "description": "Thekua is the sacred sweet associated most closely with Chhath Puja, where it is the principal prasad (offering) to the Sun God. Made from whole wheat flour (atta) and jaggery (gur), with the addition of coconut, anise seeds, and sometimes clarified butter (ghee), the dough is pressed into carved wooden moulds called Thekua moulds — each family has its own traditional mould that may be passed down through generations. The shaped sweets are deep-fried in mustard oil or ghee until golden and crisp. Beyond their role as Chhath prasad, Thekua are prepared for auspicious occasions, as travel food, and as ceremonial offerings at other festivals. They can be preserved for many days without refrigeration — an important quality given that they must remain fresh for the full four-day Chhath festival. The tradition of making Thekua is passed from mother to daughter through practice.The cultural importance of the food tradition extends beyond the recipe itself. Ingredients, preparation methods, cooking fuel, serving practices, seasonal availability, and occasions for eating all connect the dish to everyday life in Bihar. Knowledge is commonly transferred through households, where techniques are learned by watching and participating rather than by following a formal written manual. Food can also mark festivals, journeys, hospitality, agricultural cycles, and community celebrations, giving familiar ingredients a wider social meaning. As preparation moves between rural homes, towns, markets, and contemporary kitchens, the tradition can change in presentation while retaining its characteristic flavours and cultural associations.",
+      "origin": "Directly connected to the ancient Chhath Puja tradition. The specific recipe and moulding tradition are preserved in families across Bihar and the diaspora.Its roots are closely connected with the agrarian food culture of the Gangetic plains and the ingredients traditionally available to Bihari households. The present form represents generations of household adaptation, with recipes and techniques preserved through repeated preparation and family transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "chhath-puja",
+        "litti-chokha",
+        "sattu"
+      ],
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Thekua.jpg",
+      "imageSource": "Wikimedia Commons",
+      "imageLicense": null,
+      "imageNote": "exact"
+    },
+    {
+      "id": "tilkut",
+      "title": "Tilkut",
+      "category": "food-customs",
+      "region": "Gaya",
+      "regions": [
+        "gaya",
+        "magadha"
+      ],
+      "shortDescription": "The distinctive sesame-jaggery sweet of Gaya — a labour-intensive traditional confection made during Makar Sankranti, celebrated for its unique texture and flavour.It reflects Bihar's agricultural environment, locally available ingredients, cooking practices, seasonal habits, and family traditions, making food an important carrier of regional identity and memory.",
+      "description": "Tilkut is a traditional sweet from Gaya district, Bihar, made from sesame seeds (til) and jaggery (gur). It is a labour-intensive preparation: sesame seeds are roasted, mixed with boiled jaggery syrup brought to the right consistency, and then beaten repeatedly with a wooden hammer on a stone surface until it develops a distinctive, flaky, layered texture. The resulting confection is shaped into flat discs or broken into pieces. Gaya Tilkut is particularly famous and is closely associated with the Makar Sankranti festival (January), when sesame-based sweets are traditionally consumed across north India. Tilkut-making is a craft in itself — the beating technique requires skill to achieve the right texture. Many tilkut makers of Gaya are generations-old artisans who specialise exclusively in this product. The sweet is sold year-round in Gaya but peaks around Sankranti. It is also offered to pilgrims at the Vishnupad temple.The cultural importance of the food tradition extends beyond the recipe itself. Ingredients, preparation methods, cooking fuel, serving practices, seasonal availability, and occasions for eating all connect the dish to everyday life in Bihar. Knowledge is commonly transferred through households, where techniques are learned by watching and participating rather than by following a formal written manual. Food can also mark festivals, journeys, hospitality, agricultural cycles, and community celebrations, giving familiar ingredients a wider social meaning. As preparation moves between rural homes, towns, markets, and contemporary kitchens, the tradition can change in presentation while retaining its characteristic flavours and cultural associations.",
+      "origin": "Traditional confection of Gaya, associated with the Makar Sankranti festival and the pilgrimage culture of Gaya. Specific historical documentation is limited but the tradition is at least several generations old.Its roots are closely connected with the agrarian food culture of the Gangetic plains and the ingredients traditionally available to Bihari households. The present form represents generations of household adaptation, with recipes and techniques preserved through repeated preparation and family transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 24.79,
+        "lng": 85
+      },
+      "relatedTraditions": [
+        "thekua",
+        "litti-chokha",
+        "pitrapaksha"
+      ],
+      "imageUrl": "https://i.pinimg.com/736x/5a/de/98/5ade982ecb264ca8e18ea9eb32e75640.jpg",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Tilkut Bihar"
+    },
+    {
+      "id": "sattu",
+      "title": "Sattu Culture",
+      "category": "food-customs",
+      "region": "Statewide",
+      "regions": [
+        "mithilanchal",
+        "bhojpur",
+        "magadha",
+        "champaran"
+      ],
+      "shortDescription": "Bihar's ancient superfood — roasted gram flour (sattu) consumed as drink, bread, stuffing and sweet — a living food tradition that sustains millions.It reflects Bihar's agricultural environment, locally available ingredients, cooking practices, seasonal habits, and family traditions, making food an important carrier of regional identity and memory.",
+      "description": "Sattu — roasted gram flour — is at the heart of Bihar's food culture and represents one of the most ancient and nutritionally complete food traditions of the Gangetic plain. Made from roasted chana (Bengal gram) or barley, Sattu has been consumed in the Bihar region for millennia. It forms the filling of Litti (the stuffed wheat ball), is mixed with water and salt for a nourishing drink (Sattu ka sharbat — especially consumed in summer heat), is used as a quick meal mixed with mustard oil, onion, and green chillies (bhuna sattu), and is incorporated into both sweet preparations and festival foods. Sattu is extremely high in protein and fibre, and its long shelf life without refrigeration made it the perfect food for agricultural labourers, travellers, and the historically mobile populations of Bihar. The tradition of consuming Sattu is transmitted culturally through cooking practices in every Bihari household and continues as a daily food for millions.The cultural importance of the food tradition extends beyond the recipe itself. Ingredients, preparation methods, cooking fuel, serving practices, seasonal availability, and occasions for eating all connect the dish to everyday life in Bihar. Knowledge is commonly transferred through households, where techniques are learned by watching and participating rather than by following a formal written manual. Food can also mark festivals, journeys, hospitality, agricultural cycles, and community celebrations, giving familiar ingredients a wider social meaning. As preparation moves between rural homes, towns, markets, and contemporary kitchens, the tradition can change in presentation while retaining its characteristic flavours and cultural associations.",
+      "origin": "One of the oldest food traditions of the Gangetic plain. Sattu-making and consumption are documented in ancient texts as a food of the common people. The tradition has been continuous for thousands of years.Its roots are closely connected with the agrarian food culture of the Gangetic plains and the ingredients traditionally available to Bihari households. The present form represents generations of household adaptation, with recipes and techniques preserved through repeated preparation and family transmission.",
+      "imageKey": null,
+      "imageStatus": "OK",
+      "gallery": [],
+      "featured": false,
+      "mapCoordinates": {
+        "lat": 25.59,
+        "lng": 85.14
+      },
+      "relatedTraditions": [
+        "litti-chokha",
+        "thekua",
+        "chhath-puja"
+      ],
+      "imageUrl": "https://tse4.mm.bing.net/th/id/OIP.w0N_GEQ0JwbqNSMleBGG3gHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "imageSource": "User-provided image URL",
+      "imageLicense": null,
+      "imageSearchQuery": "Sattu Culture Bihar"
+    }
+  ],
+
+
+  
+  "audioTraditions": [
+    {
+      "id": "chaita-audio",
+      "title": "Chaita",
+      "subtitle": "Spring Songs of Bihar",
+      "description": "Melancholic, lyrical folk songs of the spring season expressing renewal and longing.",
+      "region": "Bhojpur & Mithilanchal",
+      "instruments": "Dholak, Harmonium",
+      "duration": "~4–8 min",
+      "audioStatus": "AVAILABLE",
+      "audioUrl": "https://www.youtube.com/results?search_query=Bihar+Chaita+folk+song"
+    },
+    {
+      "id": "sohar-audio",
+      "title": "Sohar",
+      "subtitle": "Birth Celebration Songs",
+      "description": "Joyful songs sung by women to celebrate the birth of a child — a traditional oral repertoire of Bihar.",
+      "region": "Statewide",
+      "instruments": "Voice, Dholak",
+      "duration": "~3–6 min",
+      "audioStatus": "AVAILABLE",
+      "audioUrl": "https://www.youtube.com/results?search_query=Bihar+traditional+Sohar+folk+song"
+    },
+    {
+      "id": "kajari-audio",
+      "title": "Kajari",
+      "subtitle": "Monsoon Folk Songs",
+      "description": "Deeply evocative songs of the rainy season — longing, clouds, and the smell of earth.",
+      "region": "Bhojpur",
+      "instruments": "Harmonium, Tabla",
+      "duration": "~5–10 min",
+      "audioStatus": "AVAILABLE",
+      "audioUrl": "https://biharandjharkhandmusic.com/shardasinha/badariya.htm"
+    },
+    {
+      "id": "hori-audio",
+      "title": "Hori",
+      "subtitle": "Spring Festival Songs",
+      "description": "Folk songs of Holi — playful and devotional songs associated with Krishna and Holi celebrations.",
+      "region": "Statewide",
+      "instruments": "Dholak, Harmonium, Jhanjh",
+      "duration": "~4–7 min",
+      "audioStatus": "AVAILABLE",
+      "audioUrl": "https://www.youtube.com/results?search_query=Bihar+Hori+folk+song+Holi"
+    },
+    {
+      "id": "chhath-geet-audio",
+      "title": "Chhath Geet",
+      "subtitle": "Sacred Songs of Chhath Puja",
+      "description": "Devotional songs dedicated to Chhathi Maiya and the Sun God, forming an important part of Bihar's Chhath tradition.",
+      "region": "Statewide",
+      "instruments": "Voice, traditional accompaniment",
+      "duration": "~3–8 min",
+      "audioStatus": "AVAILABLE",
+      "audioUrl": "https://biharandjharkhandmusic.com/shardasinha/index_shardasinha.htm"
+    },
+    {
+      "id": "ropni-geet-audio",
+      "title": "Ropni Geet",
+      "subtitle": "Paddy Transplanting Songs",
+      "description": "Agricultural songs associated with women working together during paddy transplantation.",
+      "region": "Statewide",
+      "instruments": "Voice (a cappella group)",
+      "duration": "~3–5 min",
+      "audioStatus": "AVAILABLE",
+      "audioUrl": "https://www.youtube.com/results?search_query=Bihar+Ropni+Geet+Paddy+transplanting"
+    },
+    {
+      "id": "katni-geet-audio",
+      "title": "Katni Geet",
+      "subtitle": "Harvest Songs",
+      "description": "Traditional agricultural songs associated with paddy harvesting and rural harvest celebrations.",
+      "region": "Statewide",
+      "instruments": "Voice (a cappella group)",
+      "duration": "~3–5 min",
+      "audioStatus": "AVAILABLE",
+      "audioUrl": "https://www.youtube.com/results?search_query=Bihar+Katni+Geet+harvest+folk+song"
+    },
+    {
+      "id": "vivah-geet-audio",
+      "title": "Vivah Geet",
+      "subtitle": "Wedding Songs",
+      "description": "A large traditional repertoire of wedding songs associated with rituals such as haldi, chumaawan, kanyadaan and bidai.",
+      "region": "Statewide",
+      "instruments": "Voice, Dholak, Shehnai",
+      "duration": "~5–15 min",
+      "audioStatus": "AVAILABLE",
+      "audioUrl": "https://biharandjharkhandmusic.com/bhojpurivivahgeet/index_vivahgeet_bhojpuri.htm"
+    }
+  ],
+
+  "videoTraditions": [
+    {
+      "id": "jat-jatin-video",
+      "title": "Jat-Jatin Dance",
+      "subtitle": "The Playful Domestic Drama of North Bihar",
+      "description": "A North Bihar folk performance depicting the separated lovers Jat and Jatin, traditionally associated with the monsoon and rain-invoking songs.",
+      "region": "Mithilanchal & Kosi",
+      "performers": "Folk performers",
+      "imageKey": "jat-jatin",
+      "videoStatus": "AVAILABLE",
+      "videoUrl": "https://www.youtube.com/watch?v=LlmQ2cLeVR0"
+    },
+    {
+      "id": "jhijhiya-video",
+      "title": "Jhijhiya Dance",
+      "subtitle": "The Lamp-Bearing Folk Dance of Mithila",
+      "description": "A traditional Mithila folk performance in which women dance with perforated earthen vessels containing lamps, associated with ritual prayer and protection from evil.",
+      "region": "Mithilanchal",
+      "performers": "Folk performers of Bihar",
+      "imageKey": "jhijhiya",
+      "videoStatus": "AVAILABLE",
+      "videoUrl": "https://www.youtube.com/watch?v=aqbaPUGjW8Y"
+    },
+    {
+      "id": "bidesia-video",
+      "title": "Bidesia Folk Theatre",
+      "subtitle": "Bhikhari Thakur's Dramatic Heritage",
+      "description": "Bhojpuri folk theatre associated with Bhikhari Thakur, addressing migration, poverty, social relationships and women's lives.",
+      "region": "Bhojpur",
+      "performers": "Traditional Bidesia performers",
+      "imageKey": null,
+      "videoStatus": "AVAILABLE",
+      "videoUrl": "https://www.youtube.com/results?search_query=Bidesia+folk+theatre+Bhikhari+Thakur+Bihar"
+    },
+    {
+      "id": "domkach-video",
+      "title": "Domkach Dance",
+      "subtitle": "Playful Wedding Celebrations",
+      "description": "A traditional Bihar wedding dance involving playful, satirical singing and dancing, especially associated with the household and wedding celebrations.",
+      "region": "Mithila, Bhojpur & Magadh",
+      "performers": "Traditional folk performers",
+      "imageKey": null,
+      "videoStatus": "AVAILABLE",
+      "videoUrl": "https://www.youtube.com/results?search_query=Bihar+Domkach+folk+dance"
+    },
+    {
+      "id": "launda-naach-video",
+      "title": "Launda Naach",
+      "subtitle": "Traditional Cross-Dressing Folk Dance",
+      "description": "A Bhojpuri performance tradition in which male performers portray female characters through dance, music and theatrical performance.",
+      "region": "Bhojpur",
+      "performers": "Traditional Launda Naach performers",
+      "imageKey": null,
+      "videoStatus": "AVAILABLE",
+      "videoUrl": "https://www.youtube.com/watch?v=ydhQhqaHELs"
+    },
+    {
+      "id": "jhumar-video",
+      "title": "Jhumar Dance",
+      "subtitle": "Rhythmic Harvest and Festive Celebration",
+      "description": "A Bihar folk dance accompanied by regional folk songs, featuring rhythmic and swaying movements associated with celebration.",
+      "region": "Bihar",
+      "performers": "Bihar folk dance performers",
+      "imageKey": "dance-heritage",
+      "videoStatus": "AVAILABLE",
+      "videoUrl": "https://www.youtube.com/watch?v=bcDa6jXJDAg"
+    },
+    {
+      "id": "kajari-dance-video",
+      "title": "Kajari Dance",
+      "subtitle": "Monsoon Sway of Joy and Longing",
+      "description": "A seasonal folk performance accompanying Kajari songs, expressing the emotions and atmosphere of the monsoon.",
+      "region": "Bhojpur",
+      "performers": "Folk dance performers",
+      "imageKey": null,
+      "videoStatus": "AVAILABLE",
+      "videoUrl": "https://www.youtube.com/watch?v=VGYrh0uxmws"
+    },
+    {
+      "id": "karma-dance-video",
+      "title": "Karma Dance",
+      "subtitle": "Veneration of the Sacred Karam Tree",
+      "description": "A traditional ritual and folk dance associated with the Karam tree, performed by communities in southern and eastern parts of the region.",
+      "region": "South Bihar & adjoining tribal belt",
+      "performers": "Tribal and rural communities",
+      "imageKey": null,
+      "videoStatus": "AVAILABLE",
+      "videoUrl": "https://www.indianfestivals.in/videos.php"
+    }
+  ]
+}

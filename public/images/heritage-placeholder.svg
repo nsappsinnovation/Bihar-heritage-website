@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5EDD9"/>
+      <stop offset="1" stop-color="#E4D6BC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="none" stroke="#C56A3D" stroke-width="6" stroke-linejoin="round" opacity="0.55">
+    <path d="M420 520 H780"/>
+    <path d="M450 520 V430 H750 V520"/>
+    <path d="M480 430 C480 330 720 330 720 430"/>
+    <path d="M600 330 V290"/>
+    <circle cx="600" cy="280" r="10"/>
+    <path d="M520 520 V460 M600 520 V460 M680 520 V460"/>
+  </g>
+  <text x="600" y="600" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#7A5633" opacity="0.8">Bihar Heritage</text>
+  <text x="600" y="645" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" letter-spacing="4" fill="#8A7560" opacity="0.8">IMAGE COMING SOON</text>
+</svg>

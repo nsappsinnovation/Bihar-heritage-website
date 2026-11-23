@@ -1,0 +1,42 @@
+# Example Nginx server block for hosting the production build (dist/) on a
+# gov.in server. vercel.json does not apply outside Vercel; this mirrors it.
+server {
+    listen 443 ssl http2;
+    server_name example.bihar.gov.in;          # change
+    root /var/www/bihar-heritage/dist;         # change
+
+    # Serve the .br / .gz files that `npm run build` pre-generates.
+    brotli_static on;                          # needs ngx_brotli; remove if unavailable
+    gzip_static on;
+    gzip on;
+    gzip_types text/css application/javascript application/json image/svg+xml;
+
+    # Hashed build files never change: cache for a year.
+    location /assets/ {
+        add_header Cache-Control "public, max-age=31536000, immutable";
+        try_files $uri =404;
+    }
+
+    location /fonts/      { add_header Cache-Control "public, max-age=31536000, immutable"; }
+    location /pdf-worker/ { add_header Cache-Control "public, max-age=604800"; }
+
+    # Always revalidate the HTML so new releases show up immediately.
+    location = /index.html {
+        add_header Cache-Control "no-cache";
+        include /etc/nginx/snippets/bihar-heritage-security.conf;
+    }
+
+    # SPA fallback for client-side routes.
+    location / {
+        try_files $uri /index.html;
+    }
+
+    # MP4 byte-range requests are supported by default (video seeks without full download).
+}
+
+# /etc/nginx/snippets/bihar-heritage-security.conf — same headers as vercel.json.
+#   add_header Content-Security-Policy "default-src 'self'; connect-src 'self';script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests;" always;
+#   add_header X-Frame-Options "DENY" always;
+#   add_header X-Content-Type-Options "nosniff" always;
+#   add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+#   add_header Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), fullscreen=()" always;
