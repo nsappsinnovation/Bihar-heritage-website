@@ -16,7 +16,6 @@ import {
 import detailMap from "../data/detailedInfo.json";
 import { siteMetadata } from "../data/siteMetadata";
 import { defaultExcavations } from "../data/defaults/defaultExcavations";
-import { getData } from "../utils/cmsStorage";
 import { resolveImage, fallbackHeritageImage } from "../utils/heritageImages";
 import { findExcavationBySlug } from "../utils/excavationLinks";
 import { safeHref } from "../utils/safeUrl";
@@ -118,7 +117,7 @@ const ExcavationDetail = () => {
   }, []);
 
   const item = useMemo(() => {
-    const records = getData("bh_excavation_sites", defaultExcavations).filter(
+    const records = defaultExcavations.filter(
       (record) => record.status !== "Draft" && record.status !== "Archived"
     );
     return (

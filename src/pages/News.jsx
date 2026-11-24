@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import {
   CalendarDays,
@@ -7,34 +7,11 @@ import {
   Landmark,
   BookOpen
 } from "lucide-react";
-import { getData } from "../utils/cmsStorage";
 import { defaultNews } from "../data/defaults/defaultNews";
 import NewsBannerImg from "../assets/Banners/NewsBanner.webp";
 
 export default function News() {
-  const [newsData, setNewsData] = useState(() => getData("bh_news", defaultNews));
-
-  // Multi-event synchronization with CMS / localStorage
-  useEffect(() => {
-    const refreshData = () => {
-      const fresh = getData("bh_news", defaultNews);
-      setNewsData(fresh);
-    };
-
-    window.addEventListener("storage", refreshData);
-    window.addEventListener("bh_cms_update", refreshData);
-    window.addEventListener("bh_storage_update", refreshData);
-    window.addEventListener("focus", refreshData);
-    document.addEventListener("visibilitychange", refreshData);
-
-    return () => {
-      window.removeEventListener("storage", refreshData);
-      window.removeEventListener("bh_cms_update", refreshData);
-      window.removeEventListener("bh_storage_update", refreshData);
-      window.removeEventListener("focus", refreshData);
-      document.removeEventListener("visibilitychange", refreshData);
-    };
-  }, []);
+  const newsData = defaultNews;
 
   const iconMap = {
     Exhibition: <Landmark className="w-5 h-5 text-brand-accent" />,
@@ -164,11 +141,11 @@ export default function News() {
                 <div className="md:col-span-2 flex md:justify-end items-center self-center">
                   <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden bg-brand-dark border border-brand-border/60 flex-shrink-0 shadow-sm">
                     <img loading="lazy" decoding="async"
-                      src={news.image || "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=400&auto=format&fit=crop"}
+                      src={news.image || "/images/remote/photo-1585829365295-ab7cd400c167-12707a54.webp"}
                       alt={news.title}
                       className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
                       onError={(e) => {
-                        e.target.src = "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=400&auto=format&fit=crop";
+                        e.target.src = "/images/remote/photo-1585829365295-ab7cd400c167-12707a54.webp";
                       }}
                     />
                   </div>

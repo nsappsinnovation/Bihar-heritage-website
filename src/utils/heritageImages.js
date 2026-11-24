@@ -34,7 +34,7 @@ export const heritageImageMap = {
   "rajgir.jpg": rajgirImg,
   "telhara.jpg": telharaImg,
   "exploration1.jpg":
-    "https://tourism.bihar.gov.in/content/dam/bihar-tourism-aem/destination-detail/rohtasgarh-fort/photo-gallery/Rohtasgarh%20Fort%20(12).jpg/jcr:content/renditions/cq5dam.web.1280.765.webp",
+    "/images/remote/cq5dam-web-1280-765-e0564827.webp",
   "exploration2.jpg": exploration2Img,
   "GolgharImg.jpg": GolgharImg,
   "BodhGayaImg.jpg": BodhGayaImg,

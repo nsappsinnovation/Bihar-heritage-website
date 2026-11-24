@@ -15,7 +15,7 @@ const heritageSites = [
   {
     title: "Rajgir",
     location: "Nalanda, Bihar",
-    image: "https://www.trawell.in/admin/images/upload/125399242Rajgir_Hot_Springs_Main.jpg",
+    image: "/images/remote/125399242rajgir-hot-springs-main-68ccd75b.webp",
     description: "Ancient city with hills, hot springs, and religious significance for Buddhism and Jainism.",
     link: "https://en.wikipedia.org/wiki/Rajgir",
   },
@@ -43,7 +43,7 @@ const heritageSites = [
   {
     title: "Vikramshila University",
     location: "Bhagalpur, Bihar",
-    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/4b/6b/8b/img-20180818-100917-largejpg.jpg?w=1200&h=-1&s=1",
+    image: "/images/remote/img-20180818-100917-largejpg-89efb28d.webp",
     description: "Ancient university for Buddhist studies like Nalanda.",
     link: "https://en.wikipedia.org/wiki/Vikramashila",
   },
@@ -57,21 +57,21 @@ const heritageSites = [
   {
     title: "Takht Sri Patna Sahib",
     location: "Patna, Bihar",
-    image: "https://www.pmc.bihar.gov.in/assets/img/patna%20sahib.jpg",
+    image: "/images/remote/patna-sahib-32051468.webp",
     description: "Birthplace of Guru Gobind Singh, one of the five takhts in Sikhism.",
     link: "https://en.wikipedia.org/wiki/Takht_Sri_Patna_Sahib",
   },
   {
     title: "Vaishali",
     location: "Vaishali, Bihar",
-    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/cc/d5/11/shanti-stupa-vaishali.jpg?w=1200&h=-1&s=1",
+    image: "/images/remote/shanti-stupa-vaishali-436b4549.webp",
     description: "Ancient city linked to Buddha's last sermon and Lord Mahavira's birthplace.",
     link: "https://en.wikipedia.org/wiki/Vaishali_(ancient_city)",
   },
   {
     title: "Barabar Caves",
     location: "Jehanabad, Bihar",
-    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/49/ea/d5/the-barabar-caves-are.jpg?w=1200&h=-1&s=1",
+    image: "/images/remote/the-barabar-caves-are-27d4a151.webp",
     description: "Oldest rock-cut caves in India, dating to the Mauryan era.",
     link: "https://en.wikipedia.org/wiki/Barabar_Caves",
   },
@@ -85,7 +85,7 @@ const heritageSites = [
   {
     title: "Maner Sharif",
     location: "Patna, Bihar",
-    image: "https://s7ap1.scene7.com/is/image/incredibleindia/maner-sharif-dargah-patna-bihar-1-musthead-hero?qlt=82&ts=1742194830579",
+    image: "/images/remote/maner-sharif-dargah-patna-bihar-1-musthe-f0c0d3b1.webp",
     description: "Important Sufi shrine with beautiful Mughal architecture.",
     link: "https://en.wikipedia.org/wiki/Maner_Sharif",
   },

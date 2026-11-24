@@ -1,6 +1,6 @@
 /**
- * URL safety helpers for values that come from editable content (CMS fields,
- * localStorage) and end up in `href` / iframe `src`.
+ * URL safety helpers for values that come from the bundled data files and
+ * end up in `href` / iframe `src`.
  *
  * Both helpers return the original string untouched when it is safe, so
  * existing valid links keep working. When it is not safe, safeHref returns

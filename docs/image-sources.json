@@ -1,0 +1,911 @@
+{
+  "generated": "2026-11-24T12:19:02.848Z",
+  "sources": [
+    {
+      "local": "/audio/audio-1808fbf07a-07073f03.mp3",
+      "source": "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3"
+    },
+    {
+      "local": "/audio/audio-d0a13f69d2-cf06c7b7.mp3",
+      "source": "https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3"
+    },
+    {
+      "local": "/images/remote/0-33905200-1578719857-silk-d31eb347.webp",
+      "source": "https://gumlet.assettype.com/down-to-earth/import/library/large/2020-01-11/0.33905200_1578719857_silk.jpg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&w=1200"
+    },
+    {
+      "local": "/images/remote/1200-13e099bf.webp",
+      "source": "https://picsum.photos/id/1044/900/1200"
+    },
+    {
+      "local": "/images/remote/1200-63a8ab61.webp",
+      "source": "https://picsum.photos/id/1039/900/1200"
+    },
+    {
+      "local": "/images/remote/1200-8c72dce6.webp",
+      "source": "https://picsum.photos/id/1015/900/1200"
+    },
+    {
+      "local": "/images/remote/1200-dd00a898.webp",
+      "source": "https://picsum.photos/id/1018/900/1200"
+    },
+    {
+      "local": "/images/remote/1200-f276c1da.webp",
+      "source": "https://picsum.photos/id/1043/900/1200"
+    },
+    {
+      "local": "/images/remote/122041281-467591b4.webp",
+      "source": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-122041281/122041281.jpg"
+    },
+    {
+      "local": "/images/remote/125399242rajgir-hot-springs-main-68ccd75b.webp",
+      "source": "https://www.trawell.in/admin/images/upload/125399242Rajgir_Hot_Springs_Main.jpg"
+    },
+    {
+      "local": "/images/remote/1322209-pretshila-670e0e60.webp",
+      "source": "https://hindi.cdn.zeenews.com/hindi/sites/default/files/styles/zm_700x400/public/2022/09/15/1322209-pretshila.jpg?itok=bw1Dhn1G"
+    },
+    {
+      "local": "/images/remote/16-sculpture-6-on-the-mound-n4w0yo-419dd52d.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753171919/16._Sculpture_6_on_the_mound_n4w0yo.jpg"
+    },
+    {
+      "local": "/images/remote/17-08-2022-bishari-puja-2022-22986070-11-ce03adfd.webp",
+      "source": "https://www.jagranimages.com/images/newimg/17082022/17_08_2022-bishari_puja_2022_22986070_112325850.webp"
+    },
+    {
+      "local": "/images/remote/2-4280bcc1.webp",
+      "source": "https://purneatimes.wordpress.com/wp-content/uploads/2019/03/2.jpg"
+    },
+    {
+      "local": "/images/remote/2-ad7102fc.webp",
+      "source": "https://images.squarespace-cdn.com/content/v1/578753d7d482e9c3a909de40/7a3d68e0-81af-49ed-9fe2-3290853e16a3/2.jpg"
+    },
+    {
+      "local": "/images/remote/2-side-view-of-the-nepali-temple-qpr4dq-dff63ebc.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753168910/2._Side_view_of_the_nepali_temple_qpr4dq.jpg"
+    },
+    {
+      "local": "/images/remote/2018032844-olwbexnghz5ildoq61ol17eggezzm-99184349.webp",
+      "source": "https://cdn.s3waas.gov.in/s3a4f23670e1833f3fdb077ca70bbd5d66/uploads/bfi_thumb/2018032844-olwbexnghz5ildoq61ol17eggezzm0jneq46vzyw7e.jpeg"
+    },
+    {
+      "local": "/images/remote/20gandhi9-a8f26cb9.webp",
+      "source": "https://im.rediff.com/news/2017/jan/20gandhi9.jpg?h=450&w=450"
+    },
+    {
+      "local": "/images/remote/22-view-of-entrance-to-top-gxrkvp-7143cc4e.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753168958/22._view_of_entrance_to_top_gxrkvp.jpg"
+    },
+    {
+      "local": "/images/remote/37614686394-5ea8580bf2-z-d7401d8c.webp",
+      "source": "https://live.staticflickr.com/4546/37614686394_5ea8580bf2_z.jpg"
+    },
+    {
+      "local": "/images/remote/4-protected-area-of-masahi-tuqixk-d6c9553e.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753172246/4._protected_area_of_Masahi_tuqixk.jpg"
+    },
+    {
+      "local": "/images/remote/47081465-51caf624.webp",
+      "source": "https://static.toiimg.com/thumb/47081465.cms?resizemode=75&width=1200&height=900"
+    },
+    {
+      "local": "/images/remote/5-down-to-up-view-q1w8hi-8d773e0b.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753172787/5._down_to_up_view_q1w8hi.jpg"
+    },
+    {
+      "local": "/images/remote/500px-jain-temple-kamaldah-gulzarbagh-pa-d84b19ca.webp",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Jain_Temple%2C_Kamaldah%2C_Gulzarbagh%2C_Patna%2C_Bihar..JPG/500px-Jain_Temple%2C_Kamaldah%2C_Gulzarbagh%2C_Patna%2C_Bihar..JPG"
+    },
+    {
+      "local": "/images/remote/5ade982ecb264ca8e18ea9eb32e75640-9d09db33.webp",
+      "source": "https://i.pinimg.com/736x/5a/de/98/5ade982ecb264ca8e18ea9eb32e75640.jpg"
+    },
+    {
+      "local": "/images/remote/600x400-62e5d01e.webp",
+      "source": "https://via.placeholder.com/600x400?text=No+Image"
+    },
+    {
+      "local": "/images/remote/9239704568-45f99b5731-z-0ae9ba42.webp",
+      "source": "https://live.staticflickr.com/2821/9239704568_45f99b5731_z.jpg"
+    },
+    {
+      "local": "/images/remote/93462777-8a79281973-b-b744e902.webp",
+      "source": "https://live.staticflickr.com/40/93462777_8a79281973_b.jpg"
+    },
+    {
+      "local": "/images/remote/960px-temple-no-3-nalanda-archaeological-afa1bbd6.webp",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg/960px-Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg"
+    },
+    {
+      "local": "/images/remote/af1qipmj4kw7gwy-rlkf5zno4gbv0mez0hlr5yow-2ee23e71.webp",
+      "source": "https://lh3.googleusercontent.com/p/AF1QipMJ4kW7Gwy-rlKF5zno4gBv0MEz0HlR5yowQVo3=w640-h640-no"
+    },
+    {
+      "local": "/images/remote/agam-kuan-patna-bihar-1-musthead-hero-517734f5.webp",
+      "source": "https://s7ap1.scene7.com/is/image/incredibleindia/agam-kuan-patna-bihar-1-musthead-hero?qlt=82&ts=1726740207337"
+    },
+    {
+      "local": "/images/remote/ancient-mound-bargaon-nalanda-bihar-c0f7d6b4.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_mound%2C_Bargaon_%2C_Nalanda%2C_Bihar.JPG?width=1280"
+    },
+    {
+      "local": "/images/remote/app-172587808266decf42f33f9-1001204951-799a792c.webp",
+      "source": "https://images.bhaskarassets.com/thumb/730x0/web2images/521/2024/09/10/app_172587808266decf42f33f9_1001204951.jpg"
+    },
+    {
+      "local": "/images/remote/arrah-house-73f5b765.webp",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Arrah_House.jpg"
+    },
+    {
+      "local": "/images/remote/banner-77c254df.webp",
+      "source": "https://tourism.bihar.gov.in/content/dam/bihar-tourism-aem/destination-detail/surya-mandir-kandaha/banner.jpg"
+    },
+    {
+      "local": "/images/remote/barabar-caves-sudama-cave-entrance-92246-c315c461.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Barabar_Caves_-_Sudama_Cave_Entrance_%289224604879%29.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/bateshwar-sthan-caves-176c7c83.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Bateshwar_sthan_caves.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/bhikhari-thakur-a786523d.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Bhikhari%20Thakur.jpg"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-conservation-wor-c663dfa4.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FConservation%20Workshop.jpg?alt=media&token=5bb2c711-0eda-4d30-8000-78a4650f7d2b"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-environment-day--379af010.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FEnvironment%20Day%20Seminar.jpg?alt=media&token=f8b98fcd-a1a0-4d87-b22c-de43a4176b62"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-environment-day--988ae382.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FEnvironment%20Day%20Dance.jpg?alt=media&token=ac31de31-5034-44f5-affd-ad8127989c80"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-heritage-day-ina-95e7b5a7.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FHeritage%20Day%20Inauguration.jpg?alt=media&token=957b7e1f-1de5-4c54-8114-226556305ae1"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-heritage-utsav-b-4bc61138.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FHeritage%20Utsav%20Bodhgaya.jpg?alt=media&token=5b5a61a2-e1a6-46a4-adda-41696da79508"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-heritage-week-ex-a77103a2.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FHeritage%20Week%20Exhibition.jpg?alt=media&token=3da02400-7617-4606-bfc9-bbb6374c46df"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-heritage-week-le-2fa497dc.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FHeritage%20Week%20Lecture.jpg?alt=media&token=e5c7cbf9-bc80-484e-958d-6a19e41a1ee3"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-indpe-fort-jamui-b2275881.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FIndpe%20Fort%2C%20Jamui.jpg?alt=media&token=f8acec59-0491-40be-b81f-f28f82448498"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-lali-pahadi-exca-8f7a8c5f.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FLali%20Pahadi%20Excavation.jpg?alt=media&token=c944698f-0914-4809-9d92-63900194670f"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-magadh-lecture-81c7fdcc.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FMagadh%20Lecture.jpg?alt=media&token=f6d33e36-0ebb-401a-a25a-588b7ed3c105"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-mahabodhi-temple-b8b1b20c.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FMahabodhi%20Temple%20Walk.jpg?alt=media&token=26dd218f-2b9a-4efa-a266-24eae09b42b6"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-nepali-temple-vi-f2ab68c7.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FNepali%20Temple%20Visit.jpg?alt=media&token=c42b81ef-5482-41b9-aa9f-bf657611d948"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-patna-university-3feb4f2f.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FPatna%20University%20Session.jpg?alt=media&token=ccf33798-4e72-40c8-8b22-9632359a175c"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-seminar-highligh-05ae403c.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FSeminar%20Highlights.jpg?alt=media&token=73b52bb7-7cf8-449d-9001-f460a3fcffaa"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-telhara-conserva-a5ef223d.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FTelhara%20Conservation%20Work.jpg?alt=media&token=3fd9cb45-be32-438f-ba47-351cd408ba84"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-telhara-expert-v-b5777d6d.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FTelhara%20Expert%20Visit.jpg?alt=media&token=cc4d440f-1f18-4445-9165-7aa54056487a"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-women-in-archaeo-a5ae8e91.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FWomen%20in%20Archaeology.jpg?alt=media&token=732091a3-1b92-4604-afb0-26e4bf185848"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-activity-world-heritage-d-f56eda8f.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/Bihar%20Heritage%2FActivity%2FWorld%20Heritage%20Day.jpg?alt=media&token=805ea386-be78-4b74-a98e-770d727e559a"
+    },
+    {
+      "local": "/images/remote/bihar-heritage-olympiad-blog-november-25-72521405.webp",
+      "source": "https://worldheritageolympiad.org/uploads/blog/Bihar%20Heritage%20Olympiad_Blog_%20November%2025,%202024%20-%20Copy.jpg"
+    },
+    {
+      "local": "/images/remote/biharfilm-home-secy-dd96e36c.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/biharfilm%2Fhome_secy.jpeg?alt=media&token=2f9b010e-0fed-4627-949d-a4779308a995"
+    },
+    {
+      "local": "/images/remote/buddha-relic-stupa-vaishali-8-41f798dc.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Buddha_Relic_Stupa_-_Vaishali_%288%29.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/caption-91b7cd5f.webp",
+      "source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/bc/92/a7/caption.jpg?w=1200&h=1200&s=1"
+    },
+    {
+      "local": "/images/remote/chirand44-2025-12-56508bf18114c15a79bad3-ba47c939.webp",
+      "source": "https://images.news18.com/ibnkhabar/uploads/2025/12/chirand44-2025-12-56508bf18114c15a79bad3f39baa3c15.png"
+    },
+    {
+      "local": "/images/remote/cq5dam-web-1280-765-e0564827.webp",
+      "source": "https://tourism.bihar.gov.in/content/dam/bihar-tourism-aem/destination-detail/rohtasgarh-fort/photo-gallery/Rohtasgarh%20Fort%20(12).jpg/jcr:content/renditions/cq5dam.web.1280.765.webp"
+    },
+    {
+      "local": "/images/remote/cyclopean-wall-rajgir-01-4ebaf684.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyclopean_Wall_-_Rajgir_01.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/daud-khan-fort-aurangabad-7-551e5afb.webp",
+      "source": "https://i0.wp.com/indianvagabond.com/wp-content/uploads/2023/10/Daud-Khan-Fort-Aurangabad-7.jpg?resize=1024%2C684&ssl=1"
+    },
+    {
+      "local": "/images/remote/domkach-dance-m3-1931be35.webp",
+      "source": "https://www.artistmanagementcompanies.in/danceforms/image/domkach-dance-m3.jpg"
+    },
+    {
+      "local": "/images/remote/erxtfhrvoay0w-7-9494aeab.webp",
+      "source": "https://pbs.twimg.com/media/ErXTfhrVoAY0w-7?format=jpg&name=4096x4096"
+    },
+    {
+      "local": "/images/remote/fa06a86d-0b0c-4cb1-a3a4-929626e71ffc-174-ab1cf59a.webp",
+      "source": "https://images.bhaskarassets.com/web2images/521/2025/03/16/fa06a86d-0b0c-4cb1-a3a4-929626e71ffc_1742062070568.jpg"
+    },
+    {
+      "local": "/images/remote/ghora-katora-lake-rajgir-511a5f47.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Ghora_Katora_Lake%2C_Rajgir.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/gol-ghar-patna-bihar-1-attr-hero-35cc2bdf.webp",
+      "source": "https://s7ap1.scene7.com/is/image/incredibleindia/gol-ghar-patna-bihar-1-attr-hero?qlt=82&ts=1726740340434"
+    },
+    {
+      "local": "/images/remote/gopika-cave-outside-33a4c6e4.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Gopika_cave_outside.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/hindustan-special-in-whose-house-mahadev-9c659eab.webp",
+      "source": "https://www.livehindustan.com/lh-img/uploadimage/library/2023/07/31/16_9/16_9_6/hindustan_special_in_whose_house_mahadev_mahadev_was_servant_his_wife_commanding_lordcshiva_maithil__1690775434.jpg"
+    },
+    {
+      "local": "/images/remote/hindustan-special-navratna-fort-of-raja--e8f05eb6.webp",
+      "source": "https://www.livehindustan.com/lh-img/uploadimage/library/2023/10/03/16_9/16_9_6/hindustan_special_navratna_fort_of_raja_bhoj_became_ruins_many_stories_of_history_are_present_here_b_1696313402.JPEG"
+    },
+    {
+      "local": "/images/remote/hqdefault-20dcdce5.webp",
+      "source": "https://img.youtube.com/vi/bivZV2J8NnI/hqdefault.jpg"
+    },
+    {
+      "local": "/images/remote/hqdefault-48b66799.webp",
+      "source": "https://img.youtube.com/vi/4KQ4awJe5MM/hqdefault.jpg"
+    },
+    {
+      "local": "/images/remote/hqdefault-5eae40f4.webp",
+      "source": "https://img.youtube.com/vi/qcn8Mfl1Ogk/hqdefault.jpg"
+    },
+    {
+      "local": "/images/remote/hqdefault-6bfcd907.webp",
+      "source": "https://img.youtube.com/vi/1u1bKreoPHg/hqdefault.jpg"
+    },
+    {
+      "local": "/images/remote/images-41ae1fb3.webp",
+      "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpkyz8oE4DgWWcRm1t9SafrV6u23dnrL6Q2OhZTsykQ"
+    },
+    {
+      "local": "/images/remote/images-49b0a3a8.webp",
+      "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZUpGg4LPeL1xiXs0EtcGRe6K0L3GrL2EAF-L0x_sbGw&s=10"
+    },
+    {
+      "local": "/images/remote/images-84a2a6eb.webp",
+      "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpkyz8oE4DgWWcRm1t9SafrV6u23dnrL6Q2OhZTsykQ&s=10"
+    },
+    {
+      "local": "/images/remote/images-93c26e9c.webp",
+      "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYFiiQ4rADBUeEs7ZCMnswvZ6UzuGbZ0-kZUkg9Uitw&s=10"
+    },
+    {
+      "local": "/images/remote/images-a63c1e8c.webp",
+      "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuuAVC8kX1UICccM7YGHO5kVKW9Tavz9T-pv3bWN_ISg&s=10"
+    },
+    {
+      "local": "/images/remote/images-d7b1caf1.webp",
+      "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCsnIyrgT8xQXI_Hsw_reWwOvSmsCz-1-IG3Z9swSnX1A5ofcOKXTF6-o&s=10"
+    },
+    {
+      "local": "/images/remote/images-e9fffd3b.webp",
+      "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4hP0aybObZdkyslIYD5wVN9Y7K-TPA9WPKcsFP7fK12gDvb-CdM9pVY&s=10"
+    },
+    {
+      "local": "/images/remote/img-20180818-100917-largejpg-89efb28d.webp",
+      "source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/4b/6b/8b/img-20180818-100917-largejpg.jpg?w=1200&h=-1&s=1"
+    },
+    {
+      "local": "/images/remote/jhijhiya-dance-of-mithila-region-4725fef4.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Jhijhiya%20Dance%20of%20Mithila%20region.jpg"
+    },
+    {
+      "local": "/images/remote/jitiya-1696503411665-1696503423222-1e5a3a40.webp",
+      "source": "https://www.hindustantimes.com/ht-img/img/2023/10/05/550x309/jitiya_1696503411665_1696503423222.jpg"
+    },
+    {
+      "local": "/images/remote/karan-chaupar-cave-19d93f34.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Karan_Chaupar_Cave.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/kesariya-stupa-cover-oo-aadi-1a2e9c8a.webp",
+      "source": "https://kesariyastupa.com/stupa-images/kesariya-stupa-cover-oo_aadi.jpg"
+    },
+    {
+      "local": "/images/remote/kitlv-88145-unknown-buddha-sculpture-at--c6f22c0c.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/KITLV_88145_-_Unknown_-_Buddha_sculpture_at_Ghenjan_in_British_India_-_1897.tif?width=1280"
+    },
+    {
+      "local": "/images/remote/kolhua-ashok-pillar-b82e6b0f.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolhua_ashok_pillar.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/kurisarai-village-rock-carvings-55-50c105a3.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurisarai_Village_Rock_Carvings_55.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/kurisarai-village-rock-carvings-63-cc7cf69c.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurisarai_Village_Rock_Carvings_63.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/lauriya-nandangarh-ashoka-pillar-front-549118fd.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Lauriya_Nandangarh_Ashoka_Pillar_front.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/m-aranya-devi-temple-1-l-480-640-4435f7be.webp",
+      "source": "https://hblimg.mmtcdn.com/content/hubble/img/Arrah_imgs/mmt/activities/m_Aranya_devi_temple_1_l_480_640.jpg"
+    },
+    {
+      "local": "/images/remote/m-barabar-caves-3-l-400-600-5012fd22.webp",
+      "source": "https://hblimg.mmtcdn.com/content/hubble/img/gaya_imgs/mmt/activities/m_Barabar_caves_3_l_400_600.jpg"
+    },
+    {
+      "local": "/images/remote/m-gaya-ramshila-hill-7-l-600-800-17880ae8.webp",
+      "source": "https://hblimg.mmtcdn.com/content/hubble/img/ttds/mmt/activities/t_ufs/m_Gaya_Ramshila_Hill_7_l_600_800.jpg"
+    },
+    {
+      "local": "/images/remote/maner-sharif-dargah-patna-bihar-1-musthe-f0c0d3b1.webp",
+      "source": "https://s7ap1.scene7.com/is/image/incredibleindia/maner-sharif-dargah-patna-bihar-1-musthead-hero?qlt=82&ts=1742194830579"
+    },
+    {
+      "local": "/images/remote/manjusha-01-002d857c.webp",
+      "source": "https://www.folkartopedia.com/wp-content/uploads/2020/03/Manjusha-01.jpg"
+    },
+    {
+      "local": "/images/remote/mauryan-remains-of-wooden-palissade-at-b-8c481375.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mauryan_remains_of_wooden_palissade_at_Bulandi_Bagh_site_of_Pataliputra_ASIEC_1912-13.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/maxresdefault-285082fe.webp",
+      "source": "https://i.ytimg.com/vi/9mfFA2WR3_U/maxresdefault.jpg"
+    },
+    {
+      "local": "/images/remote/maxresdefault-7b8b683b.webp",
+      "source": "https://i.ytimg.com/vi/yeRYTXw_3IM/maxresdefault.jpg"
+    },
+    {
+      "local": "/images/remote/msid-52430772-width-96-height-65-cec9963c.webp",
+      "source": "https://static.toiimg.com/photo/msid-52430772,width-96,height-65.cms"
+    },
+    {
+      "local": "/images/remote/mundeshwari-temple-f3457f4c.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mundeshwari_temple.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/n-br-39-ashokan-pillar-vaishali-2813-29-5cbc89a0.webp",
+      "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ3cZqDM8Sg4EPVkwAdHuilUV5TaKSPsLfI7vnbLxck_LbH5AmFDJSBOsN1fmR-Ww_WjmVCjfHFQ1b2ME_i7hbODPmDMV1O9aWQAjsgqeduLwDd8dahbIEOuinKeJuYhz6fuPc1Du4KdIq/s1008/N-BR-39_Ashokan_Pillar_Vaishali_%252813%2529.jpg"
+    },
+    {
+      "local": "/images/remote/nandan-gadh-stupa-champaran-lauria-256d873b.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Nandan_Gadh_Stupa_Champaran_Lauria.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/oip-096a15a6.webp",
+      "source": "https://tse2.mm.bing.net/th/id/OIP.aoCeng97og41ys6MARheLwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "local": "/images/remote/oip-4gbtdf-fdxz1o7qbcpq6gghaek-9c2ade03.webp",
+      "source": "https://tse2.mm.bing.net/th/id/OIP.4gBtdF_fDXz1o7QbCpq6GgHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "local": "/images/remote/oip-9vkgwbwxy-2dkntvd2youghaek-2aedfaa5.webp",
+      "source": "https://tse1.explicit.bing.net/th/id/OIP.9VkGwBWXy-2dkntvD2YOugHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "local": "/images/remote/oip-gy-8usrmy7ohxd2gyqljcqhafj-6565c60d.webp",
+      "source": "https://tse4.mm.bing.net/th/id/OIP.gY_8UsRMY7ohxD2GYQlJcQHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "local": "/images/remote/oip-ilt2horzdsa-qdi2rerpgwhaek-01cc1153.webp",
+      "source": "https://tse2.mm.bing.net/th/id/OIP.iLt2HorZdSa_qdi2RERPGwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "local": "/images/remote/oip-w0n-geq0jwbqnsmlebgg3ghae7-16a27a7a.webp",
+      "source": "https://tse4.mm.bing.net/th/id/OIP.w0N_GEQ0JwbqNSMleBGG3gHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "local": "/images/remote/orig-21patna-city-pg-2-01-1661123103-217b992b.webp",
+      "source": "https://images.bhaskarassets.com/webp/thumb/512x0/web2images/521/2022/08/22/orig_21patna-city-pg-2-01_1661123103.jpg"
+    },
+    {
+      "local": "/images/remote/patna-sahib-32051468.webp",
+      "source": "https://www.pmc.bihar.gov.in/assets/img/patna%20sahib.jpg"
+    },
+    {
+      "local": "/images/remote/photo-1461360370896-922624d12aa1-e2e2d51d.webp",
+      "source": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=800&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1506784983877-45594efa4cbe-d1ccde3b.webp",
+      "source": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1506880018603-83d5b814b5a6-413f7e74.webp",
+      "source": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=800&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1507842217343-583bb7270b66-d4eb6f29.webp",
+      "source": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1600&auto=format&fit=crop&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1511578314322-379afb476865-7bb9b7af.webp",
+      "source": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=1600&auto=format&fit=crop&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1524492412937-b28074a5d7da-42ffe6c1.webp",
+      "source": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1533174072545-7a4b6ad7a6c3-33dbaae1.webp",
+      "source": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1544644181-1484b3fdfc62-4d05cb0e.webp",
+      "source": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=1200&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1544644181-1484b3fdfc62-539d9d91.webp",
+      "source": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1544644181-1484b3fdfc62-987d9fdd.webp",
+      "source": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=400&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1544735716-392fe2489ffa-9aa011f5.webp",
+      "source": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1548013146-72479768bada-d369989e.webp",
+      "source": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1564507592333-c60657eea523-a198d177.webp",
+      "source": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1567157577867-05ccb1388e66-4533806b.webp",
+      "source": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1572099606223-6e29045d7de3-8972db17.webp",
+      "source": "https://images.unsplash.com/photo-1572099606223-6e29045d7de3?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1582201942988-13e60e4556ee-edce3820.webp",
+      "source": "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1582510003544-4d00b7f74220-ff995634.webp",
+      "source": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1585829365295-ab7cd400c167-12707a54.webp",
+      "source": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=400&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1585829365295-ab7cd400c167-9a32c183.webp",
+      "source": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&auto=format&fit=crop"
+    },
+    {
+      "local": "/images/remote/photo-1587474260584-136574528ed5-26181deb.webp",
+      "source": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1590050752117-238cb0fb12b1-dc3c9ff0.webp",
+      "source": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1590050752117-238cb0fb12b1-ed8a5f46.webp",
+      "source": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1598890777032-bde835ba27c2-b66629ae.webp",
+      "source": "https://images.unsplash.com/photo-1598890777032-bde835ba27c2?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1599661046289-e31897846e41-5f74d88e.webp",
+      "source": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1605649487212-47bdab064df7-8dc44ef8.webp",
+      "source": "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1609137144813-7d9921338f24-62ae3aad.webp",
+      "source": "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-1626621341517-bbf3d9990a23-a27c2c90.webp",
+      "source": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "local": "/images/remote/photo-81057361.webp",
+      "source": "https://static.toiimg.com/thumb/msid-107498889,width-1280,height-720,imgsize-212986,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
+    },
+    {
+      "local": "/images/remote/raja-vishal-ka-garh-58199531.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Raja_Vishal_Ka_Garh.JPG?width=1280"
+    },
+    {
+      "local": "/images/remote/rohtasgarh-fort-front-view-0211e284.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Rohtasgarh_Fort_Front_View.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/ruins-of-patliputra-at-kumhrar-da15fa61.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruins_of_Patliputra_at_Kumhrar.JPG?width=1280"
+    },
+    {
+      "local": "/images/remote/ruins-of-vikramshila-university-broken-p-06a9b091.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruins_of_Vikramshila_University_%28broken_pillars%29.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/sama-chakeva-festival-da169e7e.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Sama%20Chakeva%20Festival.jpg"
+    },
+    {
+      "local": "/images/remote/shanti-stupa-vaishali-436b4549.webp",
+      "source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/cc/d5/11/shanti-stupa-vaishali.jpg?w=1200&h=-1&s=1"
+    },
+    {
+      "local": "/images/remote/sher-shah-suri-tomb-ffa64dc1.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Sher_Shah_Suri_Tomb.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/sonepur-cattle-fair-00-f36023f8.webp",
+      "source": "https://caleidoscope.in/wp-content/uploads/2024/04/Sonepur-Cattle-Fair-00.jpg"
+    },
+    {
+      "local": "/images/remote/startup-bihar-officers-acs-industry-c4b14680.webp",
+      "source": "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/startup_bihar%2FOfficers%2FACS%20Industry.jpeg?alt=media&token=48a4ed7a-4f70-4113-b59b-de5ecb9aa6c3"
+    },
+    {
+      "local": "/images/remote/sujini-embroidery-work-of-bihar-storytel-deef93a0.webp",
+      "source": "https://cdn.shopify.com/s/files/1/0686/9437/6495/files/sujini-embroidery-work-of-bihar-storytelling-textile-craft-make-an-image-about-this-topic-that-refers-to-the-atistry-and-craftmanship-of-the-product.png?v=1770725411"
+    },
+    {
+      "local": "/images/remote/tank-maner-sharif-c2f0da4d.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Tank_Maner_Sharif.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/temple-6b0df882.webp",
+      "source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d2/78/f4/temple.jpg?w=500&h=500&s=1"
+    },
+    {
+      "local": "/images/remote/temple-buddhist-mahabodhi-bihar-india-bo-c34c50cb.webp",
+      "source": "https://cdn.britannica.com/12/94612-050-B4EEB84A/temple-Buddhist-Mahabodhi-Bihar-India-Bodh-Gaya.jpg"
+    },
+    {
+      "local": "/images/remote/the-barabar-caves-are-27d4a151.webp",
+      "source": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/49/ea/d5/the-barabar-caves-are.jpg?w=1200&h=-1&s=1"
+    },
+    {
+      "local": "/images/remote/tomb-of-hasan-khan-suri-at-sasaram-bihar-d219f18b.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_Hasan_Khan_Suri_at_Sasaram%2C_Bihar_02.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/tomb-of-makhdum-shah-daulat-and-ibrahim--ee9bd727.webp",
+      "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_Makhdum_Shah_Daulat_and_Ibrahim_Khan_-_Maner_-_Main_Entrance.jpg?width=1280"
+    },
+    {
+      "local": "/images/remote/vishnupad-temple-de7a7ce9ce-b48b9c0c.webp",
+      "source": "https://puja.viaveda.in/wp-content/uploads/2024/11/Vishnupad_Temple_de7a7ce9ce.webp"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-11-54-df-d3d056fe.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085450/WhatsApp_Image_2025-07-21_at_13.11.54_df40eaaa_hqjx3c.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-15-17-b1-136d2d2b.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085449/WhatsApp_Image_2025-07-21_at_13.15.17_b1014d8e_rb1jyu.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-16-53-d1-6bd62af5.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085450/WhatsApp_Image_2025-07-21_at_13.16.53_d1cbbe4c_fh2zpa.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-18-34-67-9ba69acc.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085450/WhatsApp_Image_2025-07-21_at_13.18.34_673ec7e7_uhvk8e.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-21-20-b4-460fe23b.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085451/WhatsApp_Image_2025-07-21_at_13.21.20_b46a6132_ivsbdi.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-23-47-13-a39ce459.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085455/WhatsApp_Image_2025-07-21_at_13.23.47_13c2f410_cjfezx.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-25-01-19-4b891107.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085452/WhatsApp_Image_2025-07-21_at_13.25.01_1918ab64_ajetxu.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-25-41-fc-636d44ef.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085455/WhatsApp_Image_2025-07-21_at_13.25.41_fc2e6cef_re9w4m.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-26-57-02-a46b2409.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085452/WhatsApp_Image_2025-07-21_at_13.26.57_025c0e8a_jcykh3.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-28-35-18-f3db6ddb.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085449/WhatsApp_Image_2025-07-21_at_13.28.35_18a1b46c_cbnwly.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-30-50-b6-d2942489.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085451/WhatsApp_Image_2025-07-21_at_13.30.50_b6db8d2e_t1r9gw.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-33-06-b4-f9da4b27.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085451/WhatsApp_Image_2025-07-21_at_13.33.06_b48d2778_tiqdoj.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-13-34-11-32-e314ca57.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753085450/WhatsApp_Image_2025-07-21_at_13.34.11_3201a620_s1ft1e.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-16-37-14-39-2a199873.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753096056/WhatsApp_Image_2025-07-21_at_16.37.14_39aff1bb_ssgkly.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-21-at-16-50-31-2f-90ee7267.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753096898/WhatsApp_Image_2025-07-21_at_16.50.31_2f177565_wyhcbz.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-22-at-13-12-56-4b-333822bb.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753170187/WhatsApp_Image_2025-07-22_at_13.12.56_4b8303ee_zym5f0.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-22-at-13-43-33-19-e729a3a4.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753172031/WhatsApp_Image_2025-07-22_at_13.43.33_19aff6d5_parfbi.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-22-at-13-48-53-27-f4a990ca.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753172343/WhatsApp_Image_2025-07-22_at_13.48.53_27fd8e0c_z7oyir.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-22-at-13-50-21-54-3bd802bf.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753172438/WhatsApp_Image_2025-07-22_at_13.50.21_549ad5df_aalnea.jpg"
+    },
+    {
+      "local": "/images/remote/whatsapp-image-2025-07-22-at-13-52-41-d7-9f6b62c1.webp",
+      "source": "https://res.cloudinary.com/depfrkqat/image/upload/v1753172576/WhatsApp_Image_2025-07-22_at_13.52.41_d7be9bb4_mnn5ve.jpg"
+    },
+    {
+      "local": "/images/remote/women-farmers-working-in-the-fields-in-p-3db94ac4.webp",
+      "source": "https://www.hindustantimes.com/ht-img/img/2026/02/03/cropped/16-9/Women-farmers-working-in-the-fields-in-Patna-on-Tu_1770140525169_1770155179166.jpg"
+    },
+    {
+      "local": "/images/remote/women-performing-jhijhiya-dance-296b264c.webp",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Women_performing_Jhijhiya_dance.jpg"
+    },
+    {
+      "local": "/images/remote/xyz-62-88d29771.webp",
+      "source": "https://cultureandheritage.org/wp-content/uploads/2023/06/xyz-62.jpg"
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manjusha%20drawing.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madhubani%20painting,%20Bihar.jpg",
+      "reason": "HTTP 429 (host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TIkuli%20Art.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sikki%20Grass%20Craft%20by%20artisan%20Nazda%20Khatun%20of%20Bihar%2001.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chath%20puja%20(festival%20of%20bihar%20).jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patna%20Kalamkari%20painting.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mithila-Madhushrabani.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pitrapaksha%20ceremony%20Gaya%20Ji%20India%204.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koeri%20women%20celebrating%20Chhath.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jat%20Jatni%20Bihar.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://seawatersports.com/images/places/ahilya-sthan.png",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/IMG_B6465FF4640F-1.jpg/1280px-IMG_B6465FF4640F-1.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Minto_tower%2CGidhaur.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bihar%20Folk%20Dance%20Jhumar.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Litti%20CHOKHA.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thekua.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Rocks_of_Colgong_-_British_Library_X757%287%29.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock_sculptures.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bulandi_Bagh_excavations_Pataliputra.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Chanki_garh%2C_West_Champaran.jpg/960px-Chanki_garh%2C_West_Champaran.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_Malik_Ibrahim_Bayu.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rampurva_pillars_of_Ashoka.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashoka_pillar%2C_Lauriya-Araraj.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kesariya_Stupa_-kesariya-_east_champaran-_Bihar.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Buddist_stupa_at_Sagardih_in_East_Champaran_Bihar.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sujata_Garh.JPG/960px-Sujata_Garh.JPG",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vadathika_and_Vapiyaka_caves.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vapiyaka_cave_entrance.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://img.youtube.com/vi/DS3nZ7uL5Xw/hqdefault.jpg",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://img.youtube.com/vi/KqY8H7Tf1L0/hqdefault.jpg",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Sher_Shah_Suri_Tomb.jpg/960px-Sher_Shah_Suri_Tomb.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple_at_Konch%2C_India_-_DPLA_-_addddf68f1b83cb984466ee8f54d3592.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600100397608-f010e423b971?auto=format&fit=crop&w=900&q=80",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1609946850022-7901b0b556f8?auto=format&fit=crop&w=900&q=80",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1588083949439-d4190c1e8436?auto=format&fit=crop&w=900&q=80",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Buxar_fort%2C_river_face.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1627894083067-72b9c79ab698?auto=format&fit=crop&w=900&q=80",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1590766940554-634a7ed41440?auto=format&fit=crop&w=900&q=80",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1610444390623-aa4eb5d38865?auto=format&fit=crop&w=900&q=80",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shamshernagar_Bihar_Historical_Tomb_Front_View.jpg?width=1280",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Kabuli_Gate_-_Rohtas_Fort_by_Usman_Ghani.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Golghar_%E0%A5%AA.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Rohtasgarh_Fort_Entrance.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Vishnupad_temple_gaya_bihar.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Sher_Shah_Suri_Tomb.jpg",
+      "reason": "HTTP 429 (skipped: host is throttling us, retry later)"
+    }
+  ]
+}

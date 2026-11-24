@@ -1,7 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Compass } from "lucide-react";
-import { getData, STORAGE_KEYS } from "../../utils/cmsStorage";
 import { defaultHeritageArchives } from "../../data/defaults/cmsDefaults";
 import AccordionGallery from "../../components/AccordionGallery/AccordionGallery";
 
@@ -38,7 +37,7 @@ const resolveArchiveImage = (img) => {
 const ExploreHeritageSites = () => {
   const getArchiveData = () => {
     const isSiteActive = (s) => (s.status || "Active") !== "Draft" && (s.status || "Active") !== "Inactive";
-    const raw = getData(STORAGE_KEYS?.HERITAGE_ARCHIVES || "bh_heritage_archives", defaultHeritageArchives);
+    const raw = defaultHeritageArchives;
     if (Array.isArray(raw) && raw.length > 0) {
       const active = raw.filter(isSiteActive);
       return active.length > 0 ? active : raw;
@@ -46,25 +45,8 @@ const ExploreHeritageSites = () => {
     return defaultHeritageArchives;
   };
 
-  const [archivesList, setArchivesList] = useState(getArchiveData);
+  const archivesList = getArchiveData();
 
-  useEffect(() => {
-    const handleSync = () => {
-      setArchivesList(getArchiveData());
-    };
-
-    window.addEventListener("storage", handleSync);
-    window.addEventListener("bh_storage_update", handleSync);
-    window.addEventListener("bh_cms_update", handleSync);
-    window.addEventListener("focus", handleSync);
-
-    return () => {
-      window.removeEventListener("storage", handleSync);
-      window.removeEventListener("bh_storage_update", handleSync);
-      window.removeEventListener("bh_cms_update", handleSync);
-      window.removeEventListener("focus", handleSync);
-    };
-  }, []);
 
   // Convert archive data to AccordionGallery items format
   const galleryItems = archivesList.map((site) => ({

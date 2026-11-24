@@ -1,10 +1,7 @@
 /**
- * Default CMS Data — consolidated default datasets for every module.
- * These are used to initialize localStorage on first load.
- * 
- * NOTE: Pages that import asset files (images, PDFs) directly cannot
- * have their data fully serialized. For those modules, the default data
- * is kept inline in the page component and passed to getData() at runtime.
+ * Site content — consolidated datasets for every section of the website.
+ * This is static content bundled into the build; to change it, edit the data
+ * files in this folder and redeploy.
  */
 
 export { default as defaultProtectedSites } from "./defaultProtectedSites.json";

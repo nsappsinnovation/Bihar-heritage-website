@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 // Load defaults, shared metadata & CMS helper
 import { defaultExcavations } from "../../data/defaults/defaultExcavations";
 import { siteMetadata } from "../../data/siteMetadata";
-import { getData } from "../../utils/cmsStorage";
 import { resolveImage, fallbackHeritageImage } from "../../utils/heritageImages";
 import ExcavationRecordModal from "../../components/common/ExcavationRecordModal";
 
@@ -44,8 +43,8 @@ const ExcavationCarousel = () => {
   const [[currentIndex, _direction], setCurrentIndexAndDirection] = useState([0, 0]);
   const [modalItem, setModalItem] = useState(null);
 
-  // Load dynamically from localStorage synchronized with admin Excavation CMS
-  const localData = getData("bh_excavation_sites", defaultExcavations);
+  
+  const localData = defaultExcavations;
 
   const excavationSites = localData.filter(
     (item) => (item.type || "excavation") === "excavation" && item.status !== "Draft" && item.status !== "Archived"

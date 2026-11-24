@@ -16,7 +16,6 @@ import {
   FileText
 } from "lucide-react";
 import { useLenis } from "lenis/react";
-import { getData } from "../utils/cmsStorage";
 import { defaultWorkshops } from "../data/defaults/defaultWorkshops";
 
 const ALL_STANDARD_CATEGORIES = [
@@ -76,7 +75,7 @@ const ActivityDetailModal = ({ activity, onClose }) => {
     activity.link ||
     activity.imageUrl ||
     activity.url ||
-    "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80";
+    "/images/remote/photo-1590050752117-238cb0fb12b1-ed8a5f46.webp";
 
   // Parse detailed documentation paragraphs and lists
   const detailsText = activity.details || activity.description || activity.subtitle || "No archival notes recorded.";
@@ -174,7 +173,7 @@ const ActivityDetailModal = ({ activity, onClose }) => {
               onError={(e) => {
                 e.target.onerror = null;
                 e.target.src =
-                  "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80";
+                  "/images/remote/photo-1590050752117-238cb0fb12b1-ed8a5f46.webp";
               }}
               className="w-full h-full object-cover"
             />
@@ -310,12 +309,12 @@ export default function ActivitiesPage() {
       item?.link ||
       item?.imageUrl ||
       item?.url ||
-      "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80"
+      "/images/remote/photo-1590050752117-238cb0fb12b1-ed8a5f46.webp"
     );
   };
 
-  // Sync with CMS storage (localStorage) using defaultWorkshops
-  const rawActivities = getData("bh_workshops", defaultWorkshops);
+  
+  const rawActivities = defaultWorkshops;
 
   // Filter out drafts
   const liveActivities = (rawActivities || []).filter(
@@ -395,7 +394,7 @@ export default function ActivitiesPage() {
         {/* Full-Width Background Image Layer */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <img loading="lazy" decoding="async"
-            src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=1600&auto=format&fit=crop&q=80"
+            src="/images/remote/photo-1511578314322-379afb476865-7bb9b7af.webp"
             alt="Workshops & Seminars Banner"
             className="w-full h-full object-cover object-center filter brightness-105 contrast-[1.05]"
           />
@@ -548,7 +547,7 @@ export default function ActivitiesPage() {
                     onError={(e) => {
                       e.target.onerror = null;
                       e.target.src =
-                        "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&auto=format&fit=crop&q=80";
+                        "/images/remote/photo-1590050752117-238cb0fb12b1-ed8a5f46.webp";
                     }}
                   />
                   {activity.category && (

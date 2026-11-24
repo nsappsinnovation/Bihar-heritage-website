@@ -1,38 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { getData, STORAGE_KEYS } from "../utils/cmsStorage";
 import { defaultGoverningBody, defaultOrganization } from "../data/defaults/cmsDefaults";
 
 export default function GoverningBody() {
   const getRoster = () => {
     const isMemberActive = (m) => (m.status || "Active") !== "Draft" && (m.status || "Active") !== "Inactive";
-    const dedicated = getData(STORAGE_KEYS.GOVERNING_BODY, defaultGoverningBody);
+    const dedicated = defaultGoverningBody;
     if (dedicated && Array.isArray(dedicated) && dedicated.length > 0) {
       const pub = dedicated.filter(isMemberActive);
       if (pub.length > 0) return pub;
     }
-    const allOrg = getData(STORAGE_KEYS.ORGANIZATION, defaultOrganization);
+    const allOrg = defaultOrganization;
     const fromOrg = allOrg.filter((m) => m.category === "Governing Body" && isMemberActive(m));
     if (fromOrg && fromOrg.length > 0) return fromOrg;
     return defaultGoverningBody;
   };
 
-  const [governingBodyMembers, setGoverningBodyMembers] = useState(getRoster);
+  const governingBodyMembers = getRoster();
 
-  useEffect(() => {
-    const handleSync = () => {
-      setGoverningBodyMembers(getRoster());
-    };
-
-    window.addEventListener("storage", handleSync);
-    window.addEventListener("bh_storage_update", handleSync);
-    window.addEventListener("focus", handleSync);
-    return () => {
-      window.removeEventListener("storage", handleSync);
-      window.removeEventListener("bh_storage_update", handleSync);
-      window.removeEventListener("focus", handleSync);
-    };
-  }, []);
 
   return (
     <div className="min-h-screen bg-brand-dark text-text-primary pt-28 pb-24 px-4 sm:px-6 md:px-12 relative overflow-hidden">

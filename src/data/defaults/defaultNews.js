@@ -11,7 +11,7 @@ export const defaultNews = [
     category: "Exhibition",
     description:
       "An exclusive exhibition unveiling ancient treasures including Mauryan punch-marked coins, highly polished stone sculptures of the Gupta era, and rare terracotta figurines discovered in recent excavation cycles.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuuAVC8kX1UICccM7YGHO5kVKW9Tavz9T-pv3bWN_ISg&s=10",
+    image: "/images/remote/images-a63c1e8c.webp",
     author: "BHDS Editorial Team",
     source: "Patna Museum & Directorate of Archaeology",
     status: "Published"
@@ -23,7 +23,7 @@ export const defaultNews = [
     category: "Cultural Festival",
     description:
       "A grand four-day cultural festival celebrating the folk and classical traditions of Bihar. The festival features traditional folk theatre, classical vocal recitals, and artisan masterclasses hosted by master craftspeople.",
-    image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&auto=format&fit=crop",
+    image: "/images/remote/photo-1533174072545-7a4b6ad7a6c3-33dbaae1.webp",
     author: "Cultural Affairs Division",
     source: "Department of Art & Culture",
     status: "Published"
@@ -35,7 +35,7 @@ export const defaultNews = [
     category: "Heritage Walk",
     description:
       "A specialized academic walk through the Nalanda Mahavihara ruins. Guided by veteran historians, the walk explores the structural layout and daily life of ancient residential scholars and ancient monastery seals.",
-    image: "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800&auto=format&fit=crop",
+    image: "/images/remote/photo-1544644181-1484b3fdfc62-539d9d91.webp",
     author: "Heritage Outreach Wing",
     source: "BHDS Education Desk",
     status: "Published"
@@ -47,7 +47,7 @@ export const defaultNews = [
     category: "Academic Symposium",
     description:
       "Join eminent language experts and epigraphists for an open panel discussing Bihar's influence on classical Sanskrit, Pali, and Prakrit literature and the evolution of the Brahmi script across eastern India.",
-    image: "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=800&auto=format&fit=crop",
+    image: "/images/remote/photo-1506880018603-83d5b814b5a6-413f7e74.webp",
     author: "Research Bulletin Desk",
     source: "Bihar Heritage Research Council",
     status: "Published"
@@ -59,7 +59,7 @@ export const defaultNews = [
     category: "Official Bulletin",
     description:
       "BHDS has officially released the upcoming calendar and quarterly bulletin outlining current exploration tracks, structural preservation schedules, public lecture series, and excavation milestones.",
-    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&auto=format&fit=crop",
+    image: "/images/remote/photo-1506784983877-45594efa4cbe-d1ccde3b.webp",
     author: "Secretariat Desk",
     source: "Bihar Heritage Development Society",
     status: "Published"
@@ -71,7 +71,7 @@ export const defaultNews = [
     category: "Discovery",
     description:
       "Excavation teams have unearthed multi-layered monastic residential cells, inscribed terracotta seals, and distinctive Black and Red Ware ceramic fragments dating back to the Kushana and Gupta epochs.",
-    image: "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=800&auto=format&fit=crop",
+    image: "/images/remote/photo-1461360370896-922624d12aa1-e2e2d51d.webp",
     author: "Archaeological Field Unit",
     source: "BHDS Field Survey",
     status: "Published"

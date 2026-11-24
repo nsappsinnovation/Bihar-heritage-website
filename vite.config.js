@@ -3,6 +3,18 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import { compression, defineAlgorithm } from "vite-plugin-compression2";
+import fs from "node:fs";
+
+// `vite preview` serves the production build with the same security headers as the
+// real server, so CSP violations show up locally. Source of truth: deploy/security-headers.conf
+const securityHeaders = () => {
+  const conf = fs.readFileSync(new URL("./deploy/security-headers.conf", import.meta.url), "utf8");
+  const headers = {};
+  for (const m of conf.matchAll(/^add_header (\S+) "(.*)" always;$/gm)) {
+    headers[m[1]] = m[2].replace(/\\"/g, '"');
+  }
+  return headers;
+};
 
 // Preload the hero's LCP resources (hashed names are only known after bundling).
 const preloadHero = () => ({
@@ -40,6 +52,9 @@ export default defineConfig({
       include: /\.(js|mjs|css|html|json|svg|txt)$/,
     }),
   ],
+  preview: {
+    headers: securityHeaders(),
+  },
   build: {
     rollupOptions: {
       output: {

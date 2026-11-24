@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
   Video as VideoIcon, 
@@ -13,7 +13,6 @@ import {
   Share2,
   Check
 } from "lucide-react";
-import { getData, STORAGE_KEYS } from "../utils/cmsStorage";
 import { safeHref, safeEmbedUrl } from "../utils/safeUrl";
 import { defaultVideos } from "../data/defaults/defaultVideos";
 
@@ -33,32 +32,7 @@ const VideoGalleryPage = () => {
   const [activeVideo, setActiveVideo] = useState(null);
   const [copiedLink, setCopiedLink] = useState(false);
 
-  // Reactive state synced with CMS
-  const [rawVideos, setRawVideos] = useState(() =>
-    getData(STORAGE_KEYS.VIDEOS, defaultVideos)
-  );
-
-  // Multi-event synchronization
-  useEffect(() => {
-    const refreshData = () => {
-      const fresh = getData(STORAGE_KEYS.VIDEOS, defaultVideos);
-      setRawVideos(fresh);
-    };
-
-    window.addEventListener("storage", refreshData);
-    window.addEventListener("bh_cms_update", refreshData);
-    window.addEventListener("bh_storage_update", refreshData);
-    window.addEventListener("focus", refreshData);
-    document.addEventListener("visibilitychange", refreshData);
-
-    return () => {
-      window.removeEventListener("storage", refreshData);
-      window.removeEventListener("bh_cms_update", refreshData);
-      window.removeEventListener("bh_storage_update", refreshData);
-      window.removeEventListener("focus", refreshData);
-      document.removeEventListener("visibilitychange", refreshData);
-    };
-  }, []);
+  const rawVideos = defaultVideos;
 
   // Filter out drafts / archived
   const publishedVideos = rawVideos
@@ -70,7 +44,7 @@ const VideoGalleryPage = () => {
         youtubeId: ytId,
         embedUrl: safeEmbedUrl(v.embedUrl) || (ytId ? `https://www.youtube.com/embed/${ytId}?autoplay=1&enablejsapi=1` : ""),
         youtubeUrl: v.youtubeUrl || (ytId ? `https://www.youtube.com/watch?v=${ytId}` : ""),
-        thumbnail: v.thumbnail || (ytId ? `https://img.youtube.com/vi/${ytId}/hqdefault.jpg` : "")
+        thumbnail: v.thumbnail || "/images/heritage-placeholder.svg"
       };
     });
 
@@ -217,12 +191,12 @@ const VideoGalleryPage = () => {
                   {/* 16:9 Thumbnail Frame */}
                   <div className="relative aspect-video w-full md:w-64 rounded-xl overflow-hidden bg-black shrink-0 group/thumb shadow-sm">
                     <img decoding="async"
-                      src={video.thumbnail || "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&auto=format&fit=crop"}
+                      src={video.thumbnail || "/images/remote/photo-1585829365295-ab7cd400c167-9a32c183.webp"}
                       alt={video.title}
                       className="w-full h-full object-cover opacity-90 group-hover/thumb:scale-105 transition-transform duration-700 ease-out"
                       loading="lazy"
                       onError={(e) => {
-                        e.target.src = "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&auto=format&fit=crop";
+                        e.target.src = "/images/remote/photo-1585829365295-ab7cd400c167-9a32c183.webp";
                       }}
                     />
                     <div className="absolute inset-0 bg-black/20 group-hover/thumb:bg-black/40 transition-colors duration-300" />

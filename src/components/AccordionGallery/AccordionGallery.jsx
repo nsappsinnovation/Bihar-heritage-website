@@ -3,11 +3,11 @@ import { gsap } from 'gsap';
 import { safeHref } from '../../utils/safeUrl';
 
 const DEFAULT_ITEMS = [
-  { image: 'https://picsum.photos/id/1015/900/1200', label: 'Canyon', link: '#' },
-  { image: 'https://picsum.photos/id/1018/900/1200', label: 'Ridgeline', link: '#' },
-  { image: 'https://picsum.photos/id/1039/900/1200', label: 'Falls', link: '#' },
-  { image: 'https://picsum.photos/id/1043/900/1200', label: 'Harbour', link: '#' },
-  { image: 'https://picsum.photos/id/1044/900/1200', label: 'Skyline', link: '#' }
+  { image: '/images/remote/1200-8c72dce6.webp', label: 'Canyon', link: '#' },
+  { image: '/images/remote/1200-dd00a898.webp', label: 'Ridgeline', link: '#' },
+  { image: '/images/remote/1200-63a8ab61.webp', label: 'Falls', link: '#' },
+  { image: '/images/remote/1200-f276c1da.webp', label: 'Harbour', link: '#' },
+  { image: '/images/remote/1200-13e099bf.webp', label: 'Skyline', link: '#' }
 ];
 
 const AccordionGallery = ({

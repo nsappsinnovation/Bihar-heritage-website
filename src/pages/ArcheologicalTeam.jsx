@@ -1,40 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, Compass, CheckCircle2 } from "lucide-react";
-import { getData, STORAGE_KEYS } from "../utils/cmsStorage";
 import { defaultArcheologicalTeam, defaultOrganization } from "../data/defaults/cmsDefaults";
 
 export default function ArcheologicalTeam() {
   const getRoster = () => {
     const isMemberActive = (m) => (m.status || "Active") !== "Draft" && (m.status || "Active") !== "Inactive";
-    const dedicated = getData(STORAGE_KEYS.ARCHAEOLOGICAL_TEAM, defaultArcheologicalTeam);
+    const dedicated = defaultArcheologicalTeam;
     if (dedicated && Array.isArray(dedicated) && dedicated.length > 0) {
       const pub = dedicated.filter(isMemberActive);
       if (pub.length > 0) return pub;
     }
-    const allOrg = getData(STORAGE_KEYS.ORGANIZATION, defaultOrganization);
+    const allOrg = defaultOrganization;
     const fromOrg = allOrg.filter((m) => m.category === "Archaeological Team" && isMemberActive(m));
     if (fromOrg && fromOrg.length > 0) return fromOrg;
     return defaultArcheologicalTeam;
   };
 
-  const [teamMembers, setTeamMembers] = useState(getRoster);
+  const teamMembers = getRoster();
 
-  useEffect(() => {
-    const handleSync = () => {
-      setTeamMembers(getRoster());
-    };
-
-    window.addEventListener("storage", handleSync);
-    window.addEventListener("bh_storage_update", handleSync);
-    window.addEventListener("focus", handleSync);
-    return () => {
-      window.removeEventListener("storage", handleSync);
-      window.removeEventListener("bh_storage_update", handleSync);
-      window.removeEventListener("focus", handleSync);
-    };
-  }, []);
 
   const responsibilities = [
     "Conducting systematic archaeological surveys across potential heritage sites",

@@ -21,7 +21,6 @@ import {
   ArrowRight
 } from "lucide-react";
 import { useLenis } from "lenis/react";
-import { getData } from "../utils/cmsStorage";
 import { defaultEvents } from "../data/defaults/defaultEvents";
 import MadhubaniArtImg from "../assets/UniqueBiharImg/MadhubaniArt.webp";
 import EventsBannerImg from "../assets/Banners/EventsBanner.webp";
@@ -33,12 +32,9 @@ import NalandaImg from "../assets/heritage/NalandaUniversity.webp";
 import VikramshilaImg from "../assets/heritage/Vikramshila.webp";
 import BodhGayaImg from "../assets/heritage/BodhGayaImg.webp";
 import AwarenessImg from "../assets/UniqueBiharImg/Awareness.webp";
-import VaishaliEventImg from "../assets/VaishaliEvent/VaishaliEvent1.webp";
-import { Link } from "react-router-dom";
-import { EVENT, EVENT_PATH, REGISTER_PATH } from "./VaishaliEvent/eventData";
 import MuseumImg from "../assets/heritage/museum_gallery.webp";
 
-// Pick a relevant (non-Vaishali) photo for an event based on its category/title
+// Pick a relevant photo for an event based on its category/title
 const EVENT_IMAGE_RULES = [
   [/awareness/, AwarenessImg],
   [/madhubani|mithila|art|craft|workshop/, MadhubaniStripImg],
@@ -50,22 +46,8 @@ const EVENT_IMAGE_RULES = [
   [/festival|fest|cultural|music|dance/, ChhathFestivalImg],
 ];
 
-// Flagship event, pinned at the top of the events list
-const VAISHALI_EVENT = {
-  id: "vaishali-2026",
-  title: `${EVENT.title} – ${EVENT.subtitle}`,
-  category: "Seminar / Symposium",
-  date: EVENT.dateLabel,
-  location: EVENT.city,
-  description: EVENT.shortDescription,
-  image: VaishaliEventImg,
-  detailsPath: EVENT_PATH,
-  registrationLink: REGISTER_PATH,
-};
-
 const getEventImage = (event = {}) => {
-  if (event.detailsPath && event.image) return event.image;
-  if (event.image && !/vaishali/i.test(event.image)) return event.image;
+  if (event.image) return event.image;
   return getFallbackEventImage(event);
 };
 
@@ -87,8 +69,6 @@ const STANDARD_EVENT_CATEGORIES = [
 /* ─── Event Details & Registration Modal Portal ───────────────────────────── */
 const EventDetailsModal = ({ event, onClose }) => {
   const lenis = useLenis();
-  const [registered, setRegistered] = useState(false);
-  const [regForm, setRegForm] = useState({ name: "", email: "", phone: "", attendees: "1" });
 
   useEffect(() => {
     if (!event) return;
@@ -113,15 +93,6 @@ const EventDetailsModal = ({ event, onClose }) => {
   }, [onClose]);
 
   if (!event) return null;
-
-  const handleRegisterSubmit = (e) => {
-    e.preventDefault();
-    setRegistered(true);
-    setTimeout(() => {
-      setRegistered(false);
-      onClose();
-    }, 2500);
-  };
 
   const tags = Array.isArray(event.tags)
     ? event.tags
@@ -278,57 +249,17 @@ const EventDetailsModal = ({ event, onClose }) => {
               </div>
             </div>
 
-            {/* Registration Form / Confirm */}
+            {/* Admission info (no data is collected on this site) */}
             <div className="pt-4 border-t border-[#E7DED3]">
-              {registered ? (
-                <motion.div
-                  initial={{ scale: 0.9, opacity: 0 }}
-                  animate={{ scale: 1, opacity: 1 }}
-                  className="flex items-center gap-2.5 p-3.5 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-xs font-bold font-sans"
-                >
-                  <CheckCircle2 size={18} className="text-emerald-600 shrink-0" />
-                  <span>Registration confirmed! An official reminder has been noted.</span>
-                </motion.div>
-              ) : (
-                <form onSubmit={handleRegisterSubmit} className="space-y-3">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                    <input
-                      type="text"
-                      required
-                      placeholder="Your Full Name *"
-                      value={regForm.name}
-                      onChange={(e) => setRegForm({ ...regForm, name: e.target.value })}
-                      className="w-full px-3 py-2 text-xs rounded-xl bg-white border border-[#E7DED3] focus:border-[#B85C38] focus:outline-none transition shadow-2xs"
-                    />
-                    <input
-                      type="email"
-                      required
-                      placeholder="Email Address *"
-                      value={regForm.email}
-                      onChange={(e) => setRegForm({ ...regForm, email: e.target.value })}
-                      className="w-full px-3 py-2 text-xs rounded-xl bg-white border border-[#E7DED3] focus:border-[#B85C38] focus:outline-none transition shadow-2xs"
-                    />
-                  </div>
-
-                  <div className="flex items-center justify-between gap-3 pt-1">
-                    <div className="text-left">
-                      <p className="text-[9px] text-[#6F665E] font-bold uppercase tracking-wider">
-                        Admission Policy
-                      </p>
-                      <p className="text-[11px] text-[#8C6D3B] font-serif font-bold">
-                        {event.entryFee || "Free Entry / Open to Public"}
-                      </p>
-                    </div>
-
-                    <button
-                      type="submit"
-                      className="px-6 py-2.5 bg-[#B85C38] hover:bg-[#A0502F] active:scale-[0.98] text-white text-xs font-bold rounded-xl uppercase tracking-wider shadow-sm transition-all cursor-pointer"
-                    >
-                      Register Now
-                    </button>
-                  </div>
-                </form>
-              )}
+              <p className="text-[9px] text-[#6F665E] font-bold uppercase tracking-wider">
+                Admission Policy
+              </p>
+              <p className="text-[11px] text-[#8C6D3B] font-serif font-bold">
+                {event.entryFee || "Free Entry / Open to Public"}
+              </p>
+              <p className="mt-2 text-[11px] text-[#6F665E]">
+                For participation details, please contact the Society through the Contact page.
+              </p>
             </div>
           </div>
         </motion.div>
@@ -347,40 +278,12 @@ export default function Event() {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 6; // 6 events per page (3x2 grid)
 
-  // Reactive state synced with localStorage
-  const [eventsData, setEventsData] = useState(() => getData("bh_events", defaultEvents));
-
-  // Multi-event synchronization for real-time reactivity
-  useEffect(() => {
-    const refreshData = () => {
-      const fresh = getData("bh_events", defaultEvents);
-      setEventsData(fresh);
-    };
-
-    refreshData();
-
-    window.addEventListener("storage", refreshData);
-    window.addEventListener("bh_cms_update", refreshData);
-    window.addEventListener("bh_storage_update", refreshData);
-    window.addEventListener("focus", refreshData);
-    document.addEventListener("visibilitychange", refreshData);
-
-    return () => {
-      window.removeEventListener("storage", refreshData);
-      window.removeEventListener("bh_cms_update", refreshData);
-      window.removeEventListener("bh_storage_update", refreshData);
-      window.removeEventListener("focus", refreshData);
-      document.removeEventListener("visibilitychange", refreshData);
-    };
-  }, []);
+  const eventsData = defaultEvents;
 
   // Filter out drafts and archived
-  const liveEvents = [
-    VAISHALI_EVENT,
-    ...(eventsData || []).filter(
-      (e) => (e.status || "Published").toLowerCase() !== "draft" && (e.status || "Published").toLowerCase() !== "archived"
-    ),
-  ];
+  const liveEvents = (eventsData || []).filter(
+    (e) => (e.status || "Published").toLowerCase() !== "draft" && (e.status || "Published").toLowerCase() !== "archived"
+  );
 
   // Categories
   const presentCategories = Array.from(
@@ -636,35 +539,12 @@ export default function Event() {
                     </p>
 
                     <div className="mt-5 flex items-center justify-between">
-                      {event.detailsPath ? (
-                        <Link
-                          to={event.detailsPath}
-                          className="text-[11px] font-bold text-brand-accent uppercase tracking-wider hover:underline"
-                        >
-                          View Details
-                        </Link>
-                      ) : (
-                        <button
-                          onClick={() => setSelectedEvent(event)}
-                          className="text-[11px] font-bold text-brand-accent uppercase tracking-wider hover:underline cursor-pointer"
-                        >
-                          View Details
-                        </button>
-                      )}
-                      {(() => {
-                        const regLink = event.registrationLink || event.registerUrl;
-                        if (!regLink) return null;
-                        const cls = "text-[11px] font-semibold text-text-secondary hover:text-brand-accent underline underline-offset-4 transition-colors";
-                        return /^https?:/i.test(regLink) ? (
-                          <a href={regLink} target="_blank" rel="noopener noreferrer" className={cls}>
-                            Register ↗
-                          </a>
-                        ) : (
-                          <Link to={regLink} className={cls}>
-                            Register →
-                          </Link>
-                        );
-                      })()}
+                      <button
+                        onClick={() => setSelectedEvent(event)}
+                        className="text-[11px] font-bold text-brand-accent uppercase tracking-wider hover:underline cursor-pointer"
+                      >
+                        View Details
+                      </button>
                     </div>
                   </div>
                 </motion.div>

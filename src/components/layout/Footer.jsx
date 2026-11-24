@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import bgImg from "../../assets/HeroStrips/BG.webp";
@@ -60,10 +60,6 @@ const BIRDS = Array.from({ length: 5 }, (_, i) => ({
 
 // ═════════════════════════════════════════════════════════════════════════════
 const Footer = () => {
-  const location = useLocation();
-  const isAdminPage = location.pathname.startsWith('/admin');
-  if (isAdminPage) return null;
-
   const footerRef = useRef(null);
   const headingRef = useRef(null);
   const dividerRef = useRef(null);

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Volume2, VolumeX } from "lucide-react";
 import heritageVideo from "../../assets/Heritage .mp4";
 import heroCoverImage from "../../assets/Banners/CoverImage.webp";
-import VaishaliEventCard from "./VaishaliEventCard";
 
 // ── The single emotional tagline ────────────────────────────────────────────
 const TAGLINE = "Where India's oldest stories still live.";
@@ -427,15 +426,7 @@ const Hero = () => {
               </svg>
             </Link>
           </motion.div>
-
-          {/* Featured event card — stacked under the CTA on smaller screens */}
-          <VaishaliEventCard className="mt-8 lg:hidden" />
         </motion.div>
-      </div>
-
-      {/* Event card — floating top-right on large screens */}
-      <div className="hidden lg:flex justify-end absolute right-6 lg:right-10 xl:right-16 top-24 xl:top-28 z-20">
-        <VaishaliEventCard />
       </div>
 
       {/* ── 6. Minimal Floating Scroll Indicator (Discover Bihar) ─────────── */}

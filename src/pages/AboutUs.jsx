@@ -14,7 +14,7 @@ import BodhGayaImg from "../assets/UniqueBiharImg/BodhGaya.webp";
 import KesariyaImg from "../assets/UniqueBiharImg/KesariyaStupa.webp";
 
 
-const MahabodhiImg = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ3cZqDM8Sg4EPVkwAdHuilUV5TaKSPsLfI7vnbLxck_LbH5AmFDJSBOsN1fmR-Ww_WjmVCjfHFQ1b2ME_i7hbODPmDMV1O9aWQAjsgqeduLwDd8dahbIEOuinKeJuYhz6fuPc1Du4KdIq/s1008/N-BR-39_Ashokan_Pillar_Vaishali_%252813%2529.jpg";
+const MahabodhiImg = "/images/remote/n-br-39-ashokan-pillar-vaishali-2813-29-5cbc89a0.webp";
 // Custom Counter Component for Smooth Count-Up Animation
 const Counter = ({ target, duration = 2000 }) => {
   const [count, setCount] = useState(0);

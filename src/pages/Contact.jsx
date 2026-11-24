@@ -1,25 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, Phone, Mail, Send, CheckCircle, Clock, Globe } from "lucide-react";
 
 const HQ_QUERY = "25.6137830,85.1337950";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({ name: "", email: "", subject: "", message: "" });
-  const [submitted, setSubmitted] = useState(false);
-  const [focusedField, setFocusedField] = useState(null);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (formData.name && formData.email && formData.message) {
-      setSubmitted(true);
-      setTimeout(() => {
-        setSubmitted(false);
-        setFormData({ name: "", email: "", subject: "", message: "" });
-      }, 4000);
-    }
-  };
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

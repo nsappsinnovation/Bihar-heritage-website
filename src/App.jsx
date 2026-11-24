@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/layout/Header";
 const Publication = lazy(() => import("./pages/Publication"));
@@ -23,40 +23,17 @@ const News = lazy(() => import("./pages/News"));
 const Tender = lazy(() => import("./pages/Tender"));
 const BlogPage = lazy(() => import("./pages/BlogPage/BlogPage"));
 const BlogDetailPage = lazy(() => import("./pages/BlogPage/BlogDetailPage"));
-const LoginPage = lazy(() => import("./pages/admin/LoginPage"));
-const AdminDashboard = lazy(() => import("./pages/admin/AdminDashboard"));
-const AdminModulePage = lazy(() => import("./pages/admin/AdminModulePage"));
-const AdminGuard = lazy(() => import("./pages/admin/AdminGuard"));
-const VaishaliEventPage = lazy(() => import("./pages/VaishaliEvent/VaishaliEventPage"));
-const GuestRegistrationPage = lazy(() => import("./pages/VaishaliEvent/guest/GuestRegistrationPage"));
-const GuestDashboardPage = lazy(() => import("./pages/VaishaliEvent/guest/GuestDashboardPage"));
-const VolunteerRegistrationPage = lazy(() => import("./pages/VaishaliEvent/volunteer/VolunteerRegistrationPage"));
-const VolunteerDashboardPage = lazy(() => import("./pages/VaishaliEvent/volunteer/VolunteerDashboardPage"));
 const IntangibleHeritagePage = lazy(() => import("./pages/IntangibleHeritage/IntangibleHeritagePage"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 import { ImageLightboxProvider } from "./context/ImageLightboxContext";
 import ImageLightboxModal from "./components/common/ImageLightboxModal";
 
-// Inner layout that conditionally shows Header/Footer only on public route
 const AppLayout = () => {
-  const location = useLocation();
-  const isAdminRoute = location.pathname.startsWith("/admin");
-
-  React.useEffect(() => {
-    if (isAdminRoute) {
-      document.body.classList.add("admin-body");
-    } else {
-      document.body.classList.remove("admin-body");
-    }
-    return () => {
-      document.body.classList.remove("admin-body");
-    };
-  }, [isAdminRoute]);
-
   return (
     <>
       <ScrollToTop />
-      {!isAdminRoute && <Header />}
+      <Header />
       <Suspense fallback={<div className="min-h-screen" />}>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -79,32 +56,9 @@ const AppLayout = () => {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogDetailPage />} />
         <Route path="/living-heritage" element={<IntangibleHeritagePage />} />
-        <Route path="/vaishali-buddhist-conference-2026" element={<VaishaliEventPage />} />
-        <Route path="/vaishali-buddhist-conference-2026/register" element={<GuestRegistrationPage />} />
-        <Route path="/vaishali-buddhist-conference-2026/dashboard" element={<GuestDashboardPage />} />
-        <Route path="/vaishali-buddhist-conference-2026/volunteer/register" element={<VolunteerRegistrationPage />} />
-        <Route path="/vaishali-buddhist-conference-2026/volunteer/dashboard" element={<VolunteerDashboardPage />} />
-
-        {/* Admin CMS Routes — no public Header/Footer */}
-        <Route path="/admin/login" element={<LoginPage />} />
-        <Route
-          path="/admin"
-          element={
-            <AdminGuard>
-              <AdminDashboard />
-            </AdminGuard>
-          }
-        />
-        <Route
-          path="/admin/:moduleKey"
-          element={
-            <AdminGuard>
-              <AdminModulePage />
-            </AdminGuard>
-          }
-        />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-      {!isAdminRoute && <Footer />}
+      <Footer />
       </Suspense>
       <ImageLightboxModal />
     </>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -19,7 +19,6 @@ import {
 } from "lucide-react";
 import { useLenis } from "lenis/react";
 import Flipbook from "../components/common/Flipbook";
-import { getData } from "../utils/cmsStorage";
 import { safeHref } from "../utils/safeUrl";
 import { defaultPublications } from "../data/defaults/defaultPublications";
 
@@ -160,8 +159,8 @@ export default function Publication() {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 6; // 6 publications per page (3x2 grid)
 
-  // Dynamic live dataset loaded from CMS storage
-  const rawPublications = getData("bh_publications", defaultPublications);
+  
+  const rawPublications = defaultPublications;
 
   // Filter out drafts and archived
   const livePublications = (rawPublications || []).filter(
@@ -243,7 +242,7 @@ export default function Publication() {
         {/* Background Image with Tint Overlay */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <img loading="lazy" decoding="async"
-            src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1600&auto=format&fit=crop&q=80"
+            src="/images/remote/photo-1507842217343-583bb7270b66-d4eb6f29.webp"
             alt="Archival Publications Banner"
             className="w-full h-full object-cover object-center filter brightness-105 contrast-[1.05]"
           />
@@ -410,7 +409,7 @@ export default function Publication() {
                           onError={(e) => {
                             e.target.onerror = null;
                             e.target.src =
-                              "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=400&auto=format&fit=crop";
+                              "/images/remote/photo-1544644181-1484b3fdfc62-987d9fdd.webp";
                           }}
                         />
                         {/* Realistic Spine highlight */}

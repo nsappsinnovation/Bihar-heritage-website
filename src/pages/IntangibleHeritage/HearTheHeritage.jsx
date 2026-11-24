@@ -2,19 +2,20 @@ import React, { useState, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Play, Pause, Volume2, VolumeX, X, Music, RotateCcw, RotateCw, ChevronLeft, ChevronRight, SkipBack, SkipForward } from 'lucide-react';
 
-// Fallback high-quality folk audio streams for direct playback
+// Placeholder audio for direct playback (self-hosted). Only two tracks are bundled, so
+// several entries share one; replace with real recordings in public/audio/ when available.
 const SAMPLE_AUDIO_STREAMS = {
-  "chaita-audio": "https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3",
-  "sohar-audio": "https://cdn.pixabay.com/download/audio/2021/08/09/audio_88447e1d51.mp3",
-  "kajari-audio": "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3",
-  "hori-audio": "https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a29b35.mp3",
-  "chhath-geet-audio": "https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3",
-  "ropni-geet-audio": "https://cdn.pixabay.com/download/audio/2021/08/09/audio_88447e1d51.mp3",
-  "katni-geet-audio": "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3",
-  "vivah-geet-audio": "https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a29b35.mp3",
+  "chaita-audio": "/audio/audio-d0a13f69d2-cf06c7b7.mp3",
+  "sohar-audio": "/audio/audio-1808fbf07a-07073f03.mp3",
+  "kajari-audio": "/audio/audio-1808fbf07a-07073f03.mp3",
+  "hori-audio": "/audio/audio-d0a13f69d2-cf06c7b7.mp3",
+  "chhath-geet-audio": "/audio/audio-d0a13f69d2-cf06c7b7.mp3",
+  "ropni-geet-audio": "/audio/audio-1808fbf07a-07073f03.mp3",
+  "katni-geet-audio": "/audio/audio-1808fbf07a-07073f03.mp3",
+  "vivah-geet-audio": "/audio/audio-d0a13f69d2-cf06c7b7.mp3",
 };
 
-const DEFAULT_AUDIO_STREAM = "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3";
+const DEFAULT_AUDIO_STREAM = "/audio/audio-1808fbf07a-07073f03.mp3";
 
 const formatTime = (seconds) => {
   if (isNaN(seconds) || seconds < 0) return '0:00';

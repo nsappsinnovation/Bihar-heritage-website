@@ -6,7 +6,6 @@ import FilterChips from "./FilterChips";
 import SearchBar from "./SearchBar";
 import BlogCard from "./BlogCard";
 import Pagination from "./Pagination";
-import { getData } from "../../utils/cmsStorage";
 
 const BlogPage = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -14,32 +13,8 @@ const BlogPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 6;
 
-  // Load stored articles from localStorage
-  const storedArticles = getData("bh_blogs", []);
-
-  // Demo article IDs to recognize previous default demo data
-  const demoIds = new Set([
-    String(blogData.featuredStory.id),
-    ...blogData.articles.map((a) => String(a.id)),
-    ...(blogData.recentStories || []).map((s) => String(s.id))
-  ]);
-
-  // Extract newly published articles created by admin via Blog Studio
-  const userPublishedArticles = storedArticles.filter(
-    (a) => !demoIds.has(String(a.id)) && a.status !== "Draft"
-  );
-
-  // 1. Featured story: Use newly published admin article if present; otherwise keep exact previous featuredStory
-  const featuredStory = userPublishedArticles.length > 0
-    ? userPublishedArticles[0]
-    : blogData.featuredStory;
-
-  // 2. Grid articles list: If new articles exist, prepend them and shift previous featuredStory to grid; otherwise keep exact previous articles list
-  const userGridArticles = userPublishedArticles.length > 0
-    ? [...userPublishedArticles.slice(1), blogData.featuredStory]
-    : [];
-
-  const allArticles = [...userGridArticles, ...blogData.articles];
+  const featuredStory = blogData.featuredStory;
+  const allArticles = blogData.articles;
 
   // Scroll to top on page mount
   useEffect(() => {

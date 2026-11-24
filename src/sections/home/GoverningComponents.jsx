@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { getData, STORAGE_KEYS } from "../../utils/cmsStorage";
 import {
   defaultKeyFunctionaries,
   defaultGoverningBody,
@@ -11,7 +10,7 @@ import {
 
 const getLeadershipMembers = () => {
   const isMemberActive = (m) => (m.status || "Active") !== "Draft" && (m.status || "Active") !== "Inactive";
-  const dedicated = getData(STORAGE_KEYS?.KEY_FUNCTIONARIES || "bh_key_functionaries", defaultKeyFunctionaries);
+  const dedicated = defaultKeyFunctionaries;
   let rawList = [];
   if (dedicated && Array.isArray(dedicated) && dedicated.length > 0) {
     const pub = dedicated.filter(isMemberActive);
@@ -32,7 +31,7 @@ const getLeadershipMembers = () => {
 
 const getGoverningCouncilCount = () => {
   const isMemberActive = (m) => (m.status || "Active") !== "Draft" && (m.status || "Active") !== "Inactive";
-  const dedicatedGb = getData(STORAGE_KEYS?.GOVERNING_BODY || "bh_governing_body", defaultGoverningBody);
+  const dedicatedGb = defaultGoverningBody;
   if (dedicatedGb && Array.isArray(dedicatedGb) && dedicatedGb.length > 0) {
     const pub = dedicatedGb.filter(isMemberActive);
     if (pub.length > 0) return pub.length;
@@ -60,27 +59,9 @@ const cardVariants = {
 };
 
 const GoverningComponents = () => {
-  const [members, setMembers] = useState(getLeadershipMembers);
-  const [councilCount, setCouncilCount] = useState(getGoverningCouncilCount);
+  const members = getLeadershipMembers();
+  const councilCount = getGoverningCouncilCount();
 
-  useEffect(() => {
-    const handleSync = () => {
-      setMembers(getLeadershipMembers());
-      setCouncilCount(getGoverningCouncilCount());
-    };
-
-    window.addEventListener("storage", handleSync);
-    window.addEventListener("bh_storage_update", handleSync);
-    window.addEventListener("bh_cms_update", handleSync);
-    window.addEventListener("focus", handleSync);
-
-    return () => {
-      window.removeEventListener("storage", handleSync);
-      window.removeEventListener("bh_storage_update", handleSync);
-      window.removeEventListener("bh_cms_update", handleSync);
-      window.removeEventListener("focus", handleSync);
-    };
-  }, []);
 
   return (
     <section

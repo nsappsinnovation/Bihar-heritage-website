@@ -24,28 +24,27 @@ import {
 import defaultProtectedSites from "../data/defaults/defaultProtectedSites.json";
 
 const DEMO_HERITAGE_IMAGES = [
-  "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1600100397608-f010e423b971?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1598890777032-bde835ba27c2?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1609946850022-7901b0b556f8?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1588083949439-d4190c1e8436?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1572099606223-6e29045d7de3?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1627894083067-72b9c79ab698?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1590766940554-634a7ed41440?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1610444390623-aa4eb5d38865?auto=format&fit=crop&w=900&q=80",
+  "/images/remote/photo-1548013146-72479768bada-d369989e.webp",
+  "/images/heritage-placeholder.svg",
+  "/images/remote/photo-1599661046289-e31897846e41-5f74d88e.webp",
+  "/images/remote/photo-1590050752117-238cb0fb12b1-dc3c9ff0.webp",
+  "/images/remote/photo-1564507592333-c60657eea523-a198d177.webp",
+  "/images/remote/photo-1598890777032-bde835ba27c2-b66629ae.webp",
+  "/images/remote/photo-1626621341517-bbf3d9990a23-a27c2c90.webp",
+  "/images/remote/photo-1582510003544-4d00b7f74220-ff995634.webp",
+  "/images/remote/photo-1524492412937-b28074a5d7da-42ffe6c1.webp",
+  "/images/remote/photo-1605649487212-47bdab064df7-8dc44ef8.webp",
+  "/images/remote/photo-1567157577867-05ccb1388e66-4533806b.webp",
+  "/images/remote/photo-1609137144813-7d9921338f24-62ae3aad.webp",
+  "/images/remote/photo-1587474260584-136574528ed5-26181deb.webp",
+  "/images/heritage-placeholder.svg",
+  "/images/heritage-placeholder.svg",
+  "/images/remote/photo-1572099606223-6e29045d7de3-8972db17.webp",
+  "/images/heritage-placeholder.svg",
+  "/images/heritage-placeholder.svg",
+  "/images/remote/photo-1544735716-392fe2489ffa-9aa011f5.webp",
+  "/images/heritage-placeholder.svg",
 ];
-import { getData, STORAGE_KEYS } from "../utils/cmsStorage";
 import { safeHref } from "../utils/safeUrl";
 
 export default function ProtectedSites() {
@@ -58,26 +57,7 @@ export default function ProtectedSites() {
   const [selectedSite, setSelectedSite] = useState(null);
   const [activeImgIdx, setActiveImgIdx] = useState(0);
 
-  // Dynamic reactive state for protected sites from localStorage
-  const [sitesData, setSitesData] = useState(() =>
-    getData(STORAGE_KEYS.PROTECTED_SITES, defaultProtectedSites)
-  );
-
-  // Synchronize on focus or storage change
-  useEffect(() => {
-    const refreshData = () => {
-      const fresh = getData(STORAGE_KEYS.PROTECTED_SITES, defaultProtectedSites);
-      setSitesData(fresh);
-    };
-
-    refreshData();
-    window.addEventListener("storage", refreshData);
-    window.addEventListener("focus", refreshData);
-    return () => {
-      window.removeEventListener("storage", refreshData);
-      window.removeEventListener("focus", refreshData);
-    };
-  }, []);
+  const sitesData = defaultProtectedSites;
 
   const itemsPerPage = viewMode === "grid" ? 12 : 16;
 

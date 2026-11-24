@@ -315,7 +315,7 @@ export const defaultKeyFunctionaries = [
     department: "General Administration",
     contact: "0612-2284861",
     email: "devcomm-bih@nic.in",
-    image: "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/startup_bihar%2FOfficers%2FACS%20Industry.jpeg?alt=media&token=48a4ed7a-4f70-4113-b59b-de5ecb9aa6c3",
+    image: "/images/remote/startup-bihar-officers-acs-industry-c4b14680.webp",
     status: "Published",
   },
   {
@@ -330,7 +330,7 @@ export const defaultKeyFunctionaries = [
     organization: "Bihar Heritage Development Society",
     contact: "0612-2211619",
     email: "secy-art-bih@nic.in",
-    image: "https://firebasestorage.googleapis.com/v0/b/gatishaktibihar.firebasestorage.app/o/biharfilm%2Fhome_secy.jpeg?alt=media&token=2f9b010e-0fed-4627-949d-a4779308a995",
+    image: "/images/remote/biharfilm-home-secy-dd96e36c.webp",
     status: "Published",
   },
   {

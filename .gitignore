@@ -1,10 +1,10 @@
 # Dependencies
 node_modules/
 
-# Environment variables
+# Environment variables / local overrides
 .env
-.env.local
-.env.production
+.env.*
+*.local
 
 # Build files
 dist/
@@ -18,9 +18,10 @@ yarn-debug.log*
 .DS_Store
 Thumbs.db
 
-# IDE
+# IDE / assistant tooling
 .vscode/
 .idea/
+.claude/
 
 # Backend uploads
 uploads/

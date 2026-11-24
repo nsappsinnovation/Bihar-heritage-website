@@ -2,12 +2,11 @@
  * Data adapter for the Bihar Heritage Atlas.
  *
  * The atlas owns no site data of its own:
- *  - protected sites come from defaultProtectedSites.json (or the CMS copy)
- *  - excavations / explorations come from defaultExcavations (or the CMS copy)
+ *  - protected sites come from defaultProtectedSites.json
+ *  - excavations / explorations come from defaultExcavations
  *  - living-heritage traditions come from biharHeritage.json
  * Zone / region / circuit JSON files only hold references (site_id, heritage_id).
  */
-import { getData, STORAGE_KEYS } from "./cmsStorage";
 import { getExcavationPath } from "./excavationLinks";
 import defaultProtectedSites from "../data/defaults/defaultProtectedSites.json";
 import { defaultExcavations } from "../data/defaults/defaultExcavations";
@@ -35,12 +34,12 @@ const isPublished = (item) => {
 };
 
 export const loadProtectedSites = () =>
-  getData(STORAGE_KEYS.PROTECTED_SITES, defaultProtectedSites).filter(isPublished);
+  defaultProtectedSites.filter(isPublished);
 
 export const loadExcavations = () =>
-  getData(STORAGE_KEYS.EXCAVATION, defaultExcavations).filter(isPublished);
+  defaultExcavations.filter(isPublished);
 
-// Fall back to bundled coordinates when a CMS copy predates them
+// Fall back to bundled coordinates when a record has none
 const withDefaultCoords = (items, defaults) => {
   const byId = new Map(defaults.map((d) => [String(d.id), d.coordinates]));
   return items.map((item) =>

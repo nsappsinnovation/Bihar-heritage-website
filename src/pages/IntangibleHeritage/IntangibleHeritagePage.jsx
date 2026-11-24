@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 // Data & Utilities
 import heritageData from '../../data/biharHeritage.json';
 import { heritageImageMap } from './heritageImages';
-import { getData, STORAGE_KEYS } from '../../utils/cmsStorage';
 import { defaultTangibleHeritage } from '../../data/defaults/defaultTangibleHeritage';
 
 // Section components
@@ -19,28 +18,7 @@ const IntangibleHeritagePage = () => {
   const [activeRegion, setActiveRegion] = useState(null);
   const [selectedHeritage, setSelectedHeritage] = useState(null);
 
-  // Dynamic reactive state for living heritage items from localStorage
-  const [rawHeritages, setRawHeritages] = useState(() =>
-    getData(STORAGE_KEYS.TANGIBLE_HERITAGE, defaultTangibleHeritage)
-  );
-
-  // Synchronize on focus or storage change
-  useEffect(() => {
-    const refreshData = () => {
-      const fresh = getData(STORAGE_KEYS.TANGIBLE_HERITAGE, defaultTangibleHeritage);
-      setRawHeritages(fresh);
-    };
-
-    refreshData();
-    window.addEventListener("storage", refreshData);
-    window.addEventListener("focus", refreshData);
-    window.addEventListener("cms-update", refreshData);
-    return () => {
-      window.removeEventListener("storage", refreshData);
-      window.removeEventListener("focus", refreshData);
-      window.removeEventListener("cms-update", refreshData);
-    };
-  }, []);
+  const rawHeritages = defaultTangibleHeritage;
 
   // Resolve image keys and custom uploaded image URLs for display (prioritize local bundled assets)
   const resolvedHeritages = rawHeritages

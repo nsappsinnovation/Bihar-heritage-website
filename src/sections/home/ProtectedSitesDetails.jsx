@@ -14,7 +14,6 @@ import {
   Landmark,
   ExternalLink
 } from "lucide-react";
-import { getData, STORAGE_KEYS } from "../../utils/cmsStorage";
 import defaultProtectedSites from "../../data/defaults/defaultProtectedSites.json";
 
 import laalPahariImg from "../../assets/heritage/Laal_Pahari_Lakhisarai.webp";
@@ -32,7 +31,7 @@ const popularStateSites = [
     id: 1,
     name: "Golghar",
     location: "Patna, Bihar",
-    image: "https://s7ap1.scene7.com/is/image/incredibleindia/gol-ghar-patna-bihar-1-attr-hero?qlt=82&ts=1726740340434",
+    image: "/images/remote/gol-ghar-patna-bihar-1-attr-hero-35cc2bdf.webp",
     protected_since: "08-12-1976",
     subtitle: "A massive beehive‑shaped granary built by Captain John Garstin in 1786 under Warren Hastings to prevent famine. It stands 29 m tall with an inward-leaning dome & spiral staircases offering panoramic views of Patna and the Ganges.",
     distance: 0,
@@ -42,7 +41,7 @@ const popularStateSites = [
     id: 2,
     name: "Agam Kuan",
     location: "Patna, Bihar",
-    image: "https://s7ap1.scene7.com/is/image/incredibleindia/agam-kuan-patna-bihar-1-musthead-hero?qlt=82&ts=1726740207337",
+    image: "/images/remote/agam-kuan-patna-bihar-1-musthead-hero-517734f5.webp",
     protected_since: "08-12-1976",
     subtitle: "An ancient circular brick well dating to the Mauryan era (~3rd century BCE). At 44 ft deep and lined with brick and wooden rings, it's tied to Ashoka's pre‑Buddhist history and folklore about torture and an unquenchable depth.",
     distance: 0,
@@ -52,7 +51,7 @@ const popularStateSites = [
     id: 10,
     name: "Nepali Mandir",
     location: "Vaishali, Bihar",
-    image: "https://res.cloudinary.com/depfrkqat/image/upload/v1753168910/2._Side_view_of_the_nepali_temple_qpr4dq.jpg",
+    image: "/images/remote/2-side-view-of-the-nepali-temple-qpr4dq-dff63ebc.webp",
     protected_since: "02-07-1981",
     subtitle: "A Hindu temple built by Nepali artisans with Kathmandu-style pagoda roof and carved wooden struts; serves as a cultural bridge between Bihar and Nepal.",
     distance: 40,
@@ -62,7 +61,7 @@ const popularStateSites = [
     id: 13,
     name: "Jalalgarh Fort",
     location: "Purnia, Bihar",
-    image: "https://purneatimes.wordpress.com/wp-content/uploads/2019/03/2.jpg",
+    image: "/images/remote/2-4280bcc1.webp",
     protected_since: "16-08-1982",
     subtitle: "A 16th-century defensive fort near Purnia built by Jalal Khan. Comprised of thick walls, bastions, and internal complexes, showcasing medieval military architecture.",
     distance: 330,
@@ -72,7 +71,7 @@ const popularStateSites = [
     id: 14,
     name: "Ara House",
     location: "Arrah, Bihar",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Arrah_House.jpg",
+    image: "/images/remote/arrah-house-73f5b765.webp",
     protected_since: "12-11-1982",
     subtitle: "Ara House, now known as the Veer Kunwar Singh Museum, is a historical building located within the campus of Maharaja College in Arrah, Bihar. It is a national monument that played a significant role during the First War of Indian Independence in 1857, also known as the Siege of Arrah.",
     distance: 50,
@@ -82,7 +81,7 @@ const popularStateSites = [
     id: 19,
     name: "Vishnupada Temple",
     location: "Gaya, Bihar",
-    image: "https://puja.viaveda.in/wp-content/uploads/2024/11/Vishnupad_Temple_de7a7ce9ce.webp",
+    image: "/images/remote/vishnupad-temple-de7a7ce9ce-b48b9c0c.webp",
     protected_since: "21-02-2007",
     subtitle: "The Vishnupad Temple, located on the banks of the Falgu River in Gaya, Bihar, is a highly revered Hindu temple dedicated to Lord Vishnu. It is one of the most important pilgrimage destinations in the region, particularly for devotees who come to perform rituals for their ancestors.",
     distance: 100,
@@ -92,7 +91,7 @@ const popularStateSites = [
     id: 26,
     name: "Munger Fort",
     location: "Munger, Bihar",
-    image: "https://res.cloudinary.com/depfrkqat/image/upload/v1753085450/WhatsApp_Image_2025-07-21_at_13.18.34_673ec7e7_uhvk8e.jpg",
+    image: "/images/remote/whatsapp-image-2025-07-21-at-13-18-34-67-9ba69acc.webp",
     protected_since: "13-01-2001",
     subtitle: "Munger Fort, located in the city of Munger, Bihar, is a formidable historical structure situated on a rocky hillock along the southern bank of the Ganges River. It is a site of immense historical and architectural significance, having played a key role in the region's military and administrative affairs for centuries.",
     distance: 180,
@@ -102,7 +101,7 @@ const popularStateSites = [
     id: 27,
     name: "Chirand Mounds",
     location: "Saran, Bihar",
-    image: "https://res.cloudinary.com/depfrkqat/image/upload/v1753172343/WhatsApp_Image_2025-07-22_at_13.48.53_27fd8e0c_z7oyir.jpg",
+    image: "/images/remote/whatsapp-image-2025-07-22-at-13-48-53-27-f4a990ca.webp",
     protected_since: "Ancient",
     subtitle: "Chirand, located in the Saran district of Bihar, is a nationally renowned archaeological site, recognized for its exceptional evidence of the Neolithic age and subsequent cultural periods. Often referred to as the 'rising sun of the neolithic culture in India', Chirand boasts a significant prehistoric mound that holds a continuous archaeological record spanning from the Neolithic period (around 2500–1345 BC) to the reign of the Pal dynasty.",
     distance: 80,
@@ -112,7 +111,7 @@ const popularStateSites = [
     id: 34,
     name: "Ahilyasthan",
     location: "Darbhanga, Bihar",
-    image: "https://seawatersports.com/images/places/ahilya-sthan.png",
+    image: "/images/heritage-placeholder.svg",
     protected_since: "07-01-2014",
     subtitle: "Ahilya Sthan is a significant Hindu temple located in Darbhanga, Bihar. It is a site steeped in mythology, particularly in connection with the story of Goddess Ahilya from the epic Ramayana. The current structural form of the temple was built between 1662 and 1682 during the reign of Maharaja Chhatra Singh and Maharaja Rudra Singh.",
     distance: 140,
@@ -136,7 +135,7 @@ const centralAsiSites = [
     id: "c1",
     name: "Nalanda Ruins (Nalanda Mahavihara)",
     location: "Nalanda, Bihar",
-    image: "https://live.staticflickr.com/40/93462777_8a79281973_b.jpg",
+    image: "/images/remote/93462777-8a79281973-b-b744e902.webp",
     protected_since: "1915",
     subtitle: "The ancient university complex that was the global epicenter of Buddhist learning from the 5th to the 12th century CE. It once housed 10,000 students and 2,000 teachers.",
     distance: 75,
@@ -146,7 +145,7 @@ const centralAsiSites = [
     id: "c2",
     name: "Vikramshila University Ruins",
     location: "Bhagalpur, Bihar",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4hP0aybObZdkyslIYD5wVN9Y7K-TPA9WPKcsFP7fK12gDvb-CdM9pVY&s=10",
+    image: "/images/remote/images-e9fffd3b.webp",
     protected_since: "1960",
     subtitle: "Founded by Pala King Dharmapala in the late 8th century, Vikramshila was one of the two most important centers of learning in India during the Pala Empire, specializing in Vajrayana Buddhism.",
     distance: 255,
@@ -156,7 +155,7 @@ const centralAsiSites = [
     id: "c3",
     name: "Sher Shah Suri Tomb",
     location: "Sasaram, Rohtas, Bihar",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpkyz8oE4DgWWcRm1t9SafrV6u23dnrL6Q2OhZTsykQ shadow-md",
+    image: "/images/remote/images-41ae1fb3.webp shadow-md",
     protected_since: "1920",
     subtitle: "A masterpiece of Indo-Islamic architecture, this red sandstone octagonal tomb stands in the center of an artificial lake and rises 122 feet high.",
     distance: 158,
@@ -166,7 +165,7 @@ const centralAsiSites = [
     id: "c4",
     name: "Ashokan Pillar, Kolhua",
     location: "Vaishali, Bihar",
-    image: "https://live.staticflickr.com/4546/37614686394_5ea8580bf2_z.jpg",
+    image: "/images/remote/37614686394-5ea8580bf2-z-d7401d8c.webp",
     protected_since: "1915",
     subtitle: "A monolithic polished sandstone pillar surmounted by a single lion capital facing north, marking the site of Buddha's last sermon.",
     distance: 55,
@@ -176,7 +175,7 @@ const centralAsiSites = [
     id: "c5",
     name: "Barabar Caves & Nagarjuni Caves",
     location: "Jehanabad, Bihar",
-    image: "https://hblimg.mmtcdn.com/content/hubble/img/gaya_imgs/mmt/activities/m_Barabar_caves_3_l_400_600.jpg",
+    image: "/images/remote/m-barabar-caves-3-l-400-600-5012fd22.webp",
     protected_since: "1922",
     subtitle: "The oldest surviving rock-cut caves in India, carved during the Mauryan Empire (3rd century BCE), featuring highly polished granite walls and Ashokan inscriptions.",
     distance: 65,
@@ -186,7 +185,7 @@ const centralAsiSites = [
     id: "c6",
     name: "Kesariya Stupa",
     location: "East Champaran, Bihar",
-    image: "https://live.staticflickr.com/2821/9239704568_45f99b5731_z.jpg",
+    image: "/images/remote/9239704568-45f99b5731-z-0ae9ba42.webp",
     protected_since: "1998",
     subtitle: "The tallest ancient Buddhist stupa in the world, with a circumference of nearly 1,400 feet, rising to a height of 104 feet.",
     distance: 120,
@@ -196,7 +195,7 @@ const centralAsiSites = [
     id: "c10",
     name: "Cyclopean Wall of Rajgir",
     location: "Rajgir, Nalanda, Bihar",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYFiiQ4rADBUeEs7ZCMnswvZ6UzuGbZ0-kZUkg9Uitw&s=10",
+    image: "/images/remote/images-93c26e9c.webp",
     protected_since: "1910",
     subtitle: "A 40 Km long pre-Mauryan stone wall built of massive raw stones without mortar, representing one of the oldest masonry fortifications in India.",
     distance: 95,
@@ -210,7 +209,7 @@ const unescoSites = [
     id: "u1",
     name: "Mahabodhi Temple Complex",
     location: "Bodh Gaya, Gaya, Bihar",
-    image: "https://static.toiimg.com/thumb/47081465.cms?resizemode=75&width=1200&height=900",
+    image: "/images/remote/47081465-51caf624.webp",
     protected_since: "2002",
     subtitle: "The sacred temple complex marking the location where Gautama Buddha attained enlightenment under the Bodhi Tree. Inscribed as a UNESCO World Heritage Site in 2002.",
     distance: 110,
@@ -220,7 +219,7 @@ const unescoSites = [
     id: "u2",
     name: "Archaeological Ruins of Nalanda Mahavihara",
     location: "Nalanda, Bihar",
-    image: "https://live.staticflickr.com/40/93462777_8a79281973_b.jpg",
+    image: "/images/remote/93462777-8a79281973-b-b744e902.webp",
     protected_since: "2016",
     subtitle: "The ancient ruins of the world's most prestigious monastic-university complex, acting as a global epicentre of Buddhist learning from the 5th to the 12th century CE.",
     distance: 75,
@@ -327,32 +326,7 @@ const ProtectedSitesDetails = () => {
   const [activeImgIdx, setActiveImgIdx] = useState(0);
   const [modalImgIdx, setModalImgIdx] = useState(0);
 
-  // Dynamic reactive state fetched from admin protected sites CMS
-  const [rawSitesData, setRawSitesData] = useState(() =>
-    getData(STORAGE_KEYS.PROTECTED_SITES, defaultProtectedSites)
-  );
-
-  // Synchronize on CMS updates, storage, focus, visibilitychange
-  useEffect(() => {
-    const refreshData = () => {
-      const fresh = getData(STORAGE_KEYS.PROTECTED_SITES, defaultProtectedSites);
-      setRawSitesData(fresh);
-    };
-
-    window.addEventListener("storage", refreshData);
-    window.addEventListener("bh_cms_update", refreshData);
-    window.addEventListener("bh_storage_update", refreshData);
-    window.addEventListener("focus", refreshData);
-    document.addEventListener("visibilitychange", refreshData);
-
-    return () => {
-      window.removeEventListener("storage", refreshData);
-      window.removeEventListener("bh_cms_update", refreshData);
-      window.removeEventListener("bh_storage_update", refreshData);
-      window.removeEventListener("focus", refreshData);
-      document.removeEventListener("visibilitychange", refreshData);
-    };
-  }, []);
+  const rawSitesData = defaultProtectedSites;
 
   // Normalize and group dynamic dataset by managed_by classification
   const { stateSites, centralSites, unescoSitesList, otherSites } = useMemo(() => {
@@ -370,7 +344,7 @@ const ProtectedSitesDetails = () => {
           (assetOverride && assetOverride.image) ||
           site.image ||
           (site.images && site.images[0]) ||
-          "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&auto=format&fit=crop";
+          "/images/remote/photo-1585829365295-ab7cd400c167-9a32c183.webp";
         const images =
           (assetOverride && assetOverride.images) ||
           (Array.isArray(site.images) && site.images.length > 0 ? site.images : [image]);
@@ -589,7 +563,7 @@ const ProtectedSitesDetails = () => {
                   src={
                     (activeSite.images && activeSite.images[activeImgIdx]) ||
                     activeSite.image ||
-                    "https://via.placeholder.com/600x400?text=No+Image"
+                    "/images/remote/600x400-62e5d01e.webp"
                   }
                   alt={activeSite.name}
                   className="w-full h-full object-cover filter brightness-[0.95] absolute inset-0"
@@ -744,7 +718,7 @@ const ProtectedSitesDetails = () => {
                         loading="lazy"
                         onError={(e) => {
                           e.target.src =
-                            "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&auto=format&fit=crop";
+                            "/images/remote/photo-1585829365295-ab7cd400c167-9a32c183.webp";
                         }}
                       />
                     </div>
@@ -800,7 +774,7 @@ const ProtectedSitesDetails = () => {
                         loading="lazy"
                         onError={(e) => {
                           e.target.src =
-                            "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&auto=format&fit=crop";
+                            "/images/remote/photo-1585829365295-ab7cd400c167-9a32c183.webp";
                         }}
                       />
                     </div>
@@ -852,13 +826,13 @@ const ProtectedSitesDetails = () => {
                     src={
                       selectedSite.images && selectedSite.images[modalImgIdx]
                         ? selectedSite.images[modalImgIdx]
-                        : selectedSite.image || "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&auto=format&fit=crop"
+                        : selectedSite.image || "/images/remote/photo-1585829365295-ab7cd400c167-9a32c183.webp"
                     }
                     alt={selectedSite.name}
                     className="w-full h-full object-cover transition-all duration-500"
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src = "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&auto=format&fit=crop";
+                      e.target.src = "/images/remote/photo-1585829365295-ab7cd400c167-9a32c183.webp";
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent pointer-events-none" />

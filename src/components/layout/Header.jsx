@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from "react";
 import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import bhdsLogo from "../../assets/Bihar Virasat Logo.webp";
@@ -148,10 +148,8 @@ const Header = () => {
   const [visible, setVisible] = useState(false);
   const location = useLocation();
   const isHome = location.pathname === '/';
-  const isAdminPage = location.pathname.startsWith('/admin');
 
   useEffect(() => {
-    if (isAdminPage) return;
     if (isHome) {
       const t = setTimeout(() => setVisible(true), 1150);
       const onScroll = () => setScrolled(window.scrollY > 30);
@@ -161,12 +159,10 @@ const Header = () => {
       setVisible(true);
       setScrolled(true);
     }
-  }, [isHome, isAdminPage]);
+  }, [isHome]);
 
   // Close mobile menu on route change
   useEffect(() => { setMenuOpen(false); }, [location.pathname]);
-
-  if (isAdminPage) return null;
 
   const isActive = (path) => location.pathname === path;
   const isDark = !isHome || scrolled;

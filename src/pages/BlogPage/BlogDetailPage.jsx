@@ -1,10 +1,9 @@
-import React, { useEffect, useRef, useState, useMemo } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Share2, ArrowLeft } from "lucide-react";
 import { blogData } from "./mockData";
-import { getData } from "../../utils/cmsStorage";
-import BlogArticlePreview from "../../components/admin/blogStudio/BlogArticlePreview";
+import BlogArticlePreview from "../../components/blog/BlogArticlePreview";
 
 /* Subtle line-art motifs, <10% opacity, never on top of text */
 const Motif = ({ type, className = "" }) => {
@@ -272,27 +271,11 @@ const BlogDetailPage = () => {
     window.scrollTo(0, 0);
   }, [slug]);
 
-  // Load stored articles from localStorage and mock data to find target article
-  const article = useMemo(() => {
-    const storedArticles = getData("bh_blogs", []);
-    const demoIds = new Set([
-      String(blogData.featuredStory.id),
-      ...blogData.articles.map((a) => String(a.id)),
-      ...(blogData.recentStories || []).map((s) => String(s.id))
-    ]);
-
-    const userPublishedArticles = storedArticles.filter(
-      (a) => !demoIds.has(String(a.id)) && a.status !== "Draft"
-    );
-
-    const allArticles = [
-      ...userPublishedArticles,
-      blogData.featuredStory,
-      ...blogData.articles
-    ];
-
-    return allArticles.find((a) => a.slug === slug);
-  }, [slug]);
+  // Find the target article in the bundled blog data
+  const article = useMemo(
+    () => [blogData.featuredStory, ...blogData.articles].find((a) => a.slug === slug),
+    [slug]
+  );
 
   const handleScroll = () => {
     const totalHeight = document.documentElement.scrollHeight - window.innerHeight;

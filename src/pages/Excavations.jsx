@@ -5,7 +5,6 @@ import { Link, useLocation } from "react-router-dom";
 
 // Load data & defaults
 import { defaultExcavations } from "../data/defaults/defaultExcavations";
-import { getData } from "../utils/cmsStorage";
 import { resolveImage, fallbackHeritageImage } from "../utils/heritageImages";
 import ExcavationRecordModal from "../components/common/ExcavationRecordModal";
 import ExcavationExplorationBanner from "../assets/Banners/ExcavationExploration.webp";
@@ -25,8 +24,8 @@ const Excavations = () => {
     }
   }, [location.search]);
 
-  // Initialize and load dynamically from localStorage with defaultExcavations
-  const localData = getData("bh_excavation_sites", defaultExcavations);
+  
+  const localData = defaultExcavations;
 
   const excavationSites = localData.filter(
     (item) => (item.type || "excavation") === "excavation" && item.status !== "Draft" && item.status !== "Archived"

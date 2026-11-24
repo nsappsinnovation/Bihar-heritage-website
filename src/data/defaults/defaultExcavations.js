@@ -179,7 +179,7 @@ Heritage Protection:
     coordinates: { lat: 24.625, lng: 83.917 },
     period: "Medieval Era (Subterranean Analysis)",
     lead_agency: "BHDS & Historical Survey Team",
-    image: "https://tourism.bihar.gov.in/content/dam/bihar-tourism-aem/destination-detail/rohtasgarh-fort/photo-gallery/Rohtasgarh%20Fort%20(12).jpg/jcr:content/renditions/cq5dam.web.1280.765.webp",
+    image: "/images/remote/cq5dam-web-1280-765-e0564827.webp",
     map_url: "",
     description: "Ongoing study on underground tunnels in Rohtasgarh by historians. Exploring the fort's hidden passages and structures for insights into medieval defense and architecture.",
     details: `Recent archaeological work at Rohtasgarh Fort—one of India's largest and most extensive hill fort complexes spanning over 42 km² of plateau—has turned scholarly attention to its extensive underground network of tunnels and chambers. According to historical records and ongoing surveys, the fort contains a complex network of underground tunnels, historically believed to have served as escape routes or secret passageways during sieges. On-site investigations at the Bada Angana courtyard have revealed hidden stairways leading into vaulted chambers with domes and ventilators, including large underground halls like the 'Nach-ghar' (dancing hall) (~48 × 45 ft) and the 'Raniwas' (~59 × 37 ft), hinting at elaborate subterranean planning.`,

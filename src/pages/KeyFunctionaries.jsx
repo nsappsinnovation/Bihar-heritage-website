@@ -1,40 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, Phone, Mail, MapPin, Award, UserCheck } from "lucide-react";
-import { getData, STORAGE_KEYS } from "../utils/cmsStorage";
 import { defaultKeyFunctionaries, defaultOrganization } from "../data/defaults/cmsDefaults";
 
 export default function KeyFunctionaries() {
   const getRoster = () => {
     const isMemberActive = (m) => (m.status || "Active") !== "Draft" && (m.status || "Active") !== "Inactive";
-    const dedicated = getData(STORAGE_KEYS.KEY_FUNCTIONARIES, defaultKeyFunctionaries);
+    const dedicated = defaultKeyFunctionaries;
     if (dedicated && Array.isArray(dedicated) && dedicated.length > 0) {
       const pub = dedicated.filter(isMemberActive);
       if (pub.length > 0) return pub;
     }
-    const allOrg = getData(STORAGE_KEYS.ORGANIZATION, defaultOrganization);
+    const allOrg = defaultOrganization;
     const fromOrg = allOrg.filter((m) => m.category === "Key Functionaries" && isMemberActive(m));
     if (fromOrg && fromOrg.length > 0) return fromOrg;
     return defaultKeyFunctionaries;
   };
 
-  const [keyOfficials, setKeyOfficials] = useState(getRoster);
+  const keyOfficials = getRoster();
 
-  useEffect(() => {
-    const handleSync = () => {
-      setKeyOfficials(getRoster());
-    };
-
-    window.addEventListener("storage", handleSync);
-    window.addEventListener("bh_storage_update", handleSync);
-    window.addEventListener("focus", handleSync);
-    return () => {
-      window.removeEventListener("storage", handleSync);
-      window.removeEventListener("bh_storage_update", handleSync);
-      window.removeEventListener("focus", handleSync);
-    };
-  }, []);
 
   const containerVariants = {
     hidden: { opacity: 0 },

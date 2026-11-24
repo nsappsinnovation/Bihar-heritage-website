@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useMemo } from "react";
 import { motion, AnimatePresence, useScroll, useSpring } from "framer-motion";
 import { Share2, Bookmark, ArrowLeft } from "lucide-react";
-import BlogArticlePreview from "../../components/admin/blogStudio/BlogArticlePreview";
+import BlogArticlePreview from "../../components/blog/BlogArticlePreview";
 
 /* ────────────────────────────────────────────────────────────
    DESIGN TOKENS

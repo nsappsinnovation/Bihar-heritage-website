@@ -8,9 +8,9 @@ const backgroundImage = NalandaUniversity;
 // Carefully selected relevant images for each awareness item
 const cardImages = [
   NalandaUniversity, // Heritage Awareness Programme - Iconic Nalanda Mahavihara overview
-  "https://cdn.britannica.com/12/94612-050-B4EEB84A/temple-Buddhist-Mahabodhi-Bihar-India-Bodh-Gaya.jpg", // Seminar/Workshop - Mahabodhi Temple (Bihar UNESCO site)
-  "https://upload.wikimedia.org/wikipedia/commons/f/fa/Women_performing_Jhijhiya_dance.jpg", // Women's Day Special - Traditional Jhijhiya dance by women in Bihar
-  "https://worldheritageolympiad.org/uploads/blog/Bihar%20Heritage%20Olympiad_Blog_%20November%2025,%202024%20-%20Copy.jpg", // Slogan Writing Competition - Students at Bihar World Heritage Olympiad event
+  "/images/remote/temple-buddhist-mahabodhi-bihar-india-bo-c34c50cb.webp", // Seminar/Workshop - Mahabodhi Temple (Bihar UNESCO site)
+  "/images/remote/women-performing-jhijhiya-dance-296b264c.webp", // Women's Day Special - Traditional Jhijhiya dance by women in Bihar
+  "/images/remote/bihar-heritage-olympiad-blog-november-25-72521405.webp", // Slogan Writing Competition - Students at Bihar World Heritage Olympiad event
 ];
 
 const awarenessItems = [

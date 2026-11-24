@@ -97,7 +97,7 @@ const features = [
     title: "Patliputra Imperial Capital",
     description: "Seat of Maurya & Gupta Empires",
     subtitle: "The grand imperial capital of ancient India's greatest dynasties.",
-    icon: "https://cultureandheritage.org/wp-content/uploads/2023/06/xyz-62.jpg",
+    icon: "/images/remote/xyz-62-88d29771.webp",
     url: "https://en.wikipedia.org/wiki/Pataliputra",
     details: "Modern-day Patna, Patliputra was the seat of power for legendary rulers like Chandragupta Maurya, Ashoka the Great, and Chandragupta Vikramaditya. Described by Greek ambassador Megasthenes as one of the world's largest cities in its prime, it was the nerve center of administration, trade, and science for centuries.",
     facts: [
@@ -113,7 +113,7 @@ const features = [
     title: "Barabar Caves",
     description: "Oldest rock-cut caves in India",
     subtitle: "Miraculous rock-cut caves dating back to the Maurya Empire.",
-    icon: "https://hblimg.mmtcdn.com/content/hubble/img/gaya_imgs/mmt/activities/m_Barabar_caves_3_l_400_600.jpg",
+    icon: "/images/remote/m-barabar-caves-3-l-400-600-5012fd22.webp",
     url: "https://en.wikipedia.org/wiki/Barabar_Caves",
     details: "Located in the Jehanabad district, these caves date back to the Mauryan Empire (3rd century BCE). Famous for their high-gloss mirror-like interior polish and precision rock-cutting, they were built for the Ajivika sect and represent the beginning of Indian rock-cut architecture. The caves feature inscriptions by Emperor Ashoka himself.",
     facts: [
@@ -129,7 +129,7 @@ const features = [
     title: "Chirand Neolithic Site",
     description: "Ancient Stone Age Settlement",
     subtitle: "One of India's earliest neolithic sites, dating back to 2500 BCE.",
-    icon: "https://images.news18.com/ibnkhabar/uploads/2025/12/chirand44-2025-12-56508bf18114c15a79bad3f39baa3c15.png",
+    icon: "/images/remote/chirand44-2025-12-56508bf18114c15a79bad3-ba47c939.webp",
     url: "https://en.wikipedia.org/wiki/Chirand",
     details: "Located in Saran district on the banks of the Ganga, Chirand is Bihar's first known neolithic site. Excavations revealed bone tools made of deer antlers, clay pottery, stone tools, and carbonized grains representing early agricultural settlement dating back to 2500–1000 BCE.",
     facts: [
@@ -145,7 +145,7 @@ const features = [
     title: "Champapuri (Ancient Champa)",
     description: "Capital of Anga Mahajanapada",
     subtitle: "Famed ancient trading port and spiritual capital of Anga.",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCsnIyrgT8xQXI_Hsw_reWwOvSmsCz-1-IG3Z9swSnX1A5ofcOKXTF6-o&s=10",
+    icon: "/images/remote/images-d7b1caf1.webp",
     url: "https://en.wikipedia.org/wiki/Champa_(city)",
     details: "Champapuri (modern Bhagalpur) was the capital of the Anga Mahajanapada, ruled by Karna in the Mahabharata. It was a massive trade hub on the Ganga, serving as a gateway to East Asia. It is also highly sacred in Jainism as the birthplace of Vasupujya, the 12th Tirthankara.",
     facts: [
@@ -161,7 +161,7 @@ const features = [
     title: "Cyclopean Wall of Rajgir",
     description: "Pre-Mauryan Defense Marvel",
     subtitle: "40-kilometer ancient stone wall, one of India's oldest masonry works.",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYFiiQ4rADBUeEs7ZCMnswvZ6UzuGbZ0-kZUkg9Uitw&s=10",
+    icon: "/images/remote/images-93c26e9c.webp",
     url: "https://en.wikipedia.org/wiki/Cyclopean_Wall_of_Rajgir",
     details: "The Cyclopean Wall is a 40 km long massive stone fortification built during the Brihadratha dynasty (before the 6th century BCE) to protect the ancient city of Rajgriha from external invaders. Constructed using raw, massive undressed stones without any mortar, it represents one of India's oldest surviving defense engineering works.",
     facts: [
@@ -275,7 +275,7 @@ const features = [
     title: "Sher Shah Suri Tomb",
     description: "Indo-Islamic Architectural Marvel",
     subtitle: "Red sandstone tomb standing beautifully in a lake at Sasaram.",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpkyz8oE4DgWWcRm1t9SafrV6u23dnrL6Q2OhZTsykQ&s=10",
+    icon: "/images/remote/images-84a2a6eb.webp",
     url: "https://en.wikipedia.org/wiki/Tomb_of_Sher_Shah_Suri",
     details: "Built in Sasaram between 1540 and 1545, this majestic mausoleum is dedicated to Sher Shah Suri, the founder of the Suri Empire. Constructed of red sandstone, the octagonal tomb is situated in the middle of a square artificial lake. It is considered one of the finest examples of Indo-Islamic architecture, often described as the 'Second Taj Mahal' due to its scale and proportions.",
     facts: [
@@ -291,7 +291,7 @@ const features = [
     title: "Mandar Hill (Mandar Parvat)",
     description: "Sacred Hill of Amrit Churning",
     subtitle: "Historic granite hill linked to Hindu and Jain spiritual legacies.",
-    icon: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/bc/92/a7/caption.jpg?w=1200&h=1200&s=1",
+    icon: "/images/remote/caption-91b7cd5f.webp",
     url: "https://en.wikipedia.org/wiki/Mandar_Hill",
     details: "Mandatory place of pilgrimage in Banka, Mandar Hill is a 700-foot granite hill mentioned in Hindu scriptures as Mount Mandara, which was used as the churning rod during Samudra Manthan (churning of the ocean). It features ancient rock-cut inscriptions, shell scripts, and temples sacred to both Hinduism and Jainism.",
     facts: [
@@ -307,7 +307,7 @@ const features = [
     title: "Deo Surya Mandir",
     description: "West-Facing Stone Temple",
     subtitle: "Unique 15th-century stone temple dedicated to the Sun God in Aurangabad.",
-    icon: "https://static.toiimg.com/photo/msid-52430772,width-96,height-65.cms",
+    icon: "/images/remote/msid-52430772-width-96-height-65-cec9963c.webp",
     url: "https://en.wikipedia.org/wiki/Deo_Surya_Mandir",
     details: "The Deo Surya Mandir in Aurangabad is a unique 15th-century stone temple built by the Bundela Rajas. Unlike most Sun temples that face east, this temple faces west. The architecture is a blend of Nagar and Dravidian styles, constructed without mortar using interlocking stones. It is the hub of Chhath celebrations.",
     facts: [
@@ -357,7 +357,7 @@ const features = [
     title: "Sonepur Cattle Fair",
     description: "Asia's Grand Cultural Congregation",
     subtitle: "One of Asia's largest traditional cattle and cultural fairs.",
-    icon: "https://caleidoscope.in/wp-content/uploads/2024/04/Sonepur-Cattle-Fair-00.jpg",
+    icon: "/images/remote/sonepur-cattle-fair-00-f36023f8.webp",
     url: "https://en.wikipedia.org/wiki/Sonepur_Cattle_Fair",
     details: "Held on Kartik Poornima at the confluence of the Ganga and Gandak rivers in Sonepur, this ancient fair traces its roots back to the Mauryan Empire. It is famous for cattle trade, elephant exhibitions, cultural performances, and traditional handicrafts.",
     facts: [
@@ -373,7 +373,7 @@ const features = [
     title: "Sujini & Manjusha Art",
     description: "Folk Crafts & Scroll Paintings",
     subtitle: "Unique GI-tagged textile art and story-scrolls of Anga.",
-    icon: "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?auto=format&fit=crop&w=800&q=80",
+    icon: "/images/remote/photo-1582201942988-13e60e4556ee-edce3820.webp",
     url: "https://en.wikipedia.org/wiki/Manjusha_Art",
     details: "Sujini Embroidery is a traditional quilting technique from Mithila depicting narratives of women's lives and social issues. Manjusha Art, originating from the Anga region (Bhagalpur), is a folk art style painted on boxes of jute and paper, based on the folklore of Bihula-Bishahari, utilizing three colors: red, yellow, and green.",
     facts: [
@@ -389,7 +389,7 @@ const features = [
     title: "Bihari Cuisine (Litti Chokha)",
     description: "Flavors of the Earth",
     subtitle: "Delectable, traditional cuisine highlighting roasted sattu.",
-    icon: "https://images.squarespace-cdn.com/content/v1/578753d7d482e9c3a909de40/7a3d68e0-81af-49ed-9fe2-3290853e16a3/2.jpg",
+    icon: "/images/remote/2-ad7102fc.webp",
     url: "https://en.wikipedia.org/wiki/Bihari_cuisine",
     details: "Bihar's cuisine is highly nutritious and earth-friendly. The signature dish, Litti Chokha, consists of wheat balls stuffed with spiced roasted chickpea flour (Sattu) grilled over cow dung cakes, served with mashed eggplant, potatoes, and tomatoes (Chokha) along with ghee. Other delicacies include Makhana, Khaja, and Tilkut.",
     facts: [
@@ -405,7 +405,7 @@ const features = [
     title: "Folk Dances (Jat-Jatin & Jhijhiya)",
     description: "Rhythms of Bihar's Soil",
     subtitle: "Expressive theatrical dances depicting folklore and life.",
-    icon: "https://www.shutterstock.com/editorial/image-editorial/McTcI73bN3T3Ub4eMDYzNTA=/artists-bihar-region-perform-traditional-'jhijhiya'-dance-550nw-12648576a.jpg",
+    icon: "/images/remote/women-performing-jhijhiya-dance-296b264c.webp",
     url: "https://en.wikipedia.org/wiki/Music_of_Bihar",
     details: "Bihar has a vibrant tradition of folk performing arts. Jat-Jatin is performed by women during monsoons to portray husband-wife relations, domestic stories, and social issues. Jhijhiya is a ritualistic dance where women balance clay lanterns with holes on their heads, dancing to pray for rain and ward off evil spirits.",
     facts: [
@@ -421,7 +421,7 @@ const features = [
     title: "Sama-Chakeva Festival",
     description: "Sibling Bond & Nature Celebration",
     subtitle: "Mithila folk festival welcoming migratory birds with clay icons.",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZUpGg4LPeL1xiXs0EtcGRe6K0L3GrL2EAF-L0x_sbGw&s=10",
+    icon: "/images/remote/images-49b0a3a8.webp",
     url: "https://en.wikipedia.org/wiki/Sama_Chakeva",
     details: "Sama-Chakeva is a beautiful folk festival celebrated in the Mithila region during November. It celebrates the loving bond between brother and sister, where girls craft clay figurines of birds (Sama, Chakeva) and characters from local legends. The festival also welcomes migratory birds that arrive from the Himalayas.",
     facts: [
@@ -437,7 +437,7 @@ const features = [
     title: "Bihula-Bishahari Folk Legend",
     description: "Anga's Legend of Devotion",
     subtitle: "Saga of Bihula's triumph over fate, celebrated in local art.",
-    icon: "https://www.jagranimages.com/images/newimg/17082022/17_08_2022-bishari_puja_2022_22986070_112325850.webp",
+    icon: "/images/remote/17-08-2022-bishari-puja-2022-22986070-11-ce03adfd.webp",
     url: "https://en.wikipedia.org/wiki/Manjusha_Art",
     details: "The legend of Bihula-Bishahari is a celebrated folk saga of East Bihar (Anga region). It narrates the story of Bihula, a devoted bride who battles fate and the Serpent Goddess Manasa (Bishahari) to restore her husband's life. This legend is the root of the three-colored Manjusha Art and is sung during Shravan as a powerful ballad.",
     facts: [
@@ -453,7 +453,7 @@ const features = [
     title: "Bhagalpuri Silk (Tussar Silk)",
     description: "Queen of Wild Silks",
     subtitle: "Centuries-old organic silk weaving legacy of Bhagalpur.",
-    icon: "https://static.toiimg.com/thumb/msid-107498889,width-1280,height-720,imgsize-212986,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+    icon: "/images/remote/photo-81057361.webp",
     url: "https://en.wikipedia.org/wiki/Bhagalpur_silk",
     details: "Bhagalpur is globally known as the 'Silk City' of India for its exquisite Tussar Silk (wild silk). The craft is centuries old, passed down through generations of weavers. Bhagalpuri silk is distinguished by its unique texture, organic sheen, and eco-friendly dye processes. It holds a coveted Geographical Indication (GI) status.",
     facts: [

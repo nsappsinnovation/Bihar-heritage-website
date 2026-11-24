@@ -9,7 +9,7 @@ Technical documentation for the interactive map section on the home page.
 | **Position on page** | Between `<LivingHeritage />` and `<Gallery />`, inside the `ReactLenis` smooth-scroll root |
 | **Props** | None. Single default-exported function component. |
 | **Rendering technology** | Hand-rolled inline `<svg>` — **not Leaflet** (see below) |
-| **Data source** | 5 static JSON files imported at build time. No API, no localStorage. |
+| **Data source** | 5 static JSON files imported at build time. No API, no browser storage. |
 
 ---
 
@@ -72,16 +72,12 @@ classes from the lightbox `cursor: zoom-in` rule).
 
 ### The architecturally significant point
 
-**The Atlas never touches `cmsStorage.js`, `localStorage`, or the backend API.** There is no
-`getData()` call, no storage key, and no `fetch`/`axios` anywhere in the file. Its entire
+**The Atlas never touches browser storage or any backend API.** There is no storage key
+and no `fetch`/`axios` anywhere in the file. Its entire
 data surface is the five `import` statements.
 
-This makes it **immune to `syncAll()` and to every CMS edit**. Publishing a protected site,
-an excavation, or a heritage record in the admin panel changes nothing on this map. Unlike
-the rest of the app — which resolves data through a
-`localStorage → bundled seed → hardcoded fallback` chain — here the bundled JSON *is* the
-only layer. **Changing what the Atlas shows means editing the JSON files in `src/data/` and
-redeploying.**
+The site has no CMS or admin panel: all content is bundled static data. **Changing what the
+Atlas shows means editing the JSON files in `src/data/` and redeploying.**
 
 ---
 
@@ -294,7 +290,7 @@ any `<img>` larger than 28×28px.
 
 ## 6. Where the data resides
 
-All five files live in `src/data/`. None of them is reachable from the admin CMS.
+All five files live in `src/data/`.
 
 | File | Shape | Size |
 |---|---|---|
@@ -456,5 +452,4 @@ All verified against the current code and data.
 | District fill/stroke colours | `getDistrictStyle`, lines 135–164 |
 | The stat tiles | lines 524–528 (three are hardcoded — see §7, defect 3) |
 
-Because nothing here flows through the CMS, **every one of these changes requires a code
-change and a redeploy.**
+**Every one of these changes requires a code change and a redeploy.**

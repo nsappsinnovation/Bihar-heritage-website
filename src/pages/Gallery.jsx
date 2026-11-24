@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, X, Play, ArrowRight, Video } from "lucide-react";
-import { getData, STORAGE_KEYS } from "../utils/cmsStorage";
 import { defaultPopularSites, defaultLivingHeritageVideos } from "../data/defaults/cmsDefaults";
 import { useInView } from "react-intersection-observer";
 
@@ -92,7 +91,7 @@ const Gallery = () => {
 
   const getSitesData = () => {
     const isSiteActive = (s) => (s.status || "Active") !== "Draft" && (s.status || "Active") !== "Inactive";
-    const raw = getData(STORAGE_KEYS?.POPULAR_SITES || "bh_popular_sites", defaultPopularSites);
+    const raw = defaultPopularSites;
     if (Array.isArray(raw) && raw.length > 0) {
       const active = raw.filter(isSiteActive);
       return active.length > 0 ? active : raw;
@@ -102,7 +101,7 @@ const Gallery = () => {
 
   const getVideosData = () => {
     const isVideoActive = (v) => (v.status || "Active") !== "Draft" && (v.status || "Active") !== "Inactive";
-    const raw = getData(STORAGE_KEYS?.HERITAGE_VIDEOS || "bh_living_heritage_videos", defaultLivingHeritageVideos);
+    const raw = defaultLivingHeritageVideos;
     if (Array.isArray(raw) && raw.length > 0) {
       const active = raw.filter(isVideoActive);
       return active.length > 0 ? active : raw;
@@ -110,27 +109,9 @@ const Gallery = () => {
     return defaultLivingHeritageVideos;
   };
 
-  const [popularSites, setPopularSites] = useState(getSitesData);
-  const [videosList, setVideosList] = useState(getVideosData);
+  const popularSites = getSitesData();
+  const videosList = getVideosData();
 
-  useEffect(() => {
-    const handleSync = () => {
-      setPopularSites(getSitesData());
-      setVideosList(getVideosData());
-    };
-
-    window.addEventListener("storage", handleSync);
-    window.addEventListener("bh_storage_update", handleSync);
-    window.addEventListener("bh_cms_update", handleSync);
-    window.addEventListener("focus", handleSync);
-
-    return () => {
-      window.removeEventListener("storage", handleSync);
-      window.removeEventListener("bh_storage_update", handleSync);
-      window.removeEventListener("bh_cms_update", handleSync);
-      window.removeEventListener("focus", handleSync);
-    };
-  }, []);
 
   // Triple duplicated list for seamless, gapless infinite scrolling loop
   const displaySites = popularSites.length > 0

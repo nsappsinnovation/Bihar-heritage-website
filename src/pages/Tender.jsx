@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 
@@ -43,14 +42,6 @@ const tenders = [
 
 const Notifications = () => {
   const navigate = useNavigate();
-
-  useEffect(() => {
-    const link = document.createElement("link");
-    link.href =
-      "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap";
-    link.rel = "stylesheet";
-    document.head.appendChild(link);
-  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800 px-4 sm:px-10 lg:px-20 py-10 text-white font-[Poppins]">
