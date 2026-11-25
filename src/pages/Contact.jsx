@@ -123,6 +123,7 @@ export default function Contact() {
               className="absolute inset-0 w-full h-full grayscale-[20%] contrast-[105%] group-hover:grayscale-[0%] transition-all duration-500"
               src={`https://maps.google.com/maps?q=${encodeURIComponent(HQ_QUERY)}&z=16&output=embed`}
               allowFullScreen=""
+              sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
               loading="lazy"
               title="Bihar Heritage Development Society Location"
               referrerPolicy="no-referrer-when-downgrade"

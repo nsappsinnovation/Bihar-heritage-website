@@ -1,6 +1,22 @@
 {
   "rewrites": [
     {
+      "source": "/.well-known/(.*)",
+      "destination": "/.well-known/$1"
+    },
+    {
+      "source": "/\\.(.*)",
+      "destination": "/404"
+    },
+    {
+      "source": "/(.*)/\\.(.*)",
+      "destination": "/404"
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "/404"
+    },
+    {
       "source": "/(.*)",
       "destination": "/"
     }
