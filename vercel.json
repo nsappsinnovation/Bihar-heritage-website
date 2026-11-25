@@ -1,5 +1,4 @@
 {
-  "$comment": "Only used if the site is hosted on Vercel. The headers mirror deploy/security-headers.conf (the source of truth) \u2014 keep them in sync.",
   "rewrites": [
     {
       "source": "/(.*)",
